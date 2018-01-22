@@ -12,106 +12,10 @@
   </head>
   <body>
 
-    <!--header-->
-    <header class="container ">
-      <div class="row  ">
-        
-        <div class="col col-sm-12 col-md-5 col-lg-5 col-xl-5  d-flex align-items-center d-flex justify-content-start md_no_padding">
-          <ul class="nav i_ml_head">
-            <li class="nav-item head_bar_between_left d-flex align-items-center h_text">
-              MY ACCOUNT
-            </li>
-            <li class="nav-item head_bar_between_left d-flex align-items-center h_text">
-              <img class="img-fluid" src="assets/images/cart.png"/> 0
-            </li>
-            <li class="nav-item head_bar_between_left d-flex align-items-center h_text">
-              CONFIRM PAYMENY
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 ">
-          <img class="mt-1" src="assets/images/logo.png">    
-        </div>
-         <div class="col col-sm-12 col-md-5 col-lg-5 col-xl-5  d-flex justify-content-end md_no_padding">
-            <ul class="nav">
-              <li class="nav-item head_icon d-flex align-items-center">
-                <img class="img-fluid" src="assets/images/facebook.png"/>
-              </li>
-              <li class="nav-item head_icon d-flex align-items-center">
-                <img class="img-fluid" src="assets/images/instagram.png"/>
-              </li>
-              <li class="nav-item head_icon d-flex align-items-center">
-                <img class="img-fluid" src="assets/images/youtube.png"/>
-              </li>
-              <li class="nav-item  head_bar_between m_i_lr_1 d-flex align-items-center">
-               <input type="text" class="form-control form-control-sm in_search" id="colFormLabelSm">
-              </li>
-              <li class="nav-item head_bar_between d-flex align-items-center h_text">
-                TH / EN 
-              </li>
-              
-            </ul>
-        </div>
-      </div>
-    </header>
-    <!--header -->
-    
 
-    <!--menu-->
-    <section id="menu">
-      <div class="container-fluid  pt-3 no_padding">
-          <ul class="nav justify-content-center menu_bar">
-            <li class="nav-item menu1">
-              <a class="nav-link active d-flex justify-content-center h_text_menu" href="#" >About</a>
-            </li>
-            <li class="nav-item menu1 d-flex justify-content-center ">
-              <a class="nav-link h_text_menu" href="#">Smart Home</a>
-            </li>
-            <li class="nav-item menu1">
-               <a class="nav-link h_text_menu" href="#" >Lighting</a>
-            </li>
-            <li class="nav-item menu1">
-              <a class="nav-link h_text_menu" href="#" >Lamp-Decoration</a>
-            </li>
-            <li class="nav-item menu1">
-              <a class="nav-link h_text_menu" href="#" id="navbarDropdownNew"> News & Media</a>
-            </li>
-            <li class="nav-item menu1">
-              <a class="nav-link h_text_menu" href="#" >Contact us</a>
-            </li>
-            <li class="nav-item  menu1">
-              <a class="nav-link h_text_menu" href="#"  id="menu_support" >Support</a>
-            </li>
-          </ul>
-      </div>
-    </section>
-    <!--menu-->
+    <!--header.html-->
 
-    <!--carousel_banner-->
-    <section id="banner">
-      <div class="container-fluid no_padding ">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-           <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/images/banner.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="assets/images/banner.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="assets/images/banner.jpg" alt="Third slide">
-              </div>
-            </div>
-          
-          </div>
-      </div>
-    </section>
-    <!--carousel_banner-->
+   
     
 
     <!--smarthome-->
@@ -130,17 +34,24 @@
        <div class="container i_cn_li_lamp">
         <div class="row ">
           
-            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4  d-flex justify-content-center">
-              <div class=" align-items-center d-flex justify-content-center">
-                <img src="assets/images/decoration.jpg" class="img-fluid" />  
-              </div>
-              
-            </div>
+
           
-          <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8  d-flex justify-content-center">
-            <div class="d-flex align-items-center justify-content-center">
-              <img src="assets/images/lighting.jpg" class="img-fluid" />  
-            </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 ">
+
+              <img src="assets/images/decoration_mobile.jpg" id="decoration_mobile" class="img-fluid d-lg-none  w-100" />
+            
+             <img src="assets/images/decoration.jpg" id="decoration_img" class="img-fluid d-none d-lg-block " />
+           
+          </div>
+          
+          <div class="col-6 col-sm-6 col-md-6 col-lg-8 col-xl-8 ">
+            <img src="assets/images/lighting_mobile.jpg" id="decoration_mobile" class="img-fluid d-lg-none  w-100" />
+            
+             <img src="assets/images/lighting.jpg" id="decoration_img" class="img-fluid d-none d-lg-block " />
+
+            <!--<div class="d-flex align-items-center justify-content-center">
+              <img src="assets/images/lighting.jpg" id="lighting_img" class="img-fluid" />  
+            </div>-->
           </div>
         </div>
       </div>
@@ -150,9 +61,10 @@
     <section id="highlight">
       <div class="container">
         <div class="i_txt_title d-flex justify-content-center">Highlight</div>
+
         <div class="row i_buttom">
           
-          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  d-flex justify-content-center">
+         <!-- <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  d-flex justify-content-center">
            <div class="card about_card no_padding">
                 <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/compact.jpg" alt="Card image cap">
                 <div class="card-body about_card_body">
@@ -186,7 +98,10 @@
                   <p class="card-text i_highlight_txt d-flex justify-content-center">smart wifi socket</p>
                 </div>
             </div>
-          </div>
+          </div>-->
+          <div class="embed-responsive embed-responsive-1by1 ">
+           <iframe class="embed-responsive-item" src="index8.html" ></iframe>
+        </div>
         </div>
       </div>
     </section>
@@ -212,34 +127,10 @@
           </div>
         </div>
         <div class="row i_buttom">
-          <div class="col-12  col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center" >
-            <div class="card ml-lg-1 about_card">
-              <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/compact.jpg" alt="Card image cap">
-              <div class="card-body about_card_body">
-                 <p class="card-text i_card_title_txt d-flex justify-content-start">smart motion semsor</p>
-                <p class="card-text i_text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
+           <div class="embed-responsive embed-responsive-16by9 ">
+           <iframe class="embed-responsive-item" src="index9.html" ></iframe>
+         </div>
           
-          <div class="col-12  col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center" >
-            <div class="card ml-lg-1 about_card">
-              <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/smart.jpg" alt="Card image cap">
-              <div class="card-body about_card_body">
-                 <p class="card-text i_card_title_txt d-flex justify-content-start">smart motion semsor</p>
-                <p class="card-text i_text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12  col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center" >
-            <div class="card ml-lg-1 about_card">
-              <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/fluorescrnt.jpg" alt="Card image cap">
-              <div class="card-body about_card_body">
-                 <p class="card-text i_card_title_txt d-flex justify-content-start">smart motion semsor</p>
-                <p class="card-text i_text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
         </div>
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center "><button type="button" class="btn btn-outline-dark about_button btn-md strong btn_tb">LOAD MORD</button></div>
@@ -250,114 +141,15 @@
 
      <!--footer--> 
 
-    
-    
-    <footer id="footer">
-      <div class="container-fluid i_footer_body">
-        <div class="row">
-          <div class="col col-sm-12 col-md-3 col-lg-3 col-xl-3">
-              <ul class="i_footer_li_no">
-                <li class="i_footer_txt">about</li>
-                <li >
-                  <ul class="i_footer_li_disc">
-                    <li>Company Profile</li>
-                    <li>Vision & Mission</li>
-                    <li>Certificate</li>
-                    <li>Awards</li>
-                  </ul>
-                </li>
-                <li class="i_footer_txt">
-                  smart home
-                </li>
-                <li class="i_footer_txt">
-                  lighting
-                </li>
-                <li class="i_footer_txt">
-                  decoration
-                </li>
-                <li class="i_footer_txt">
-                  news & media
-                </li>
-                <li >
-                  <ul class="i_footer_li_disc">
-                    <li>News</li>
-                    <li>Media</li>
-                    <li class="i_footer_inline">
-                       <ul class="i_footer_li_no no_padding">
-                        <li> - tvc</li>
-                        <li> - pr</li>
-                    
-                        </ul>
-                    </li>
-                    <li>csr</li>
-                  </ul>
-                </li>
-              </ul>
-          </div>
-          
-          <div class="col col-sm-12 col-md-3 col-lg-3 col-xl-3">
-            <ul class="i_footer_li_no">
-              <li class="i_footer_txt">blog</li>
-              <li class="i_footer_txt">contact us</li>
-              <li>
-                <ul class="i_footer_li_disc">
-                  <li>Head Office</li>
-                  <li>Lamptan Bright Studio</li>
-                  <li>Our Client</li>
-                  <li>Argent</li>
-
-                </ul>
-              </li>
-              <li class="i_footer_txt"> support</li>
-              <li>
-                <ul class="i_footer_li_no">
-                     <li>FAQ</li>
-                  <li>DIY</li>
-                  <li>Catalog</li>
-                  <li>Manual</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="col col-sm-12 col-md-2 col-lg-2 col-xl-2 no_padding">
-            <ul class="col_3">
-              <li class="i_footer_txt2">customer services</li>
-              <li class="i_footer_txt2">how to shop</li>
-              <li class="i_footer_txt2">how to register</li>
-              <li class="i_footer_txt2"> order tracking</li>
-              <li class="i_footer_txt2">return  policy</li>
-              <li class="i_footer_txt2">nationwide delivery</li>
-            </ul>
-          </div>
-          <div class="col col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <ul class="i_footer_li_no2">
-              <li class="i_footer_txt i_footer_title_bt">lamptan lighting (2001) co.,ltd</li>
-              <li class="i_footer_txt2 i_footer_title_bt">18/72-75 soi thianthale 19,bangkhunthian - chaithale rd., thakarm, bangkhunthian bangkok 10150 </li>
-              <li class="i_footer_txt2">tel : 02-451-2968-9</li>
-              <li class="i_footer_txt2">fax : 02-897-2938</li>
-              <li class="i_footer_txt2">email: customerservice@lamptan.co.th</li>
-            </ul>
-
-            <ul class="i_footer_li_no3">
-              <li class="i_footer_txt ">follow us</li>
-              <li class="i_footer_txt2 "> <img class="img-fluid" src="assets/images/facebook.png"> <img class="img-fluid" src="assets/images/instagram.png"> <img class="img-fluid" src="assets/images/youtube.png"></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid i_footer_copy d-flex justify-content-center pt-2 pb-2">
-        Copyright © 2018 Lamptan Company Limited, All Rights Reserved.
-      </div>
-     </footer> 
-    <!--footer--> 
+    <!--footer.html--> 
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     
-
-   <link rel="stylesheet" href="assets/css/index.css">
-    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
