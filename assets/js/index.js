@@ -28,7 +28,7 @@ $( "#bg_sub_menu_web" ).hover(  function() {
   	//$(this).remove();
   	alert('out2');
   }
-);*/
+);
 
 $( ".down_down_head" ).hover(  function() {
 	//alert($( this ).children().get( 0 ).id);
@@ -53,7 +53,7 @@ $( ".down_down_head" ).hover(  function() {
 	alert('out1');
     //$( this ).find( "span:last" ).remove();
   }
-);
+);*/
 
 
 
