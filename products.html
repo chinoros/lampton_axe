@@ -23,6 +23,16 @@
 		    float: right; 
 		}  
 		
+		.product_sub_title_bar:after {
+    		content: "-";   
+    		float: right;
+		}
+
+		.product_sub_title_bar.collapsed:after {
+		    content: "+";
+		    float: right; 
+		}  
+
 		.product_menu_heading:hover,.product_menu_heading:active,.product_menu_heading:focus{
 			color: #f7941d;
 		}
@@ -44,35 +54,67 @@
 		    padding: 0;
 		    display: block;
 		}
+
+		.product_li_filter{
+			width: 9em;
+		}
+		.bar_menu_2{
+			padding-top: 0.5em;
+		    padding-bottom: 0.5em;
+		    margin-bottom: 3em;
+		    background-color: #bfbbbb;
+		}
+		
+		.dropdown:hover>.dropdown-menu {
+  			display: block;
+		}
+
+		.product_sub_title_bar:after {
+    		content: "-";   
+    		float: right;
+		}
+
+		.product_sub_title_bar.collapsed:after {
+		    content: "+";
+		    float: right; 
+		}  
 	</style>
      
     <title>lamptan</title>
   </head>
   <body>
 <!--body-->
-    
-      <div class="container">
-        <!--about_certificate-->
-        
-	        <div class="row">
-	            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
-	             LIGHTING
-				<div id="product_menu">
-					<div class="menu_left">
-				    	<div class="product_menu_heading " data-toggle="collapse" data-target="#product_menu_1" aria-expanded="false"> SMART FUNCTION</div>
-				    	<!--<div class="collapse" id="product_menu_1" data-parent="#product_menu">
-							<div class="product_sub_menu">Place</div>
-							<div class="product_sub_menu">Residence</div>
-							<div class="product_sub_menu">Office</div>
-				        	<div class="product_sub_menu">Industrial</div>
-				        	<div class="product_sub_menu">Outdoor</div>
-				    	</div>-->
+<div class="bar_menu_2">
+    <div class="container">
+    	<div class="row">
+  			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+  				<nav aria-label="breadcrumb">
+				  <ol class="breadcrumb">
+				    <li class="breadcrumb-item">LIGHTING</li>
+				    <!--<li class="breadcrumb-item"><a href="#">Library</a></li>
+				    <li class="breadcrumb-item active" aria-current="page">Data</li>-->
+				  </ol>
+				</nav>
+  			</div>
+  		</div>
+    </div>
+</div>
+
+<div class="container">
+
+	<div class="row">
+	           
+	    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+	        LIGHTING
+			<div id="product_menu">
+				<div class="menu_left">
+				    <div class="product_menu_heading " data-toggle="collapse" data-target="#product_menu_1" aria-expanded="false"> SMART FUNCTION</div>
 				    	<div class="line_menu_product"></div>
 					</div>
 
 					<div class="menu_left">
-			  			<div class="product_menu_heading product_menu_list collapsed" data-toggle="collapse" data-target="#product_menu_1" aria-expanded="false" id="product_menu_1"> PLACE <i class="chevron fa fa-fw" ></i></div>
-			    		<div class="collapse" id="product_menu_1" data-parent="#product_menu">
+			  			<div class="product_menu_heading product_menu_list collapsed" data-toggle="collapse" data-target="#product_menu_2" aria-expanded="false" id="menu_2"> PLACE <i class="chevron fa fa-fw" ></i></div>
+			    		<div class="collapse" id="product_menu_2" data-parent="#product_menu">
 			       	 		<div class="product_sub_menu">Place</div>
 							<div class="product_sub_menu">Residence</div>
 							<div class="product_sub_menu">Office</div>
@@ -83,7 +125,7 @@
 					</div>
 
 					<div class="menu_left">
-			  			<div class="product_menu_heading product_menu_list collapsed" data-toggle="collapse" data-target="#product_menu_3" aria-expanded="false"> แยกตามชนิด <i class="chevron fa fa-fw" ></i></div>
+			  			<div class="product_menu_heading product_menu_list collapsed" data-toggle="collapse" data-target="#product_menu_3" id="menu_3" aria-expanded="false"> แยกตามชนิด 	<i class="chevron fa fa-fw" ></i></div>
 			    		<div class="collapse" id="product_menu_3" data-parent="#product_menu">
 				            <div class="product_sub_menu">Bulb</div>
 				            <div class="product_sub_menu">MR16</div>
@@ -100,7 +142,7 @@
 					</div>
 
 					<div class="menu_left">
-			  			<div class="product_menu_heading product_menu_list collapsed" data-toggle="collapse" data-target="#product_menu_4" aria-expanded="false"> ขั้ว <i class="chevron fa fa-fw" ></i></div>
+			  			<div class="product_menu_heading product_menu_list collapsed" data-toggle="collapse" data-target="#product_menu_4" aria-expanded="false" id="menu_4"> ขั้ว <i class="chevron fa fa-fw" ></i></div>
 			    		<div class="collapse" id="product_menu_4" data-parent="#product_menu">
 				            <div class="product_sub_menu">F27</div>
 				            <div class="product_sub_menu">E14</div>
@@ -116,18 +158,110 @@
 			    		
 			    		<div class="line_menu_product"></div>
 					</div>
-				</div>			
+				</div>		
+          <!--menu-->
 
-          <!--menu2-->
-
-	            </div>
+	        </div>
 	        <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9 ">
-	             
+	            <div class="row">
+	            	<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-end">
+						<ul class="nav d-flex justify-content-end w-50">
+		<li class="w-50">
+			<div class="dropdown w-100 text-center"> 
+				<div class="dropdown-toggle w-100"  role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid mr-2" src="assets/images/products/filter.png">
+					FILTER
+			  	</div>
+				<div class="dropdown-menu w-100 text-center" aria-labelledby="dropdownMenuLink">
+					<div id="accordion">
+						<div class="filter_1">
+							<div id="heading_filter_1">
+								<div class="product_sub_title_bar collapsed" data-toggle="collapse" data-target="#collapse_filter_1" aria-expanded="false" aria-controls="collapse_filter_1">WATT</div>
+			 				</div>
+							<!--sub-->
+			 				<div id="collapse_filter_1" class="collapse" aria-labelledby="heading_filter_1" data-parent="#accordion">
+		        				<div class="product_list_sub_sub">
+		          					<ul class=" text-left"> 
+		          						<li>xxxx</li>
+		          						<li>xxxx</li>
+		          						<li>xxxx</li>
+		          						<li>xxxx</li>
+		          						<li>xxxx</li>
+		          					</ul>
+		        				</div>
+      						</div>
+							   <!--sub--> 
+	    					<div class="line_filter"></div>
+						</div>
+
+						<div class="filter_2">
+							<div class="product_sub_title_bar  collapsed" data-toggle="collapse" data-target="#collapse_filter_2" aria-expanded="false" aria-controls="collapse_filter_2">ขั้ว</div>
+							<!--sub-->
+							<div id="collapse_filter_2" class="collapse" aria-labelledby="heading_filter_2" data-parent="#accordion">
+		        				<div class="product_list_sub_sub">
+		          					<ul class=" text-left"> 
+		          						<li>F27</li>
+		          						<li>E14</li>
+		          						<li>GU5.3</li>
+		          						<li>E40</li>
+		          						<li>ต่อไฟตรง</li>
+		          					</ul>
+		        				</div>
+      						</div>
+      						<!--sub-->	
+      						<div class="line_filter"></div>	
+						</div>
+							   
+					    <div class="filter_3">
+
+					    	<div class="product_sub_title_bar  collapsed" data-toggle="collapse" data-target="#collapse_filter_3" aria-expanded="false" aria-controls="collapse_filter_3">PLACE</div>
+					    	<!--sub-->
+					    	<div id="collapse_filter_3" class="collapse" aria-labelledby="heading_filter_3" data-parent="#accordion">
+					    		<div class="product_list_sub_sub">
+		          					<ul class=" text-left"> 
+		          						<li>Residence</li>
+		          						<li>Office</li>
+		          						<li>Industrial</li>
+		          						<li>Outdoor</li>
+		          					</ul>
+		        				</div>
+      						</div>
+      						<!--sub-->
+					    </div>
+					</div>
+				</div>
+			</div>
+		</li>
+
+		<li class="w-30">
+			<div class="dropdown w-100 text-right">
+				<div class="dropdown-toggle w-100" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  		<img class="img-fluid mr-2" src="assets/images/products/sort.png">
+			    SORT
+			  	</div>
+				<div class="dropdown-menu w-100 text-center" aria-labelledby="dropdownMenuLink1">
+				    <a class="dropdown-item product_sub_title_bar2 text-center" href="#">BEST SELLER</a>
+				    <div class="line_filter"></div>
+				    <a class="dropdown-item product_sub_title_bar2 text-center" href="#">RECOMMEND</a>
+				    <div class="line_filter"></div>
+				    <a class="dropdown-item product_sub_title_bar2 text-center" href="#">RELEVANCE</a>
+				    <div class="line_filter"></div>
+				    <a class="dropdown-item product_sub_title_bar2 text-center" href="#">PRICE:LOW-HIGH</a>
+				    <div class="line_filter"></div>
+				    <a class="dropdown-item product_sub_title_bar2 text-center" href="#">PRICE:HIGH-LOW</a>
+				    <div class="line_filter"></div>
+				    <a class="dropdown-item product_sub_title_bar2 text-center" href="#">DISCOUNT</a>
+				</div>
+			</div>
+		</li>
+	</ul> 
+			
+	            	</div>
+	            </div>
          	
-     	<div class="row mt-4">
+     			<div class="row mt-4">
         	<div class=" col-12 col-sm-6  col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center no_padding" >
                 <div class="card ml-lg-1 product_card" >
-                  <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/products/LED Vintage_deco_white.jpg">
+                  <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/products/LED Smart Emergency_10w_MT.jpg">
                   <div class="card-body about_card_body">
                   	<p class="sale_pop"><img class="img-sale-product" src="assets/images/products/bg_sale_pop.png"></p>
                   	<p class="text_sale">20%</p>
@@ -191,7 +325,6 @@
                 <div class="card ml-lg-1 product_card" >
                   <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/products/LED A60.jpg" alt="Card image cap">
                   <div class="card-body about_card_body">
-                  	<p class="text_sale">20%</p>
                    	<p class="card-title about_txt products_card_title_txt">LED xxxx</p>
                     <p class="card-text about_txt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <ul class="nav">
@@ -206,7 +339,6 @@
                 <div class="card ml-lg-1 product_card">
                   <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/products/LED Smart Speaker ceiling light_DL.jpg" alt="Card image cap">
                   <div class="card-body about_card_body">
-                  	<p class="text_sale">20%</p>
                    	<p class="card-title about_txt products_card_title_txt">LED xxxx</p>
                     <p class="card-text about_txt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <ul class="nav">
@@ -221,7 +353,6 @@
                 <div class="card  product_card">
                   <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/products/LED Smart Emergency 3 in 1.jpg" alt="Card image cap">
                   <div class="card-body about_card_body">
-                  	<p class="text_sale">20%</p>
                    	<p class="card-title about_txt products_card_title_txt">LED xxxx</p>
                     <p class="card-text about_txt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <ul class="nav">
@@ -236,7 +367,6 @@
                 <div class="card ml-lg-1 product_card" >
                   <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/products/LED MR16_Cosmic_Gu5.3_beam_5w.jpg" alt="Card image cap">
                   <div class="card-body about_card_body">
-                  	<p class="text_sale">20%</p>
                    	<p class="card-title about_txt products_card_title_txt">LED xxxx</p>
                     <p class="card-text about_txt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <ul class="nav">
@@ -251,7 +381,6 @@
                 <div class="card ml-lg-1 product_card">
                   <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/products/LED MR16_Comet_Gu5.3_beam_7w.jpg" alt="Card image cap">
                   <div class="card-body about_card_body">
-                  	<p class="text_sale">20%</p>
                    	<p class="card-title about_txt products_card_title_txt">LED xxxx</p>
                     <p class="card-text about_txt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <ul class="nav">
@@ -267,7 +396,6 @@
                 <div class="card  product_card">
                   <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/products/LED Mercury.jpg" alt="Card image cap">
                   <div class="card-body about_card_body">
-                  	<p class="text_sale">20%</p>
                    	<p class="card-title about_txt products_card_title_txt">LED xxxx</p>
                     <p class="card-text about_txt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <ul class="nav">
@@ -278,11 +406,11 @@
                 </div>
 			</div>
              
-            <div class="col-12  col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center" >
-                <div class="card ml-lg-1 product_card" >
+            <div class="col-12  col-sm-6 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center no_padding" >
+                <div class="card  product_card" >
                   <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/products/LED_Light Sensor.jpg" alt="Card image cap">
                   <div class="card-body about_card_body">
-                  	<p class="text_sale">20%</p>
+                  	
                    	<p class="card-title about_txt products_card_title_txt">LED xxxx</p>
                     <p class="card-text about_txt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <ul class="nav">
@@ -297,7 +425,7 @@
                 <div class="card ml-lg-1 product_card">
                   <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/products/LED Vintage_deco_white.jpg" alt="Card image cap">
                   <div class="card-body about_card_body">
-                  	<p class="text_sale">20%</p>
+                  	
                    	<p class="card-title about_txt products_card_title_txt">LED xxxx</p>
                     <p class="card-text about_txt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <ul class="nav">
@@ -308,23 +436,23 @@
                 </div>
 			</div>
 			<!--4-->
-        </div>
+       			 </div>
+        		<div class="row mt-5 mb-5">
+        	<div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 d-flex justify-content-start">Record per page 
+        	<select class="form-control form-control-sm w-25 ml-1">
+			  <option>100</option>
+			  <option>200</option>
+			   <option>300</option>
+			</select></div>
+        	<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-end"><b>1</b> / 2 / 3 / 4 /</div>
+        		</div>
 			</div>
 
-	        </div> 		
-
-	        <div class="row">
-	          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center "><button type="button" class="btn btn-outline-dark about_button btn-md strong btn_tb">LOAD MORD</button></div>
-	        </div>
-        </section>
-    </div>
+		</div> 		
+     
+</div>
     
     <!--about_certificate-->
-
-    
-    
-    
-     
 
     <!--body--> 
     
@@ -339,7 +467,9 @@
    <link rel="stylesheet" href="assets/css/index.css">
     <script type="text/javascript">
     	$('.product_menu_list').click(function() {
-    		alert(this.id);
+    		//close
+    		$('.product_menu_list').css("color", "#000000");
+    		$("#"+this.id).css("color", "#f7941d");
     	});
     	/*alert("===1"+$('.product_menu_list').attr('aria-expanded'));
 		  if ($('.product_menu_list').attr('aria-expanded') === true) {
