@@ -3677,6 +3677,11 @@
 		font-size: 1em;
 	}
 
+	.product_menu_left{
+		margin-top: 1em;
+		margin-bottom: 1em; 
+	}
+
 	.product_text_head{
 		font-size: 0.9em;
 		display: inline-block;
@@ -4239,6 +4244,11 @@ ul .no_style {
 }
 .product_menu_left:hover,.product_menu_left:active,.product_menu_left:focus{
 	color: #f7941d;
+}
+
+.product_menu_left{
+	margin-top: 1em;
+	margin-bottom: 1em; 
 }
 
 .product_sub_menu{
