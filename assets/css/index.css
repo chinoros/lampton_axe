@@ -226,8 +226,28 @@
 		text-transform: uppercase;
 	}
 
+	.arror_highlight{
+        width: 1em;
+        color: #000000;
+        height: 80%;
+        font-size: 1em;
+    }
+
+    .arror_highlight:hover,.arror_highlight:active,.arror_highlight:focus{
+        color: #000000;
+        text-decoration: none !important;
+    }
+
+	.arrow_prev, .arrow_next{
+		width: 4%;
+		color: #000000;
+		font-size:1em;
+	}
+
+	
+
 	.i_txt_title {
-		color: #ff6600;
+		color: #737373;
 		font-size: 1.1em;
 		font-weight: bold;
 		text-transform: uppercase;
@@ -377,6 +397,20 @@
 	}
 
 	/*index*/
+
+	/*do it yourself*/
+	.do_text_title{
+		font-size: 0.8em;
+		color: #5a5757;
+		font-weight: bold;
+	}
+
+	.do_text_body{
+		font-size: 0.6em;
+		color: #5a5757;
+	}
+	/*do it yourself*/
+
 	hr {
 		display: block;
 	    height: 1px;
@@ -1068,8 +1102,25 @@
 		text-transform: uppercase;
 	}
 
+	.arrow_prev, .arrow_next{
+		width: 10%;
+		color: #000000;
+	}
+
+
+	.arror_highlight{
+        width: 1em;
+        color: #000000;
+        height: 88%;
+        font-size: 1em;
+    }
+
+    .arror_highlight:hover,.arror_highlight:active,.arror_highlight:focus{
+        color: #000000;
+        text-decoration: none !important;
+    }
 	.i_txt_title {
-		color: #ff6600;
+		color: #737373;
 		font-size: 1.1em;
 		font-weight: bold;
 		text-transform: uppercase;
@@ -1208,6 +1259,19 @@
 	}
 
 	/*index*/
+	/*do it yourself*/
+	.do_text_title{
+		font-size: 0.8em;
+		color: #5a5757;
+		font-weight: bold;
+	}
+
+	.do_text_body{
+		font-size: 0.7em;
+		color: #5a5757;
+	}
+	/*do it yourself*/
+
 	hr {
 		display: block;
 	    height: 1px;
@@ -1926,9 +1990,25 @@
 		font-size: 0.8em;
 		text-transform: uppercase;
 	}
+	
+	.arrow_prev, .arrow_next{
+		width: 2%;
+		color: #000000;
+	}
 
+	.arror_highlight{
+        width: 1em;
+        color: #000000;
+        height: 88%;
+        font-size: 1em;
+    }
+
+    .arror_highlight:hover,.arror_highlight:active,.arror_highlight:focus{
+        color: #000000;
+         text-decoration: none !important;
+    }
 	.i_txt_title {
-		color: #ff6600;
+		color: #737373;
 		font-size: 1.1em;
 		font-weight: bold;
 		text-transform: uppercase;
@@ -2064,6 +2144,19 @@
 	}
 
 	/*index*/
+
+	/*do it yourself*/
+	.do_text_title{
+		font-size: 0.9em;
+		color: #5a5757;
+		font-weight: bold;
+	}
+
+	.do_text_body{
+		font-size: 0.8em;
+		color: #5a5757;
+	}
+	/*do it yourself*/
 	hr {
 		display: block;
 	    height: 1px;
@@ -2633,9 +2726,24 @@
 	.i_highlight_txt {
 		text-transform: uppercase;
 	}
+	.arrow_prev, .arrow_next{
+		width: 2%;
+		color: #000000;
+	}
 
+	.arror_highlight{
+        width: 1em;
+        color: #000000;
+        height: 88%;
+        font-size: 1em;
+    }
+
+    .arror_highlight:hover,.arror_highlight:active,.arror_highlight:focus{
+        color: #000000;
+         text-decoration: none !important;
+    }
 	.i_txt_title {
-		color: #ff6600;
+		color: #737373;
 		font-size: 1.2em;
 		font-weight: bold;
 		text-transform: uppercase;
@@ -2650,6 +2758,8 @@
 		text-transform: uppercase;
 		margin-bottom: 0em !important;
 	}
+
+
 
 	.i_text {
 		color: #000000;
@@ -2765,6 +2875,19 @@
 	}
 
 	/*index*/ 
+
+	/*do it yourself*/
+	.do_text_title{
+		font-size: 1em;
+		color: #5a5757;
+		font-weight: bold;
+	}
+
+	.do_text_body{
+		font-size: 0.9em;
+		color: #5a5757;
+	}
+	/*do it yourself*/
 	hr{
 		display: block;
 	    height: 1px;
@@ -3330,9 +3453,27 @@
 	.i_highlight_txt {
 		text-transform: uppercase;
 	}
+	.arrow_prev, .arrow_next{
+		width: 1%;
+		color: #000000;
+	}
+
+	.arror_highlight{
+        width: 1em;
+        color: #000000;
+        height: 88%;
+        font-size: 1.5em;
+    }
+
+    .arror_highlight:hover,.arror_highlight:active,.arror_highlight:focus{
+        color: #000000;
+         text-decoration: none !important;
+    }
+
+    
 
 	.i_txt_title {
-		color: #ff6600;
+		color: #737373;
 		font-size: 1.3em;
 		font-weight: bold;
 		text-transform: uppercase;
@@ -3459,6 +3600,20 @@
 		border: 0px solid #ff6600 !important;
 	}
 	/*index*/
+
+	/*do it yourself*/
+	.do_text_title{
+		font-size: 1em;
+		color: #5a5757;
+		font-weight: bold;
+	}
+
+	.do_text_body{
+		font-size: 0.9em;
+		color: #5a5757;
+	}
+	/*do it yourself*/
+
 	hr {
 		display: block;
 	    height: 1px;
@@ -4290,6 +4445,7 @@ ul .no_style {
 }
 	/*product*/
 
-	.no_padding_sm_r ,.no_padding_sm_l{
-		padding:0em;
-	}
+.no_padding_sm_r ,.no_padding_sm_l{
+	padding:0em;
+}
+
