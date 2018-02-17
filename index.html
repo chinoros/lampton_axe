@@ -7,149 +7,1136 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     
-     
+    
     <title>lamptan</title>
+    <link rel="stylesheet" href="assets/css/index.css">
   </head>
   <body>
-
-
     <!--header.html-->
-
-   
-    
-
-    <!--smarthome-->
-    <section id="smart_home">
-      <div class="container i_cn_smarthome">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <img src="assets/images/smart_home.jpg" class="img-fluid" />  
-          </div>
+<!-- mobile-->
+<div id="myNav" class="overlay d-lg-none">
+  <!--popup sub -->
+  <div id="layout_sub_menu_popup">
+    <div class="m1">
+      <a href="javascript:void(0)" class="closebtn txt_menu_popup d-flex justify-content-start pl-3" id="back_popup">< back</a>
+      <a href="javascript:void(0)" class="closebtn txt_menu_popup d-flex justify-content-end" id="close_btn2">&times;</a>
+      <div class="pop_menu_txt pl-3 pt-5 pb-3">
+        <div class="line_popup"></div>
+      </div>
+    </div>
+    <div >
+      <div class="pop_sub_menu" id="menu_3_1">
+        <div class="pop_menu_txt">Place</div>
+        <div class="pop_menu_txt">Residence</div>
+        <div class="pop_menu_txt">Office</div>
+        <div class="pop_menu_txt">Industrial</div>
+        <div class="pop_menu_txt">Outdoor</div>
+        <div class="pl-3 pb-1"><div class="line_popup"></div></div>
+      </div>
+      <div class="pop_sub_menu" id="menu_3_2">
+        <div class="pop_menu_txt">แยกตามชนิด</div>
+        <div class="pop_menu_txt">Bulb</div>
+        <div class="pop_menu_txt">MR16</div>
+        <div class="pop_menu_txt">Downlight</div>
+        <div class="pop_menu_txt">High watt</div>
+        <div class="pop_menu_txt">Ceiling lamp</div>
+        <div class="pop_menu_txt">Street light</div>
+        <div class="pop_menu_txt">Flashlight</div>
+        <div class="pop_menu_txt">Panel light</div>
+        <div class="pop_menu_txt">Motion lamp</div>
+        <div class="pop_menu_txt">Flood light</div>
+        <div class="pl-3 pb-1"><div class="line_popup"></div></div>
+      </div>
+      <div class="pop_sub_menu" id="menu_3_3">
+        <div class="pop_menu_txt">ขั้ว</div>
+        <div class="pop_menu_txt">F27</div>
+        <div class="pop_menu_txt">E14</div>
+        <div class="pop_menu_txt">GU5.3</div>
+        <div class="pop_menu_txt">E40</div>
+        <div class="pop_menu_txt">ต่อไฟตรง</div>
+        <div class="pl-3 pb-1"><div class="line_popup"></div></div>
+      </div>
+      <div class="pop_sub_menu" id="media">
+        <div class="pop_menu_txt">media</div>
+        <div class="pop_menu_txt">TVC</div>
+        <div class="pop_menu_txt">PR</div>
+        <div class="pop_menu_txt">Interviews</div>
+        <div class="pl-3 pb-1"><div class="line_popup"></div></div>
+      </div>
+    </div>
+  </div>
+  <!--popup sub -->
+  <!--popup main -->
+  <div id="layout_menu_popup">
+    <div id="head_menu_mobile">
+      <div>
+        <div class="col_pop_m1"> </div>
+        <div class="col_pop_m2">
+          <a href="javascript:void(0)" class="closebtn txt_menu_popup d-flex justify-content-end" id="close_btn">&times;</a>
         </div>
       </div>
-    </section>
-    
-    <!--Lighting  Lamp-->
-    <section id="decoration_lighting">
-       <div class="container i_cn_li_lamp">
-        <div class="row ">
-          
-
-          
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 ">
-
-              <img src="assets/images/decoration_mobile.jpg" id="decoration_mobile" class="img-fluid d-lg-none  w-100" />
-            
-             <img src="assets/images/decoration.jpg" id="decoration_img" class="img-fluid d-none d-lg-block " />
-           
-          </div>
-          
-          <div class="col-6 col-sm-6 col-md-6 col-lg-8 col-xl-8 ">
-            <img src="assets/images/lighting_mobile.jpg" id="decoration_mobile" class="img-fluid d-lg-none  w-100" />
-            
-             <img src="assets/images/lighting.jpg" id="decoration_img" class="img-fluid d-none d-lg-block " />
-
-            <!--<div class="d-flex align-items-center justify-content-center">
-              <img src="assets/images/lighting.jpg" id="lighting_img" class="img-fluid" />  
-            </div>-->
+      <div class="pop_menu_txt p-3">
+        Login  |  Register
+        <div class="line_popup"></div>
+      </div>
+    </div>
+    <div class="overlay-content pl-2 pr-2" id="head_body_mobile" >
+      <div id="accordion">
+        <!--1-->
+        <div class="menu_1">
+          <div class="list_menu_pop pop_menu_txt p-2 collapsed" data-toggle="collapse" data-target="#sub-pop-1" aria-expanded="false" aria-controls="sub-pop-1">About</div>
+          <div id="sub-pop-1" aria-labelledby="sub-pop-1"  class="panel-collapse collapse" data-parent="#accordion">
+            <ul class="pop_li_disc" style="margin-bottom: 0px;">
+              <li>Company Profile</li>
+              <li>Vision & Mission</li>
+              <li>Certificate</li>
+              <li>Awards</li>
+            </ul>
+            <div class="line_popup2 p2"></div>
           </div>
         </div>
-      </div>
-    </section>
-    <!--Lighting  Lamp-->
-
-    <section id="highlight">
-      <div class="container">
-        <div class="i_txt_title d-flex justify-content-center">Highlight</div>
-
-        <div class="row i_buttom">
+        <!--1-->
+        <!--2-->
+        <div class="menu_2">
+          <div class="pop_menu_txt p-2">Smart Home</div>
+        </div>
+        <!--2-->
+        
+        <!--3-->
+        <div class="menu_3">
+          <div class="list_menu_pop pop_menu_txt p-2 collapsed" data-toggle="collapse" data-target="#sub-pop-2" aria-expanded="false">Lighting</div>
           
-         <!-- <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  d-flex justify-content-center">
-           <div class="card about_card no_padding">
-                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/compact.jpg" alt="Card image cap">
-                <div class="card-body about_card_body">
-                  <p class="card-text i_highlight_txt d-flex justify-content-center">compact light sensor</p>
+          <div id="sub-pop-2" class=" collapse" data-parent="#accordion" aria-labelledby="lighting-pop" >
+            <ul class="pop_li_disc" style="margin-bottom: 0px;">
+              <li>Smart Function </li>
+              <li>
+                <div class="l_sub1_pop select_sub s_icon" id="menu_3_1">Place</div>
+              </li>
+              <li class="list_menu_sub_pop">
+                <div class="l_sub1_pop select_sub s_icon" id="menu_3_2">แยกตามชนิด</div>
+              </li>
+              <li class="list_menu_sub_pop">
+                <div class="l_sub1_pop select_sub s_icon" id="menu_3_3">ขั้ว</div>
+              </li>
+              <li >ip</li>
+            </ul>
+            <div class="line_popup2 p2"></div>
+          </div>
+        </div>
+        <!--3-->
+        <!--4-->
+        <div class="menu_4">
+          <div class="list_menu_pop pop_menu_txt p-2 collapsed" data-toggle="collapse" data-target="#sub-pop-4" >Lamp-Decoration</div>
+          <div id="sub-pop-4" class="collapse" data-parent="#accordion">
+            <ul class="pop_li_disc" style="margin-bottom: 0px;">
+              <li>Lamptan Bright Studio</li>
+              <li>Modern</li>
+              <li>Loft</li>
+              <li>American Vintage</li>
+              <li>Chinese Modren</li>
+              <li>Outdoor</li>
+              <li>Style guide</li>
+            </ul>
+            <div class="line_popup2 p2"></div>
+          </div>
+        </div>
+        <!--4-->
+        <!--5-->
+        <div class="menu_5">
+          <div class="list_menu_pop pop_menu_txt p-2 collapsed" data-toggle="collapse" data-target="#sub-pop-5"  >News & Media</div>
+          <div id="sub-pop-5" class="collapse" data-parent="#accordion">
+            <ul class="pop_li_disc" style="margin-bottom: 0px;">
+              <li>News</li>
+              <li>
+                <div class="l_sub1_pop select_sub s_icon" id="menu_5_1"> Media</div>
+              </li>
+              <li>CSR</li>
+            </ul>
+            <div class="line_popup2 p2"></div>
+          </div>
+        </div>
+        <!--5-->
+        <!--6-->
+        <div class="menu_6">
+          <div class="pop_menu_txt p-2">Blog</div>
+        </div>
+        <!--6-->
+        
+        <!--7-->
+        <div class="menu_7">
+          <div class="list_menu_pop pop_menu_txt p-2 collapsed" data-toggle="collapse" data-target="#sub-pop-7" >Contact us</div>
+          <div id="sub-pop-7" class="collapse" data-parent="#accordion">
+            <ul class="pop_li_disc" style="margin-bottom: 0px;">
+              <li>Head office</li>
+              <li>Our Client</li>
+              <li>Agent</li>
+            </ul>
+            <div class="line_popup2 p2"></div>
+          </div>
+        </div>
+        <!--7-->
+        
+        <!--8-->
+        <div class="menu_8">
+          <div class="list_menu_pop pop_menu_txt p-2 collapsed" data-toggle="collapse" data-target="#sub-pop-8">Support</div>
+          <div id="sub-pop-8" class="collapse" data-parent="#accordion">
+            <ul class="pop_li_disc" style="margin-bottom: 0px;">
+              <li>FAQ</li>
+              <li>DIY</li>
+              <li>Catalog</li>
+              <li>Manual</li>
+              <li>Lampton Style guide</li>
+            </ul>
+          </div>
+        </div>
+        <!--8-->
+      </div>
+    </div>
+    <div class="footer pl-3" id="head_footer_mobile">
+      <div class="line_popup p2"></div>
+      <div class="pop_menu_txt pt-2">
+        th  |  en
+      </div>
+    </div>
+  </div>
+</div>
+<!--menu mobile-->
+<!--popup main-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white d-md-none nav_mobile">
+  <div class="col-3 d-flex justify-content-start">
+    <div class="i_i_text" id="bu_menu">MENU</div>
+  </div>
+  <div class="col-6 d-flex justify-content-center align-items-center">
+    <img class="img-fluid" src="assets/images/logo.png">
+  </div>
+  <div class="col-3 d-flex align-items-center justify-content-end">
+    <img class="img-fluid " src="assets/images/cart.png"/> 0
+  </div>
+</nav>
+<!-- mobile-->
+<!-- web-->
+<!--header web-->
+<header class="d-none d-md-block" id="logo_bar">
+  <div class="container ">
+    <div class="row  ">
+      <div class="col col-sm-5 col-md-5 col-lg-5 col-xl-5  d-flex align-items-center d-flex justify-content-start md_no_padding ">
+        <ul class="nav i_ml_head">
+          <li class="nav-item head_bar_between_left d-flex align-items-center h_text">
+            MY ACCOUNT
+          </li>
+          <li class="nav-item head_bar_between_left d-flex align-items-center h_text">
+            <img class="img-fluid" src="assets/images/cart.png"/> 0
+          </li>
+          <li class="nav-item head_bar_between_left d-flex align-items-center h_text">
+            CONFIRM PAYMENY
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center justify-content-center">
+        <img class="mt-1 img-fluid" src="assets/images/logo.png">
+      </div>
+      <div class="col col-sm-5 col-md-5 col-lg-5 col-xl-5  d-flex justify-content-end md_no_padding">
+        <ul class="nav ">
+          
+          <li class="nav-item  head_bar_between d-flex align-items-center h_text mr-3"><img class="img-fluid mr-1" src="assets/images/search.png">
+            SEARCH
+          </li>
+          <li class="nav-item head_bar_between d-flex align-items-center h_text mr-3">
+            TH / EN
+          </li>
+          <li class="nav-item head_icon d-flex align-items-center">
+            <img class="img-fluid" src="assets/images/facebook.png"/>
+          </li>
+          <li class="nav-item head_icon d-flex align-items-center">
+            <img class="img-fluid" src="assets/images/instagram.png"/>
+          </li>
+          <li class="nav-item head_icon d-flex align-items-center">
+            <img class="img-fluid" src="assets/images/youtube.png"/>
+          </li>
+          <li class="nav-item head_icon d-flex align-items-center">
+            <img class="img-fluid" src="assets/images/line.png"/>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<!--header web-->
+
+<!--menu bar web-->
+<section id="menu_bar" >
+  <div class="container-fluid  pt-3 no_padding">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" data-src="" alt="First slide [800x400]" src="assets/images/banner_1.jpg" data-holder-rendered="true">
+        </div>
+        <div class="carousel-item  ">
+          <img class="d-block w-100" data-src="" alt="Second slide [800x400]" src="assets/images/banner_2.jpg" data-holder-rendered="true">
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block w-100" data-src="" alt="Third slide [800x400]" src="assets/images/banner_3.jpg" data-holder-rendered="true">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
+    <div class="container-fluid   no_padding d-none d-md-block" id="pills-tab">
+      <!-- menu title-->
+      <ul class="nav  mb-3 menu_bar d-flex justify-content-center" id="pills-tab1" role="tablist">
+        <li class="nav-item menu1 down_down_head">
+          <a class="nav-link d-flex justify-content-center h_text_menu" id="pills-menu-tab-1" data-toggle="pill" href="#bar-m-1"  role="tab" aria-controls="bar-m-1" aria-selected="true">About</a>
+        </li>
+        <li class="nav-item menu1 d-flex justify-content-center ">
+          <!-- <div class="nav-link d-flex justify-content-center h_text_menu">Smart Home</div>-->
+          <a class="nav-link d-flex justify-content-center h_text_menu" id="pills-menu-tab-2" data-toggle="pill" href="#bar-m-2" role="tab" aria-controls="bar-m-2" aria-selected="false">Smart Home</a>
+        </li>
+        <li class="nav-item menu1 down_down_head">
+          <a class="nav-link d-flex justify-content-center h_text_menu" id="pills-menu-tab-3" data-toggle="pill" href="#bar-m-3"  role="tab" aria-controls="bar-m-3" aria-selected="true">Lighting</a>
+        </li>
+        <li class="nav-item menu1 down_down_head">
+          <a class="nav-link d-flex justify-content-center h_text_menu" id="pills-menu-tab-4" data-toggle="pill" href="#bar-m-4"  role="tab" aria-controls="bar-m-4" aria-selected="true">Lamp-Decoration</a>
+        </li>
+        <li class="nav-item menu1 down_down_head">
+          <a class="nav-link d-flex justify-content-center h_text_menu" id="pills-menu-tab-5" data-toggle="pill" href="#bar-m-5"  role="tab" aria-controls="bar-m-5" aria-selected="true">News & Media</a>
+        </li>
+        <li class="nav-item menu1 down_down_head">
+          <a class="nav-link d-flex justify-content-center h_text_menu" id="pills-menu-tab-6" data-toggle="pill" href="#bar-m-6"  role="tab" aria-controls="bar-m-6" aria-selected="true">Contact us</a>
+        </li>
+        <li class="nav-item  menu1 down_down_head">
+          <a class="nav-link d-flex justify-content-center h_text_menu" id="pills-menu-tab-7" data-toggle="pill" href="#bar-m-7"  role="tab" aria-controls="bar-m-7" aria-selected="true">Support</a>
+        </li>
+      </ul>
+      <!-- menu title-->
+      <!-- body sub-->
+      <div class="tab-content" id="pills-tabContent">
+        <!--list sub 1-->
+        <div class="tab-pane " id="bar-m-1" role="tabpanel" aria-labelledby="pills-menu-tab-1">
+          <div class="container-fluid " id="sub_menu_web">
+            <div class="row">
+              <div class="col-md-1 col-lg-1 col-xl-2"></div>
+              <div class="col-md-10 col-lg-10 col-xl-8 d-flex justify-content-center">
+                <ul class="nav" style="margin-bottom: 0px;">
+                  <li class=" mr-md-5 mr-lg-5 mb-0"><!--mb 0  (no sub)-->
+                    <ul class= "pop_li_disc txt_hover"><!--no sub 'txt_hover' -->
+                      <li class="">
+                        <div class="mb-2 h_s_title_menu_txt">
+                          Company Profile
+                        </div>
+                        <div>
+                          <!--<div class="h_s_menu_txt">sub</div>-->
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class=" ml-md-1 mr-md-5 ml-lg-1 mr-lg-5  mb-0"><!--mb 0  (no sub)-->
+                    <ul class= "pop_li_disc txt_hover"><!--no sub 'txt_hover' -->
+                      <li >
+                        <div class="mb-2 h_s_title_menu_txt">
+                          Vision & Missions
+                        </div>
+                        <div>
+                  <!--<div class="h_s_menu_txt">sub</div>-->
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class=" mr-md-1  ml-md-1 mr-lg-1  ml-lg-1 mb-0"><!--mb 0  (no sub)-->
+                    <ul class= "pop_li_disc txt_hover"><!--no sub 'txt_hover' -->
+                      <li class="">
+                        <div class="mb-2 h_s_title_menu_txt">
+                          Outdoor
+                        </div>
+                        <div>
+                          <!--<div class="h_s_menu_txt">sub</div>-->
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class=" ml-md-5 ml-lg-5 mb-0"><!--mb 0  (no sub)-->
+                    <ul class= "pop_li_disc txt_hover"><!--no sub 'txt_hover' -->
+                      <li class="">
+                        <div class="mb-2 h_s_title_menu_txt">
+                          Award
+                        </div>
+                        <div>
+                          <!--<div class="h_s_menu_txt">sub</div>-->
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            <div class="col-md-1 col-lg-1 col-xl-2"></div>
+          </div>
+          </div>
+        </div>
+      <!--list sub 1-->
+      <!-- list sub 2-->
+        <div class="tab-pane " id="bar-m-2" role="tabpanel" aria-labelledby="pills-menu-tab-2">
+        </div>
+      <!-- list sub 2-->
+      <!-- list sub 3-->
+      <div class="tab-pane  " id="bar-m-3" role="tabpanel" aria-labelledby="pills-menu-tab-3">
+        <div class="element1" id="sub_menu_web_1">
+          <div id="bg_sub_menu_web">
+            <div class="container-fluid " id="sub_menu_web">
+              <div class="row">
+                <div class="col-md-1 col-lg-1 col-xl-2"></div>
+                <div class="col-md-3 col-lg-3 col-xl-2 d-flex justify-content-center">
+                  <ul class="menu_sub3">
+                    <li class=" ">
+                      <ul class= "pop_li_disc txt_hover"><!--no sub 'txt_hover' -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                            SMART FUNCTION
+                          </div>
+                          <div>
+                            <!--<div class="h_s_menu_txt">sub</div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class=" ">
+                      <ul class= "pop_li_disc "><!--no sub 'txt_hover' -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                            Place
+                          </div>
+                          <div>
+                            <div class="h_s_menu_txt">Residence</div>
+                            <div class="h_s_menu_txt">Office</div>
+                            <div class="h_s_menu_txt">Industrial</div>
+                            <div class="h_s_menu_txt">Outdoor</div>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
                 </div>
+                <div class="col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
+                  <ul class="pop_li_disc" style="margin-bottom: 0px;">
+                    <li>
+                      <div>
+                        <div class="h_s_title_menu_txt">แยกตามชนิด</div>
+                        <div>
+                          <div class="h_s_menu_txt">Bulb</div>
+                          <div class="h_s_menu_txt">MR16</div>
+                          <div class="h_s_menu_txt">Downlight</div>
+                          <div class="h_s_menu_txt">High watt</div>
+                          <div class="h_s_menu_txt">Ceiling lamp</div>
+                          <div class="h_s_menu_txt">Street light</div>
+                          <div class="h_s_menu_txt">Flashlight</div>
+                          <div class="h_s_menu_txt">Panel light</div>
+                          <div class="h_s_menu_txt">Motion lamp</div>
+                          <div class="h_s_menu_txt">Flood light</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-2 d-flex justify-content-center">
+                  <ul class="menu_sub3" style="margin-bottom: 0px;">
+                    <li class="">
+                      <ul class= "pop_li_disc txt_hover"><!--no sub 'txt_hover' -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                            ขั้ว
+                          </div>
+                          <div>
+                            <!--<div class="h_s_menu_txt">Residence</div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul class= "pop_li_disc"><!--no sub 'txt_hover' -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                            ip
+                          </div>
+                          <div>
+                            <div class="h_s_menu_txt">F27</div>
+                            <div class="h_s_menu_txt">E14</div>
+                            <div class="h_s_menu_txt">GU5.3</div>
+                            <div class="h_s_menu_txt">E40</div>
+                            <div class="h_s_menu_txt">ต่อไฟตรง</div>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              <div class="col-md-1 col-lg-1 col-xl-2"></div>
+              </div>
             </div>
           </div>
-          
-          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  d-flex justify-content-center">
-            <div class="card about_card no_padding">
-                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/smart.jpg" alt="Card image cap">
-                <div class="card-body about_card_body">
-                  <p class="card-text i_highlight_txt d-flex justify-content-center">smart motion semsor</p>
-                </div>
-            </div>
-          </div>
-          
-          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  d-flex justify-content-center">
-            <div class="card about_card no_padding">
-                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/fluorescrnt.jpg" alt="Card image cap">
-                <div class="card-body about_card_body">
-                  <p class="card-text i_highlight_txt d-flex justify-content-center">fluorescent</p>
-                </div>
-            </div>
-          </div>
-          
-          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  d-flex justify-content-center">
-            <div class="card about_card no_padding">
-                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/smart_wifi.jpg" alt="Card image cap">
-                <div class="card-body about_card_body">
-                  <p class="card-text i_highlight_txt d-flex justify-content-center">smart wifi socket</p>
-                </div>
-            </div>
-          </div>-->
-          <div class="embed-responsive embed-responsive-1by1 ">
-           <iframe class="embed-responsive-item" src="index8.html" ></iframe>
-        </div>
         </div>
       </div>
-    </section>
-
-    <!--carousel_banner_2-->
-    <section id="carousel_banner_2">
-      <div class="container d-flex align-items-center justify-content-center">
-        <div class="row">
-           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <img class="img-fluid" src="assets/images/lamptan_bright_studio.jpg" >
-           </div> 
-        </div>
-      </div>
-    </section>
-    <!--carousel_banner_2-->
-    
-    <!--your_self-->
-    <section id="your_self">
-      <div class="container i_cn_lampton_diy">
-        <div class="row ">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"> 
-            <div class="i_txt_title d-flex justify-content-center">do it yourself</div>
+    <!--list sub 3-->
+    <!--list sub 4-->
+      <div class="tab-pane " id="bar-m-4" role="tabpanel" aria-labelledby="pills-menu-tab-4">
+        <div class="container-fluid " id="sub_menu_web">
+          <div class="row">
+            <div class="col-md-1 col-lg-1 col-xl-2"></div>
+            <div class="col-md-10 col-lg-10 col-xl-8 d-flex justify-content-center">
+              <ul class="nav" style="margin-bottom: 0px;">
+                <li class=" mr-md-5 mr-lg-5 mb-0">
+                  <!--mb 0  (no sub)-->
+                  <ul class= "menu_sub3 ">
+                    <li class="mb-2">
+                      <ul class= "pop_li_disc txt_hover">
+                        <!--no sub 'txt_hover' -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                            Lamptan Bright Studio
+                          </div>
+                          <div>
+                              <!--<div class="h_s_menu_txt">Residence</div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="">
+                      <ul class= "pop_li_disc txt_hover">
+                          <!--no sub 'txt_hover' -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                          American Vintage
+                          </div>
+                          <div>
+                          <!--<div class="h_s_menu_txt">Residence</div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class=" mr-md-5 ml-md-5 mr-lg-5 ml-lg-5 mb-0">    <!--mb 0  (no sub)-->
+                  <ul class= "menu_sub3">
+                    <li class="mb-2">
+                      <ul class= "pop_li_disc txt_hover">
+                        <!--no sub 'txt_hover' -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                          Modern
+                          </div>
+                          <div>
+                            <!--<div class="h_s_menu_txt">Residence</div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="">
+                      <ul class= "pop_li_disc txt_hover">
+                        <!--no sub 'txt_hover' -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                          Chinese Modren
+                          </div>
+                          <div>
+                              <!--<div class="h_s_menu_txt">Residence</div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class=" ml-md-5 ml-lg-5 mb-0">
+                  <!--mb 0  (no sub)-->
+                  <ul class= "menu_sub3">
+                    <li class="mb-2">
+                      <ul class= "pop_li_disc txt_hover">
+                          <!--no sub 'txt_hover' -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                            Loft
+                          </div>
+                          <div>
+                              <!--<div class="h_s_menu_txt">Residence</div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="">
+                      <ul class= "pop_li_disc txt_hover">
+                        <!--no sub 'txt_hover' -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                          Outdoor
+                          </div>
+                          <div>
+                            <!--<div class="h_s_menu_txt">Residence</div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-1 col-lg-1 col-xl-2"></div>
           </div>
         </div>
-        <div class="row i_buttom">
-           <div class="embed-responsive embed-responsive-16by9 ">
-           <iframe class="embed-responsive-item" src="index9.html" ></iframe>
-         </div>
-          
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center "><button type="button" class="btn btn-outline-dark about_button btn-md strong btn_tb">LOAD MORD</button></div>
+      </div>
+    <!--list sub 4-->
+    <!--list sub 5-->
+      <div class="tab-pane " id="bar-m-5" role="tabpanel" aria-labelledby="pills-menu-tab-5">
+        <div class="container-fluid " id="sub_menu_web">
+          <div class="row">
+          <div class="col-md-1 col-lg-1 col-xl-2"></div>
+          <div class="col-md-10 col-lg-10 col-xl-8 d-flex justify-content-center">
+            <ul class="nav" style="margin-bottom: 0px;">
+              <li class=" mr-md-5 mr-lg-5 mb-0">
+                <!--mb 0  (no sub)-->
+                <ul class= "pop_li_disc txt_hover">
+                  <!--no sub 'txt_hover' -->
+                  <li class="">
+                    <div class="mb-2 h_s_title_menu_txt">
+                    News
+                    </div>
+                    <div>
+                    <!--<div class="h_s_menu_txt">Residence</div>-->
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="mr-md-5 ml-md-5 mr-lg-5 ml-lg-5 mb-0"> <!--mb 0  (no sub)-->
+                <ul class= "pop_li_disc ">
+                  <li >
+                    <div class="mb-2 h_s_title_menu_txt">
+                    Media
+                    </div>
+                    <div>
+                    <div class="h_s_menu_txt">TVC</div>
+                    <div class="h_s_menu_txt">PR</div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="ml-md-5 ml-lg-5 mb-0"><!--mb 0  (no sub)-->
+                <ul class= "pop_li_disc txt_hover">
+                  <!--no sub 'txt_hover' -->
+                  <li class="">
+                    <div class="mb-2 h_s_title_menu_txt">
+                    CSR
+                    </div>
+                    <div>
+                    <!--<div class="h_s_menu_txt">Residence</div>-->
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-1 col-lg-1 col-xl-2"></div>
+          </div>
         </div>
       </div>
-    </section>
-    <!--your_self-->
+      <!--list sub 5-->
+      <!--list sub 6-->
+      <div class="tab-pane " id="bar-m-6" role="tabpanel" aria-labelledby="pills-menu-tab-6">
+        <div class="container-fluid " id="sub_menu_web">
+          <div class="row">
+            <div class="col-md-1 col-lg-1 col-xl-2"></div>
+            <div class="col-md-10 col-lg-10 col-xl-8 d-flex justify-content-center">
+              <ul class="nav" style="margin-bottom: 0px;">
+                <li class="mr-md-4 mr-lg-4 mb-0"><!--mb 0  (no sub)-->
+                  <ul class= "pop_li_disc txt_hover">
+                    <!--txt_hover : hove  -->
+                    <li class="">
+                      <div class="mb-2 h_s_title_menu_txt "> Head office
+                      </div>
+                      <div>
+                        <!--<div class="h_s_menu_txt"></div>-->
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="mr-md-4 ml-md-4 mr-lg-4 ml-lg-4 mb-0"><!--mb 0  (no sub)-->
+                  <ul class= "pop_li_disc txt_hover"><!--txt_hover : hove  -->
+                    <li class="">
+                      <div class="mb-2 h_s_title_menu_txt"> Lamptan Bright Studio
+                      </div>
+                      <div>
+                        <!--<div class="h_s_menu_txt"></div>-->
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class=" mr-md-4 ml-md-4 mr-lg-4 ml-lg-4 mb-0"><!--mb 0  (no sub)-->
+                  <ul class= "pop_li_disc txt_hover"><!--txt_hover : hove  -->
+                    <li class="">
+                      <div class="mb-2 h_s_title_menu_txt">
+                      Our Client
+                      </div>
+                      <div>
+                      <!--<div class="h_s_menu_txt"></div>-->
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="ml-md-4 ml-lg-4 mb-0"><!--mb 0  (no sub)-->
+                  <ul class= "pop_li_disc ">
+                    <li class="">
+                      <div class="mb-2 h_s_title_menu_txt">
+                      Agent
+                      </div>
+                      <div>
+                        <div class="h_s_menu_txt">Modern trade</div>
+                        <div class="h_s_menu_txt">Store</div>
+                        <div class="h_s_menu_txt">International</div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-1 col-lg-1 col-xl-2"></div>
+          </div>
+        </div>
+      </div>
+    <!--list sub 6-->
+      <!--list sub 7-->
+      <div class="tab-pane " id="bar-m-7" role="tabpanel" aria-labelledby="pills-menu-tab-7">
+        <div class="container-fluid " id="sub_menu_web">
+          <div class="row">
+            <div class="col-md-1 col-lg-1 col-xl-2"></div>
+            <div class="col-md-10 col-lg-10 col-xl-8 d-flex justify-content-center">
+              <ul class="nav" style="margin-bottom: 0px;">
+                <li class="mr-md-5 mr-lg-5 mb-0"><!--mb 0  (no sub)-->
+                  <ul class="menu_sub3">
+                    <li class="mb-2">
+                      <ul class= "pop_li_disc txt_hover"><!--txt_hover : hove  -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                            Our FAQ
+                          </div>
+                          <div>
+                          <!--<div class="h_s_menu_txt"></div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="">
+                      <ul class= "pop_li_disc txt_hover"><!--txt_hover : hove  -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                          DIY
+                          </div>
+                          <div>
+                          <!--<div class="h_s_menu_txt"></div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class=" mr-md-5 ml-md-5 mr-lg-5 ml-lg-5 mb-0"><!--mb 0  (no sub)-->
+                  <ul class="menu_sub3">
+                    <li class="mb-2">
+                      <ul class= "pop_li_disc txt_hover"><!--txt_hover : hove  -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                          Catalog
+                          </div>
+                          <div>
+                          <!--<div class="h_s_menu_txt"></div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="">
+                      <ul class= "pop_li_disc txt_hover">
+                      <!--txt_hover : hove  -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                          Manual
+                          </div>
+                          <div>
+                          <!--<div class="h_s_menu_txt"></div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="  ml-md-5 ml-lg-5 mb-0">
+                  <!--mb 0  (no sub)-->
+                  <ul class="menu_sub3">
+                    <li class="mb-2">
+                      <ul class= "pop_li_disc txt_hover"><!--txt_hover : hove  -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                          Lamptan Style guide
+                          </div>
+                          <div>
+                          <!--<div class="h_s_menu_txt"></div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="">
+                      <ul class= "pop_li_disc txt_hover">
+                        <!--txt_hover : hove  -->
+                        <li class="">
+                          <div class="mb-2 h_s_title_menu_txt">
+                          Blog
+                          </div>
+                          <div>
+                          <!--<div class="h_s_menu_txt"></div>-->
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-1 col-lg-1 col-xl-2"></div>
+          </div>
+        </div>
+      </div>
+      <!--list sub 7-->
+    </div>
+      <!-- body sub-->
+    </div>
+  </div>
+</section>
+<!--menu web-->
+<!-- web-->
+<!--smarthome-->
+<section id="smart_home">
+<div class="container i_cn_smarthome">
+<div class="row">
+<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+<img src="assets/images/smart_home.jpg" class="img-fluid" />
+</div>
+</div>
+</div>
+</section>
+<!--Lighting  Lamp-->
+<section id="decoration_lighting">
+  <div class="container i_cn_li_lamp">
+    <div class="row ">
+      <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 ">
+        <img src="assets/images/decoration_mobile.jpg" id="decoration_mobile" class="img-fluid d-lg-none  w-100" />
+        <img src="assets/images/decoration.jpg" id="decoration_img" class="img-fluid d-none d-lg-block " />
+      </div>
+      <div class="col-6 col-sm-6 col-md-6 col-lg-8 col-xl-8 ">
+        <img src="assets/images/lighting_mobile.jpg" id="decoration_mobile" class="img-fluid d-lg-none  w-100" />
+        <img src="assets/images/lighting.jpg" id="decoration_img" class="img-fluid d-none d-lg-block " />
+<!--<div class="d-flex align-items-center justify-content-center">
+<img src="assets/images/lighting.jpg" id="lighting_img" class="img-fluid" />
+</div>-->
+      </div>
+    </div>
+  </div>
+</section>
+<!--Lighting  Lamp-->
+<section id="highlight">
+   <div class="i_txt_title d-flex justify-content-center">Highlight</div>
+  <div class="container">
+        <div class=" row i_buttom w-100 mx-auto" role="listbox">
+                <!--web-->
+                <div class="col-md-12 col-lg-12 col-xl-12 d-none d-md-block">
+                   
+                    <div class="row ">
+                        <div class=" col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                 
+                            <div class="card about_card no_padding">
+                                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/highlight/compact.jpg" alt="Card image cap">
+                                <div class="card-body about_card_body">
+                                  <p class="card-text i_highlight_txt d-flex justify-content-center">compact light sensor</p>
+                                </div>
+                            </div>
+                        </div>
 
-     <!--footer--> 
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                            <div class="card about_card no_padding">
+                                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/highlight/smart.jpg" alt="Card image cap">
+                                <div class="card-body about_card_body">
+                                  <p class="card-text i_highlight_txt d-flex justify-content-center">smart motion semsor</p>
+                                </div>
+                            </div>
+                        </div>
 
-    <!--footer.html--> 
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/index.css">
-    <script src="assets/js/index.js"></script>
-  </body>
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                            <div class="card about_card no_padding">
+                                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/highlight/fluorescrnt.jpg" alt="Card image cap">
+                                <div class="card-body about_card_body">
+                                  <p class="card-text i_highlight_txt d-flex justify-content-center">fluorescent</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                            <div class="card about_card no_padding">
+                                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/highlight/smart_wifi.jpg" alt="Card image cap">
+                                <div class="card-body about_card_body">
+                                  <p class="card-text i_highlight_txt d-flex justify-content-center">smart wifi socket</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <a class="carousel-control-prev arror_highlight arrow_prev" href="#carousel_slide" role="button" data-slide="prev"> <</a>
+                    <a class="carousel-control-next arror_highlight arrow_next" href="#carousel_slide" role="button" data-slide="next">> </a>
+                </div>
+                <!--web-->
+                <!--mobile-->
+                <div class="col-md-12 col-lg-12 col-xl-12 d-md-none">
+                   
+                    <div class="row ">
+                        <div class=" col-6 col-sm-6">
+                 
+                            <div class="card about_card no_padding">
+                                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/highlight/compact.jpg" alt="Card image cap">
+                                <div class="card-body about_card_body">
+                                  <p class="card-text i_highlight_txt d-flex justify-content-center">compact light sensor</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-sm-6">
+                            <div class="card about_card no_padding">
+                                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/highlight/smart.jpg" alt="Card image cap">
+                                <div class="card-body about_card_body">
+                                  <p class="card-text i_highlight_txt d-flex justify-content-center">smart motion semsor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev arror_highlight arrow_prev" href="#carousel_slide" role="button" data-slide="prev"> <</a>
+                    <a class="carousel-control-next arror_highlight arrow_next" href="#carousel_slide" role="button" data-slide="next">> </a>
+                    </div>
+                     
+                </div>
+                <!--mobile-->
+        </div>
+    </div>
+</section>
+<!--carousel_banner_2-->
+<section id="carousel_banner_2">
+  <div class="container d-flex align-items-center justify-content-center">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <img class="img-fluid" src="assets/images/lamptan_bright_studio.jpg" >
+      </div>
+    </div>
+  </div>
+</section>
+<!--carousel_banner_2-->
+<!--do it yourself-->
+<section id="your_self">
+  <div class="i_txt_title d-flex justify-content-center">do it yourself</div>
+  <div class="container">
+      <div class=" row i_buttom w-100 mx-auto" role="listbox">
+              <!--web-->
+              <div class="col-md-12 col-lg-12 col-xl-12 d-none d-md-block">
+                 
+                  <div class="row ">
+                      <div class=" col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+               
+                          <div class="card about_card no_padding">
+                              <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/do_it_yourself/bulb.jpg" alt="Card image cap">
+                              <div class="card-body about_card_body">
+                                  <div class="do_text_title">Bulb Brightness</div>
+                                  <p class="card-text do_text_body">Learn how to find out how bright an LED light bulb really is and 
+                                  choose the right light bulb for you.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+
+
+
+                      <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                          <div class="card about_card no_padding">
+                              <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/do_it_yourself/bases.jpg" alt="Card image cap">
+                              <div class="card-body about_card_body">
+                                 <div class="do_text_title">Bases and shapes</div>
+                                  <p class="card-text do_text_body">
+                                      Different places need different lighting. Learn more about light 
+                                      bulb shapes and fittings and how to find the right fit.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                          <div class="card about_card no_padding">
+                              <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/do_it_yourself/discover.jpg" alt="Card image cap">
+                              <div class="card-body about_card_body">
+                                <div class="do_text_title">Discover the different types of</div>
+                                  <p class="card-text do_text_body">
+                                      Discover the different types of dimmable LED light bulbs available 
+                                      and find the bulb that sets the right mood for you.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+
+                     
+                  </div>
+                   <a class="carousel-control-prev arror_highlight arrow_prev" href="#carousel_slide" role="button" data-slide="prev"> <</a>
+                  <a class="carousel-control-next arror_highlight arrow_next" href="#carousel_slide" role="button" data-slide="next">> </a>
+              </div>
+              <!--web-->
+              <!--mobile-->
+              <div class="col-md-12 col-lg-12 col-xl-12 d-md-none">
+                 
+                  <div class="row ">
+                      <div class=" col-6 col-sm-6">
+               
+                           <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/do_it_yourself/bulb.jpg" alt="Card image cap">
+                              <div class="card-body about_card_body">
+                                  <div class="do_text_title">Bulb Brightness</div>
+                                  <p class="card-text do_text_body">Learn how to find out how bright an LED light bulb really is and 
+                                  choose the right light bulb for you.
+                                  </p>
+                              </div>
+                      </div>
+
+                      <div class="col-6 col-sm-6">
+                          <div class="card about_card no_padding">
+                              <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/do_it_yourself/bases.jpg" alt="Card image cap">
+                              <div class="card-body about_card_body">
+                                 <div class="do_text_title">Bases and shapes</div>
+                                  <p class="card-text do_text_body">
+                                      Different places need different lighting. Learn more about light 
+                                      bulb shapes and fittings and how to find the right fit.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <a class="carousel-control-prev arror_highlight arrow_prev" href="#carousel_slide" role="button" data-slide="prev"> <</a>
+                  <a class="carousel-control-next arror_highlight arrow_next" href="#carousel_slide" role="button" data-slide="next">> </a>
+                  </div>
+                   
+              </div>
+              <!--mobile-->
+      </div>
+  
+  
+    <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center "><button type="button" class="btn btn-outline-dark about_button btn-md strong btn_tb">LOAD MORD</button></div>
+    </div>
+  </div>
+</section>
+<!--do it yourself-->
+<!--footer-->
+<footer id="footer">
+<div class="container-fluid i_footer_body">
+<div class="row">
+<div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3 i_footer_m_pad">
+<ul class="i_footer_li_no">
+<li class="i_footer_txt">about</li>
+<li >
+<ul class="i_footer_li_disc">
+<li>Company Profile</li>
+<li>Vision & Mission</li>
+<li>Certificate</li>
+<li>Awards</li>
+</ul>
+</li>
+<li class="i_footer_txt">
+smart home
+</li>
+<li class="i_footer_txt">
+lighting
+</li>
+<li class="i_footer_txt">
+decoration
+</li>
+<li class="i_footer_txt">
+news & media
+</li>
+<li >
+<ul class="i_footer_li_disc">
+<li>News</li>
+<li>Media</li>
+<li class="i_footer_inline">
+<ul class="i_footer_li_no no_padding">
+<li> - tvc</li>
+<li> - pr</li>
+</ul>
+</li>
+<li>csr</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3 i_footer_m_pad">
+<ul class="i_footer_li_no">
+<li class="i_footer_txt">blog</li>
+<li class="i_footer_txt">contact us</li>
+<li>
+<ul class="i_footer_li_disc">
+<li>Head Office</li>
+<li>Lamptan Bright Studio</li>
+<li>Our Client</li>
+<li>Argent</li>
+</ul>
+</li>
+<li class="i_footer_txt"> support</li>
+<li>
+<ul class="i_footer_li_no">
+<li class="i_footer_title4">FAQ</li>
+<li class="i_footer_title4">DIY</li>
+<li class="i_footer_title4">Catalog</li>
+<li class="i_footer_title4">Manual</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col-4 col-sm-2 col-md-2 col-lg-2 col-xl-2 no_padding">
+<ul class="col_3">
+<li class="i_footer_txt">customer services</li>
+<li class="i_footer_txt2">how to shop</li>
+<li class="i_footer_txt2">how to register</li>
+<li class="i_footer_txt2"> order tracking</li>
+<li class="i_footer_txt2">return  policy</li>
+<li class="i_footer_txt2">nationwide delivery</li>
+</ul>
+</div>
+<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+<ul class="i_footer_li_no2">
+<li class="i_footer_txt i_footer_title_bt">lamptan lighting (2001) co.,ltd</li>
+<li class="i_footer_txt2 i_footer_title_bt">18/72-75 soi thianthale 19,bangkhunthian - chaithale rd., thakarm, bangkhunthian bangkok 10150 </li>
+<li class="i_footer_txt2">tel : 02-451-2968-9</li>
+<li class="i_footer_txt2">fax : 02-897-2938</li>
+<li class="i_footer_txt2">email: customerservice@lamptan.co.th</li>
+<li class="i_footer_txt ">follow us</li>
+<li class="i_footer_txt2 "> <img class="img-fluid" src="assets/images/facebook.png"> <img class="img-fluid" src="assets/images/instagram.png"> <img class="img-fluid" src="assets/images/youtube.png"></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container-fluid i_footer_copy d-flex justify-content-center pt-2 pb-2">
+<div class="row">
+<div class="col-12  i_footer-copy">Copyright © 2018 Lamptan Company Limited, All Rights Reserved.
+</div>
+</div>
+</div>
+</footer>
+<!--footer.html-->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+<script src="assets/js/index.js"></script>
+</body>
 </html>
