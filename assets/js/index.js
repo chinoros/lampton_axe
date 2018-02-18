@@ -32,6 +32,12 @@ $("#carouselExampleIndicators").hover(
   function() {
   $(".tab-content").hide();
 });
+
+$("#img2").hover(
+  function() {
+  $(".tab-content").hide();
+});
+
  /*menu bar web */
 
 /* hover*/
