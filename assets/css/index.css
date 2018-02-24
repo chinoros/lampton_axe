@@ -6788,8 +6788,29 @@ ul .no_style {
     border-top: 1px solid #dee2e6 !important;
 }
 
-
+.bg_bu_orange {
+	background: #f7941d !important; 
+	color: #ffffff;  	
+}
 
 .text_bold{
 	font-weight: bold;
+}
+
+.btn1{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }

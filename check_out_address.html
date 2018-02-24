@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <style type="text/css">
+    	.bg_white1{
+			background-color: #ffffff;
+			padding: 2.8em; 
+    	}
+    	.body_choose{
+    		padding:2em;
+    	}
+
+    	.payment_option {
+		    display: inline-flex;
+		    list-style: none;
+		    padding-left: 0em;
+		    width: 100%;
+		    margin-top: 1.5em;
+		}
+		.payment_option_img {
+			width: 50px;
+		}
+		.payment_text_option{
+			height: 100%;
+			margin-top: 1em;
+		}
+
+		.payment_option_li{
+			/*margin-top:auto;
+			//padding-top:70px;*/
+		}
+		.payment_input_option{
+			margin-top: 1.5em;
+		}
+		
+		.payment_option li{
+			margin-left: 0.6em;
+			margin-right: 0.6em;
+		}
+		.payment_body_text{
+			margin-top: 1.6em;
+		}
+
+		.payment_va_m {
+		    vertical-align: middle !important;
+		}
+
+		.payment_table_order {
+		    border-collapse: separate;
+		    border-color: blue;
+		}
+
+		.payment_text_small{
+		    font-size: 0.7em;
+		}
+		.payment_text_big{
+			font-size: 1.5em!important;
+		}
+
+		.payment_text_middle,.payment_text_middle td{
+			font-size: 0.8em;
+		}
+
+		.payment_ul_bank {
+		    display: inline-flex;
+		    list-style: none;
+		    padding-left: 0em;
+		    width: 100%;
+		    margin-top: 1.5em;
+		}
+
+		.payment_ul_bank li{
+			padding-left:1em;
+		}
+
+		.orange{
+			color:#f7941d;
+		}
+
+		.line_top {
+			 border-top: 1px solid #dee2e6 !important;
+		}
+		td .line{
+			border-bottom: 1px solid #ddd;
+		}
+		
+		.sum{
+			background-color:#f4f4f4 !important;
+		}
+
+		.line_top_orange{
+			 border-top: 1px solid #f7941d !important;
+		}
+		
+
+		.line_coll{
+			border-collapse: collapse;
+    		border: 1px solid #f4f4f4;
+    	}
+
+		.payment_text_middle  td{
+			margin:1.4;
+		}
+    	.before_subtotal{
+			padding-bottom: 4em !important; 
+    	}
+		
+		/*payment*/
+		.payment_terms{
+			color: #f7941d;
+		}
+
+		.payment_credit_text_b{
+			font-weight: bold;
+
+		}
+
+		.payment_ul_credit {
+		    display: inline-flex;
+		    list-style: none;
+		    padding-left: 0em;
+		    width: 100%;
+		    margin-top:0em;
+		    margin-bottom: 0em;
+		}
+
+	
+		.inputclass::-webkit-input-placeholder {
+		text-align: center;
+		}
+		.inputclass:-moz-placeholder { /* Firefox 18- */
+		text-align: center;  
+		}
+		.inputclass::-moz-placeholder {  /* Firefox 19+ */
+		text-align: center;  
+		}
+		.inputclass:-ms-input-placeholder {  
+		text-align: center; 
+		}
+		/*payment*/
+		 input[type='radio']:after {
+	        width: 15px;
+	        height: 15px;
+	        border-radius: 15px;
+	        top: -4px;
+	        left: -1px;
+	        position: relative;
+	        background-color: #d1d3d1;
+	        content: '';
+	        display: inline-block;
+	        visibility: visible;
+	        border: 2px solid white;
+	    }
+
+	    input[type='radio']:checked:after {
+	        width: 10px;
+	        height: 10px;
+	        border-radius: 15px;
+	        top: -7px;
+	        left: 0.8px;
+	        position: relative;
+	        background-color: #ffa500;
+	        content: '';
+	        display: inline-block;
+	        visibility: visible;
+	        border: 2px solid white;
+	    }
+
+	    .ul_check_out{
+	    	
+	     	border: 1px solid #dee2e6;
+	     	 padding: 1.5em 1.5em;
+		    list-style: none;
+		    width: 100%;
+		    max-width: 100%;
+		    display: inline-block;
+		    font-size: 0.9em;
+	    }
+	    .check_text_title{
+	    	font-size: 1em;
+	    	font-weight: bold;
+	    }
+	    .ul_check_out1{
+	    	display: inline-block;
+	     	border: 1px solid #dee2e6;
+	     	 padding: 1em 1em;
+		    list-style: none;
+		    max-width: 97%;
+		    color: #ffffff;
+	    }
+	    .check_out_exit{
+	    	 position: absolute;
+    		top: 1em;
+    		right: 2em;
+	    }
+
+		.check_out_add{
+	    	 position: absolute;
+    		top: 6em;
+    		right: 10em;
+	    }
+		.check_text_add{
+			 position: absolute;
+			top: 9em;
+    		right: 7.6em;
+		}
+	    
+	    .img-close2{
+	    	width: 20px;
+	    	height: 20px;
+	    }
+	   
+	   	.check_text_edit{
+			 position: absolute;
+    		top: 3.5em;
+    		right: 2.4em;
+    		font-size: 0.8em;
+	   	}
+
+	   	.check_text_title{
+			font-size:1.1em;
+	   	}
+	    .check_text_body{
+			font-size: 0.9em;
+			font-weight: bolder;
+	   	}
+	   	.text_orange_small{
+	   		font-size: 0.7em;
+	   	}
+    </style>
+</head>
+<body>
+<!--body-->
+<div class="bg_details_products">
+	<div class="container">
+		<div class="row">
+			<div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<div class="bg_white1">
+					<div class="row">
+						<!--left--> 
+						<div class="col col-sm-12 col-md-8 col-lg-8 col-xl-8">
+							<div class="check_text_title">SELECT A SHIPPING ADDRESS</div>
+							<div class="line_full"></div>
+							<div class="body_choose">
+								<div class="row"> 
+									<div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6">
+										<table>
+											<tr>
+												<td>
+													<input type="checkbox" name="" class="d-inline">
+												</td>
+												<td>
+													<ul class="ul_check_out">
+														<li>
+															 <div class="check_text_title">ภคกุล เสนีย์วงศ์ ณ อยุธยา</div>
+														</li>
+														<li>
+															23/100 อาคารสรชัย ชั้น 23 ซอยสุขุมวิท 63 ถนนสุขุมวิท คลองเตยเหนือ วัฒนา
+														</li>
+														<li>
+															Bangkok
+														</li>
+														<li>
+															Bangkok 10110
+														</li>
+														<li>
+															THAILAND	
+														</li>
+														<li>
+															Phone #1: 0817402033	 
+														</li>
+														<li>
+															Phone #2: 0863731329
+														</li>
+												 	</ul>
+												 	<button class="btn1 w-100 bg_bu_orange">SEND TO THIS ADDRESS</button>
+												 	<p class="check_out_exit">
+														<img class="img-close2" src="assets/images/close2.png">
+														<div class="check_text_edit">Edit</div>
+													</p>
+											 		
+												</td>
+											</tr>
+										</table>	
+									</div>
+									<div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6">
+										<table>
+											<tr>
+												<td>
+													<input type="checkbox" name="" class="d-inline">
+												</td>
+												<td>
+													<ul class="ul_check_out">
+														<li>
+															 <div class="check_text_title">ภคกุล เสนีย์วงศ์ ณ อยุธยา</div>
+														</li>
+														<li>
+															23/100 อาคารสรชัย ชั้น 23 ซอยสุขุมวิท 63 ถนนสุขุมวิท คลองเตยเหนือ วัฒนา
+														</li>
+														<li>
+															Bangkok
+														</li>
+														<li>
+															Bangkok 10110
+														</li>
+														<li>
+															THAILAND	
+														</li>
+														<li>
+															Phone #1: 0817402033	 
+														</li>
+														<li>
+															Phone #2: 0863731329
+														</li>
+												 	</ul>
+												 	<button class="btn1 w-100 bg_bu_orange">SEND TO THIS ADDRESS</button>
+												 	<p class="check_out_exit">
+														<img class="img-close2" src="assets/images/close2.png">
+														<div class="check_text_edit">Edit</div>
+													</p>
+												</td>
+											</tr>
+										</table>											 
+									</div>
+								</div>
+								<div class="row"> 
+									<div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6">
+										<table>
+											<tr>
+												<td>
+													
+												</td>
+												<td>
+													<ul class="ul_check_out1 ml-2">
+														<li>
+															 <div class="check_text_title">ภคกุล เสนีย์วงศ์ ณ อยุธยา</div>
+														</li>
+														<li>
+															23/100 อาคารสรชัย ชั้น 23 ซอยสุขุมวิท 63 ถนนสุขุมวิท คลองเตยเหนือ วัฒนา
+														</li>
+														<li>
+															Bangkok
+														</li>
+														<li>
+															Bangkok 10110
+														</li>
+														<li>
+															THAILAND	
+														</li>
+														<li>
+															Phone #1: 0817402033	 
+														</li>
+														<li>
+															Phone #2: 0863731329
+														</li>
+												 	</ul>
+												 	
+												 	<p class="check_out_add">
+														<img class="img-close2" src="assets/images/add.png">
+														<div class="check_text_add">เพิ่มที่อยู่จัดส่ง</div>
+													</p>
+												</td>
+											</tr>
+										</table>	
+									</div>
+								</div>
+							</div>
+								
+						</div>
+						<!--left--> 
+						<!--right-->
+						<div class="col col-sm-12 col-md-4 col-lg-4 col-xl-4">
+							ORDER SUMMARY
+							<div class="line_full"></div>
+							<div class="table-responsive mt-3">
+							  <table class="table line_top line_coll">
+							    <tr>
+							    	<td class="payment_text_small w-50 line_top">PRODUCTS</td>
+							    	<td class="payment_text_small w-25 text-center line_top">QTY</td>
+							    	<td class="payment_text_small w-25 text-right line_top">PRICE</td>
+							    </tr>
+							     <tr>
+							    	<td colspan="3"><div class="line_top w-100"></div></td>
+							    </tr>
+							     <tr >
+							    	<td class="payment_text_middle text_bold">Lamptan LED Blub 6W Daylight-3 Pack / Pack 1EA </td>
+							    	<td class="text-center">1</td>
+							    	<td class="text-right">$ 210</td>
+							    </tr>
+							    <tr>
+							    	<td colspan="3"><div class="line_top_orange w-100"></div></td>
+							    </tr>
+								
+							    <tr>
+							    	<td class=" before_subtotal"><div class=" payment_text_middle text_bold">Hanging Lamp</div><p class="payment_text_small orange">* สินค้าประเภทโคมไฟจะมีเจ้าหน้าที่
+									ติดต่อกลับภายหลัง</p></td>
+							    	<td class="text-center">1</td>
+							    	<td class="text-right ">$ 2000</td>
+							    </tr>
+								
+								<tr class="mt-4">
+									 <td colspan="2" class="line_top payment_text_middle"><div class="text_bold">Subtotal </div><div>Minimum order free</div></td>
+									 <td class="text-right line_top">฿ 2,210<div>Free</div></td>
+								</tr>
+								<tr class="">
+									 <td colspan="2" class="line_top payment_text_middle line_top "><div class="text_bold">Shipping : EMS </div><div>ศุกร์ 5, อังคาร, 9 ม.ค. 2018</div></td>
+									 <td class="text-right line_top">฿ 75</td>
+								</tr>
+							   <tr class=" sum">
+									 <td class="payment_text_middle"><div class="text_bold">Grand Total</div><div>(VAT incl. if any)</div></td>
+									 <td colspan="2" class="text-right payment_text_big orange text_bold">฿ 2,285</td>
+								</tr>
+							  </table>
+							</div>
+						</div>
+						<!--right-->
+					</div>
+
+					<div class="row">
+						<div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12">
+							<div class="ml-5 mr-5">
+								<div>  
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1"> <div class="check_text_title">Reciept / Tax invoice adress - Tick and Fill in to request for official Tax invoice</div>
+								</div>
+								<div class="line_full"></div>
+									<ul class="nav  ml-5 mt-5 mb-4">
+										<li class="mr-5 ml-3"><div class="check_text_body">check_text_bodyReciept / Tax invoice Adress</div></li>
+										<li class="ml-5 ml-3"><div class="check_text_body">Thailand  |  <div class="text_orange d-inline">International</div></div></li>
+									</ul>
+								<div class="row">
+									<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+										<div class="ml-5">
+											<div class="form-group w-75">
+												 <label class="my-1 ml-3 check_text_body" for="inlineFormCustomSelectPref">Name</label>
+												  <input type="text" id="name" class="form-control mx-sm-3" placeholder="Your Name">
+											</div>
+
+											<div class="form-group w-75">
+												 <label class="my-1 ml-3 check_text_body" for="inlineFormCustomSelectPref">Address</label>
+												  <textarea class="form-control mx-sm-3" placeholder="Address"></textarea>
+											</div>
+
+											<div class="form-group w-75">
+												 <label class="my-1 ml-3 check_text_body" for="inlineFormCustomSelectPref">Postcode <div class="d-inline text_orange text_orange_small">We will detect your city and provience</div></label>
+												  <input type="text" id="postcode" class="form-control mx-sm-3" placeholder="Postcode">
+											</div>
+
+											<div class="form-group w-75">
+												 <label class="my-1 ml-3 check_text_body" for="inlineFormCustomSelectPref ">District</label>
+												  <input type="text" id="district" class="form-control mx-sm-3" placeholder="District">
+											</div>
+										</div>
+									</div>
+									<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+										<div class="ml-5">
+											<div class="form-group w-75 check_text_body">
+												 <label class="my-1 " for="inlineFormCustomSelectPref ">Provience</label>
+												<select class="form-control">
+												  <option>กรุงเทพมหานคร / Bangkok</option>
+												</select>
+											</div>
+
+											<div class="form-group w-75">
+												 <label class="my-1 check_text_body" for="inlineFormCustomSelectPref ">Mubile Number</label>
+												  <ul class="payment_ul_credit">
+															<li><input type="text" class="form-control   d-inline-block inputclass" placeholder="+66"></li>
+															<li><input type="text" class="form-control   d-inline-block inputclass" placeholder="Phone Number"></li>
+														</ul>
+											</div>
+
+											<div class="form-group w-75">
+												 <label class="my-1 check_text_body" for="inlineFormCustomSelectPref ">Tax Code </label>
+
+												  <input type="text" id="tax_code" name="tax_code" class="form-control " placeholder="(Optional)">
+											</div>
+
+											<div class="form-group w-75">
+												 <label class="my-1 check_text_body" for="inlineFormCustomSelectPref ">Head Office / Branch No. <div class="text_orange text_orange_small">A5 digits number with 00000 for Head Office and Branch
+													no as 00001 and upward</div></label>
+												  <input type="text" id="district" class="form-control" placeholder="District">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12">
+							
+							<div class="line_full"></div>
+							<div class="check_text_title">SHIPPING</div>
+
+							<div>DELIVERY SERVICE</div>
+							<div><img src="" ></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+</div>
+<!--body-->
+<!-- script -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/css/index.css">
+	<script src="assets/js/index.js"></script>
+<!-- script -->
+</body>
+</html>
