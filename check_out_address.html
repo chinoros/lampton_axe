@@ -4,234 +4,11 @@
 	<title></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-    <style type="text/css">
-    	.bg_white1{
-			background-color: #ffffff;
-			padding: 2.8em; 
-    	}
-    	.body_choose{
-    		padding:2em;
-    	}
-
-    	.payment_option {
-		    display: inline-flex;
-		    list-style: none;
-		    padding-left: 0em;
-		    width: 100%;
-		    margin-top: 1.5em;
-		}
-		.payment_option_img {
-			width: 50px;
-		}
-		.payment_text_option{
-			height: 100%;
-			margin-top: 1em;
-		}
-
-		.payment_option_li{
-			/*margin-top:auto;
-			//padding-top:70px;*/
-		}
-		.payment_input_option{
-			margin-top: 1.5em;
-		}
-		
-		.payment_option li{
-			margin-left: 0.6em;
-			margin-right: 0.6em;
-		}
-		.payment_body_text{
-			margin-top: 1.6em;
-		}
-
-		.payment_va_m {
-		    vertical-align: middle !important;
-		}
-
-		.payment_table_order {
-		    border-collapse: separate;
-		    border-color: blue;
-		}
-
-		.payment_text_small{
-		    font-size: 0.7em;
-		}
-		.payment_text_big{
-			font-size: 1.5em!important;
-		}
-
-		.payment_text_middle,.payment_text_middle td{
-			font-size: 0.8em;
-		}
-
-		.payment_ul_bank {
-		    display: inline-flex;
-		    list-style: none;
-		    padding-left: 0em;
-		    width: 100%;
-		    margin-top: 1.5em;
-		}
-
-		.payment_ul_bank li{
-			padding-left:1em;
-		}
-
-		.orange{
-			color:#f7941d;
-		}
-
-		.line_top {
-			 border-top: 1px solid #dee2e6 !important;
-		}
-		td .line{
-			border-bottom: 1px solid #ddd;
-		}
-		
-		.sum{
-			background-color:#f4f4f4 !important;
-		}
-
-		.line_top_orange{
-			 border-top: 1px solid #f7941d !important;
-		}
-		
-
-		.line_coll{
-			border-collapse: collapse;
-    		border: 1px solid #f4f4f4;
-    	}
-
-		.payment_text_middle  td{
-			margin:1.4;
-		}
-    	.before_subtotal{
-			padding-bottom: 4em !important; 
-    	}
-		
-		/*payment*/
-		.payment_terms{
-			color: #f7941d;
-		}
-
-		.payment_credit_text_b{
-			font-weight: bold;
-
-		}
-
-		.payment_ul_credit {
-		    display: inline-flex;
-		    list-style: none;
-		    padding-left: 0em;
-		    width: 100%;
-		    margin-top:0em;
-		    margin-bottom: 0em;
-		}
-
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 	
-		.inputclass::-webkit-input-placeholder {
-		text-align: center;
-		}
-		.inputclass:-moz-placeholder { /* Firefox 18- */
-		text-align: center;  
-		}
-		.inputclass::-moz-placeholder {  /* Firefox 19+ */
-		text-align: center;  
-		}
-		.inputclass:-ms-input-placeholder {  
-		text-align: center; 
-		}
-		/*payment*/
-		 input[type='radio']:after {
-	        width: 15px;
-	        height: 15px;
-	        border-radius: 15px;
-	        top: -4px;
-	        left: -1px;
-	        position: relative;
-	        background-color: #d1d3d1;
-	        content: '';
-	        display: inline-block;
-	        visibility: visible;
-	        border: 2px solid white;
-	    }
-
-	    input[type='radio']:checked:after {
-	        width: 10px;
-	        height: 10px;
-	        border-radius: 15px;
-	        top: -7px;
-	        left: 0.8px;
-	        position: relative;
-	        background-color: #ffa500;
-	        content: '';
-	        display: inline-block;
-	        visibility: visible;
-	        border: 2px solid white;
-	    }
-
-	    .ul_check_out{
-	    	
-	     	border: 1px solid #dee2e6;
-	     	 padding: 1.5em 1.5em;
-		    list-style: none;
-		    width: 100%;
-		    max-width: 100%;
-		    display: inline-block;
-		    font-size: 0.9em;
-	    }
-	    .check_text_title{
-	    	font-size: 1em;
-	    	font-weight: bold;
-	    }
-	    .ul_check_out1{
-	    	display: inline-block;
-	     	border: 1px solid #dee2e6;
-	     	 padding: 1em 1em;
-		    list-style: none;
-		    max-width: 97%;
-		    color: #ffffff;
-	    }
-	    .check_out_exit{
-	    	 position: absolute;
-    		top: 1em;
-    		right: 2em;
-	    }
-
-		.check_out_add{
-	    	 position: absolute;
-    		top: 6em;
-    		right: 10em;
-	    }
-		.check_text_add{
-			 position: absolute;
-			top: 9em;
-    		right: 7.6em;
-		}
-	    
-	    .img-close2{
-	    	width: 20px;
-	    	height: 20px;
-	    }
-	   
-	   	.check_text_edit{
-			 position: absolute;
-    		top: 3.5em;
-    		right: 2.4em;
-    		font-size: 0.8em;
-	   	}
-
-	   	.check_text_title{
-			font-size:1.1em;
-	   	}
-	    .check_text_body{
-			font-size: 0.9em;
-			font-weight: bolder;
-	   	}
-	   	.text_orange_small{
-	   		font-size: 0.7em;
-	   	}
-    </style>
+ 
 </head>
 <body>
 <!--body-->
@@ -250,7 +27,7 @@
 									<div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6">
 										<table>
 											<tr>
-												<td>
+												<td class="align-top">
 													<input type="checkbox" name="" class="d-inline">
 												</td>
 												<td>
@@ -290,7 +67,7 @@
 									<div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6">
 										<table>
 											<tr>
-												<td>
+												<td class="align-top">
 													<input type="checkbox" name="" class="d-inline">
 												</td>
 												<td>
@@ -428,7 +205,7 @@
 								</div>
 								<div class="line_full"></div>
 									<ul class="nav  ml-5 mt-5 mb-4">
-										<li class="mr-5 ml-3"><div class="check_text_body">check_text_bodyReciept / Tax invoice Adress</div></li>
+										<li class="mr-5 ml-3"><div class="check_text_body">Reciept / Tax invoice Adress</div></li>
 										<li class="ml-5 ml-3"><div class="check_text_body">Thailand  |  <div class="text_orange d-inline">International</div></div></li>
 									</ul>
 								<div class="row">
@@ -491,13 +268,120 @@
 					</div>
 
 					<div class="row">
-						<div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12">
-							
-							<div class="line_full"></div>
-							<div class="check_text_title">SHIPPING</div>
+						<div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+							<div class="ml-5 mr-5">
+								<div class="line_full"></div>
+									<div class="check_text_title  pt-5">SHIPPING</div>
+									<div class="row">
+										<!--left shipping-->
+											<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6  pl-5">
+												
+												<table class="w-75 mt-5">
+													<tr>
+														<td><input type="radio" name="exampleRadios" id="exampleRadios1" value="option1" class="radio_1" checked></td>
+														<td>ไปรษณีย์ไทย</td>
+													</tr>
+													<tr>
+														<td></td>
+														<td>
+															<ul class="ul_check_out2 mt-4 mb-5">
+																<li>
+																	<div class="d-inline-block align-top">
+																		<input type="radio" name="register" id="register" value="option1" class="radio_1" checked>
+																	</div>
+																	<div class="d-inline-block">
+																		<p class="check_out_text">ส่งแบบลงทะเบียน: ฿45.00</p>
+																		<p class="check_out_text">วันศุกร์,5 - วันจันทร์,8 ม.ค. 2018</p>
+																	</div>
+																</li>
+																<li>
+																	<div class="d-inline-block align-top">
+																		<input type="radio" name="register" id="register" value="option1" class="radio_1" checked>
+																	</div>
+																	<div class="d-inline-block">
+																		<p class="check_out_text">EMS: ฿75.00</p>
+																		<p class="check_out_text">วันศุกร์,5 - วันจันทร์,8 ม.ค. 2018</p>
+																	</div>
+																</li>
+															</ul>
 
-							<div>DELIVERY SERVICE</div>
-							<div><img src="" ></div>
+														</td>
+													</tr>
+
+													<tr>
+														<td><input type="radio" name="exampleRadios" id="exampleRadios1" value="option1" class="radio_1" checked></td>
+														<td >LALAMOVE: ฿60</td>
+													</tr>
+													<tr>
+														<td></td>
+														<td>
+															<ul class="ul_check_out2 mt-4">
+																<li class="text-center">
+																	<div class="d-inline-block">
+																		<p class="check_out_text">ส่งแบบเร่งด่วน ภายใน 24 ชั่วโมง</p>
+																		
+																	</div>
+																</li>
+																
+															</ul>
+
+														</td>
+													</tr>
+												</table>
+											</div>
+										<!--left shipping-->
+										<!--right shipping-->
+											<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6  pl-5">
+												<div class="check_text_title"></div>
+												<table class="w-75 mt-5">
+													<tr>
+														<td><input type="radio" name="exampleRadios" id="exampleRadios1" value="option1" class="radio_1" checked></td>
+														<td>KERRY : ฿45</td>
+													</tr>
+													<tr>
+														<td></td>
+														<td>
+															<ul class="ul_check_out2 mt-4  mb-kerry">
+																
+																<li>
+																	<div class="d-inline-block">
+																		<p class="check_out_text">จัดส่งแบบเร่งด่วน วันศุกร์, 5-วันจันทร์,8 ม.ค.2018</p>
+																	
+																	</div>
+																</li>
+															</ul>
+
+														</td>
+													</tr>
+
+													<tr>
+														<td><input type="radio" name="exampleRadios" id="exampleRadios1" value="option1" class="radio_1" checked></td>
+														<td >LINE MAN: ฿50</td>
+													</tr>
+													<tr>
+														<td></td>
+														<td>
+															<ul class="ul_check_out2 mt-4">
+																<li class="text-center">
+																	<div class="d-inline-block">
+																		<p class="check_out_text">จัดส่งแบบเร่งด่วน ภายใน 24 ชั่วโมง</p>
+																		
+																	</div>
+																</li>
+																
+															</ul>
+
+														</td>
+													</tr>
+												</table>
+											</div>
+										<!--right shipping-->
+									</div>
+										
+								<div class="check_text_title mt-5">DELIVERY SERVICE</div>
+								<div class="text-center"><img class="img-fluid no_padding mt-2" src="assets/images/logo_right.png">
+										</div>
+							</div>
 						</div>
 					</div>
 				</div>

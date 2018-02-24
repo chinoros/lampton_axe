@@ -6348,6 +6348,253 @@
 		 padding-left: 4em;
 	}
 	/*cart*/
+
+	/*check_out_address*/
+	.bg_white1{
+			background-color: #ffffff;
+			padding: 2.8em; 
+    	}
+    	.body_choose{
+    		padding:2em;
+    	}
+
+    	.payment_option {
+		    display: inline-flex;
+		    list-style: none;
+		    padding-left: 0em;
+		    width: 100%;
+		    margin-top: 1.5em;
+		}
+		.payment_option_img {
+			width: 50px;
+		}
+		.payment_text_option{
+			height: 100%;
+			margin-top: 1em;
+		}
+
+		.payment_option_li{
+			/*margin-top:auto;
+			//padding-top:70px;*/
+		}
+		.payment_input_option{
+			margin-top: 1.5em;
+		}
+		
+		.payment_option li{
+			margin-left: 0.6em;
+			margin-right: 0.6em;
+		}
+		.payment_body_text{
+			margin-top: 1.6em;
+		}
+
+		.payment_va_m {
+		    vertical-align: middle !important;
+		}
+
+		.payment_table_order {
+		    border-collapse: separate;
+		    border-color: blue;
+		}
+
+		.payment_text_small{
+		    font-size: 0.7em;
+		}
+		.payment_text_big{
+			font-size: 1.5em!important;
+		}
+
+		.payment_text_middle,.payment_text_middle td{
+			font-size: 0.8em;
+		}
+
+		.payment_ul_bank {
+		    display: inline-flex;
+		    list-style: none;
+		    padding-left: 0em;
+		    width: 100%;
+		    margin-top: 1.5em;
+		}
+
+		.payment_ul_bank li{
+			padding-left:1em;
+		}
+
+		.orange{
+			color:#f7941d;
+		}
+
+		.line_top {
+			 border-top: 1px solid #dee2e6 !important;
+		}
+		td .line{
+			border-bottom: 1px solid #ddd;
+		}
+		
+		.sum{
+			background-color:#f4f4f4 !important;
+		}
+
+		.line_top_orange{
+			 border-top: 1px solid #f7941d !important;
+		}
+		
+
+		.line_coll{
+			border-collapse: collapse;
+    		border: 1px solid #f4f4f4;
+    	}
+
+		.payment_text_middle  td{
+			margin:1.4;
+		}
+    	.before_subtotal{
+			padding-bottom: 4em !important; 
+    	}
+		
+		/*payment*/
+		.payment_terms{
+			color: #f7941d;
+		}
+
+		.payment_credit_text_b{
+			font-weight: bold;
+
+		}
+
+		.payment_ul_credit {
+		    display: inline-flex;
+		    list-style: none;
+		    padding-left: 0em;
+		    width: 100%;
+		    margin-top:0em;
+		    margin-bottom: 0em;
+		}
+
+	
+		.inputclass::-webkit-input-placeholder {
+		text-align: center;
+		}
+		.inputclass:-moz-placeholder { /* Firefox 18- */
+		text-align: center;  
+		}
+		.inputclass::-moz-placeholder {  /* Firefox 19+ */
+		text-align: center;  
+		}
+		.inputclass:-ms-input-placeholder {  
+		text-align: center; 
+		}
+		/*payment*/
+		 input[type='radio']:after {
+	        width: 15px;
+	        height: 15px;
+	        border-radius: 15px;
+	        top: -4px;
+	        left: -1px;
+	        position: relative;
+	        background-color: #d1d3d1;
+	        content: '';
+	        display: inline-block;
+	        visibility: visible;
+	        border: 2px solid white;
+	    }
+
+	    input[type='radio']:checked:after {
+	        width: 10px;
+	        height: 10px;
+	        border-radius: 15px;
+	        top: -7px;
+	        left: 0.8px;
+	        position: relative;
+	        background-color: #ffa500;
+	        content: '';
+	        display: inline-block;
+	        visibility: visible;
+	        border: 2px solid white;
+	    }
+
+	    .ul_check_out{
+	     	border: 1px solid #dee2e6;
+	     	 padding: 1.5em 1.5em;
+		    list-style: none;
+		    width: 100%;
+		    max-width: 100%;
+		    display: inline-block;
+		    font-size: 0.9em;
+	    }
+
+	    .ul_check_out2{
+	     	border: 1px dashed #dee2e6;
+	     	 padding: 1.5em 1.5em;
+		    list-style: none;
+		    width: 100%;
+		    max-width: 100%;
+		    display: inline-block;
+		    font-size: 0.9em;
+	    }
+
+	    .check_text_title{
+	    	font-size: 1em;
+	    	font-weight: bold;
+	    }
+	    .ul_check_out1{
+	    	display: inline-block;
+	     	border: 1px solid #dee2e6;
+	     	 padding: 1em 1em;
+		    list-style: none;
+		    max-width: 97%;
+		    color: #ffffff;
+	    }
+	    .check_out_exit{
+	    	 position: absolute;
+    		top: 1em;
+    		right: 2em;
+	    }
+
+		.check_out_add{
+	    	position: absolute;
+    		top: 6em;
+    		right: 9em;
+	    }
+
+		.check_text_add{
+		 	position: absolute;
+			top: 9em;
+    		right: 6.6em;
+		}
+	    
+	    .img-close2{
+	    	width: 20px;
+	    	height: 20px;
+	    }
+	   
+	   	.check_text_edit{
+			 position: absolute;
+    		top: 3.5em;
+    		right: 2.4em;
+    		font-size: 0.8em;
+	   	}
+
+	   	.check_text_title{
+			font-size:1.1em;
+	   	}
+	    .check_text_body{
+			font-size: 0.9em;
+			font-weight: bolder;
+	   	}
+	   	.text_orange_small{
+	   		font-size: 0.7em;
+	   	}
+	   	.check_out_text{
+	   		font-size: 1em;
+	   		margin-bottom: 0rem;
+	   	}
+	   	.mb-kerry{
+	   		margin-bottom: 6.2em;
+	   	}
+
+	/*check_out_address*/
 }
 
 
