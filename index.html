@@ -2,7 +2,6 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
@@ -10,6 +9,11 @@
     
     <title>lamptan</title>
     <link rel="stylesheet" href="assets/css/index.css">
+
+    <!-- aos -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    
+    <!-- aos -->
   </head>
   <body>
     <!--header.html-->
@@ -818,37 +822,49 @@
 <!--menu web-->
 <!-- web-->
 <!--smarthome-->
-<section id="smart_home">
-<div class="container i_cn_smarthome">
-<div class="row">
-<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-<img src="assets/images/smart_home.jpg" class="img-fluid" />
-</div>
-</div>
-</div>
+
+<section id="smart_home" >
+  <div class="container i_cn_smarthome" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <a href="" class="pointer">
+          <img src="assets/images/smart_home.jpg" class="img-fluid " />
+        </a>
+      </div>
+    </div>
+  </div>
 </section>
 <!--Lighting  Lamp-->
 <section id="decoration_lighting">
   <div class="container i_cn_li_lamp">
     <div class="row ">
       <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 ">
-        <img src="assets/images/decoration_mobile.jpg" id="decoration_mobile" class="img-fluid d-lg-none  w-100" />
-        <img src="assets/images/decoration.jpg" id="decoration_img" class="img-fluid d-none d-lg-block " />
+        <div data-aos="zoom-in">
+          <a href="" class="pointer">
+            <img src="assets/images/decoration_mobile.jpg" id="decoration_mobile" class="img-fluid d-lg-none  w-100" />
+            <img src="assets/images/decoration.jpg" id="decoration_img" class="img-fluid d-none d-lg-block " />
+          </a>
+        </div>
       </div>
       <div class="col-6 col-sm-6 col-md-6 col-lg-8 col-xl-8 ">
-        <img src="assets/images/lighting_mobile.jpg" id="decoration_mobile" class="img-fluid d-lg-none  w-100" />
-        <img src="assets/images/lighting.jpg" id="decoration_img" class="img-fluid d-none d-lg-block " />
-<!--<div class="d-flex align-items-center justify-content-center">
-<img src="assets/images/lighting.jpg" id="lighting_img" class="img-fluid" />
-</div>-->
+        <div data-aos="zoom-in">
+          <a href="" class="pointer">
+            <img src="assets/images/lighting_mobile.jpg" id="decoration_mobile" class="img-fluid d-lg-none  w-100" />
+            <img src="assets/images/lighting.jpg" id="decoration_img" class="img-fluid d-none d-lg-block " />
+          </a>
+        </div>
+          <!--<div class="d-flex align-items-center justify-content-center">
+          <img src="assets/images/lighting.jpg" id="lighting_img" class="img-fluid" />
+          </div>-->
       </div>
     </div>
   </div>
 </section>
 <!--Lighting  Lamp-->
-<section id="highlight">
+<section id="highlight" data-aos="zoom-in">
    <div class="i_txt_title d-flex justify-content-center">Highlight</div>
-  <div class="container">
+      <div class="container">
         <div class=" row i_buttom w-100 mx-auto" role="listbox">
                 <!--web-->
                 <div class="col-md-12 col-lg-12 col-xl-12 d-none d-md-block">
@@ -857,7 +873,9 @@
                         <div class=" col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                  
                             <div class="card about_card no_padding">
-                                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/highlight/compact.jpg" alt="Card image cap">
+                                <div class="item_img">
+                                  <img class="card-img-top i_cn_lampton_diy_img zoom" src="assets/images/highlight/compact.jpg" alt="">
+                                </div>
                                 <div class="card-body about_card_body">
                                   <p class="card-text i_highlight_txt d-flex justify-content-center">compact light sensor</p>
                                 </div>
@@ -866,7 +884,9 @@
 
                         <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                             <div class="card about_card no_padding">
-                                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/highlight/smart.jpg" alt="Card image cap">
+                                <div class="item_img">
+                                  <img class="card-img-top i_cn_lampton_diy_img  zoom" src="assets/images/highlight/smart.jpg" alt="Card image cap">
+                                </div>
                                 <div class="card-body about_card_body">
                                   <p class="card-text i_highlight_txt d-flex justify-content-center">smart motion semsor</p>
                                 </div>
@@ -875,7 +895,9 @@
 
                         <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                             <div class="card about_card no_padding">
-                                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/highlight/fluorescrnt.jpg" alt="Card image cap">
+                              <div class="item_img">
+                                <img class="card-img-top i_cn_lampton_diy_img  zoom" src="assets/images/highlight/fluorescrnt.jpg" alt="Card image cap">
+                              </div>
                                 <div class="card-body about_card_body">
                                   <p class="card-text i_highlight_txt d-flex justify-content-center">fluorescent</p>
                                 </div>
@@ -884,7 +906,9 @@
 
                         <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                             <div class="card about_card no_padding">
-                                <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/highlight/smart_wifi.jpg" alt="Card image cap">
+                              <div class="item_img">
+                                <img class="card-img-top i_cn_lampton_diy_img zoom" src="assets/images/highlight/smart_wifi.jpg" alt="Card image cap">
+                              </div>
                                 <div class="card-body about_card_body">
                                   <p class="card-text i_highlight_txt d-flex justify-content-center">smart wifi socket</p>
                                 </div>
@@ -938,7 +962,7 @@
 </section>
 <!--carousel_banner_2-->
 <!--do it yourself-->
-<section id="your_self">
+<section id="your_self" data-aos="zoom-in">
   <div class="i_txt_title d-flex justify-content-center">do it yourself</div>
   <div class="container">
       <div class=" row i_buttom w-100 mx-auto" role="listbox">
@@ -949,7 +973,9 @@
                       <div class=" col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                
                           <div class="card about_card no_padding">
-                              <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/do_it_yourself/bulb.jpg" alt="Card image cap">
+                            <div class="item_img">
+                              <img class="card-img-top i_cn_lampton_diy_img zoom" src="assets/images/do_it_yourself/bulb.jpg" alt="Card image cap">
+                            </div>
                               <div class="card-body about_card_body">
                                   <div class="do_text_title">Bulb Brightness</div>
                                   <p class="card-text do_text_body">Learn how to find out how bright an LED light bulb really is and 
@@ -963,7 +989,9 @@
 
                       <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                           <div class="card about_card no_padding">
-                              <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/do_it_yourself/bases.jpg" alt="Card image cap">
+                            <div class="item_img">
+                              <img class="card-img-top i_cn_lampton_diy_img zoom" src="assets/images/do_it_yourself/bases.jpg" alt="Card image cap">
+                            </div>
                               <div class="card-body about_card_body">
                                  <div class="do_text_title">Bases and shapes</div>
                                   <p class="card-text do_text_body">
@@ -976,7 +1004,9 @@
 
                       <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                           <div class="card about_card no_padding">
-                              <img class="card-img-top i_cn_lampton_diy_img" src="assets/images/do_it_yourself/discover.jpg" alt="Card image cap">
+                            <div class="item_img">
+                              <img class="card-img-top i_cn_lampton_diy_img zoom" src="assets/images/do_it_yourself/discover.jpg" alt="Card image cap">
+                            </div>
                               <div class="card-body about_card_body">
                                 <div class="do_text_title">Discover the different types of</div>
                                   <p class="card-text do_text_body">
@@ -1138,5 +1168,15 @@ news & media
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
 <script src="assets/js/index.js"></script>
+
+<script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+      });
+    </script>
 </body>
 </html>

@@ -3392,7 +3392,7 @@
    	}
 
    	.products_text_price {
-   		font-size: 1.3em;
+   		font-size: 0.9em;
    		color: #f7941d;
    		font-weight: bold;
    	}
@@ -4599,7 +4599,7 @@
    	}
 
    	.products_text_price {
-   		font-size: 1.5em;
+   		font-size: 1.2em;
    		color: #f7941d;
    		font-weight: bold;
    	}
@@ -7060,4 +7060,46 @@ ul .no_style {
     line-height: 1.5;
     
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.product_menu_left, .product_card, .product_text_head, .product_text_head_sub, .product_sub_title_bar {
+	cursor: pointer;
+}
+
+.orange_text {
+    color: #ff6600 !important; 
+}
+
+.w-10{
+	width: 10%;
+}
+
+.w-30{
+	width: 30%;
+}
+
+.item_img {
+	position: relative;
+
+	margin: 2%;
+	overflow: hidden;
+
+}
+
+.item_img .zoom{
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+.zoom:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }

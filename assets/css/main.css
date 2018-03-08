@@ -1,0 +1,3867 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Mar 26, 2017, 3:41:00 PM
+    Author     : Axe
+*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+/*.logo {
+        background-image: url('../images/logo.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-image-size: 100% 100%;
+        background-size: 100% 100%;
+        min-width: 100%;
+        min-height: 100%;
+        width:162px;
+        height:77px;
+        margin: 1em;
+        float:left;
+    }*/
+    .img_model{
+      padding-left: 0em;
+    }
+    .img_download_jpg {
+      background-image: url("../images/download_jpg.png");
+      /* background-size: 80% 80%; */
+      background-repeat: round;
+      height: 30px;
+      width: 34px;
+      margin: 0.4em;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .img_model{
+      padding-left: 0em;
+    }
+    .img_download_jpg {
+    background-image: url("../images/download_jpg.png");
+    /* background-size: 80% 80%; */
+    background-repeat: round;
+    height: 50px;
+    width: 55px;
+    margin: 1em;
+}
+
+/*.logo {
+        background-image: url('../images/logo.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-image-size: 100% 100%;
+        background-size: 100% 100%;
+        min-width: 100%;
+        min-height: 100%;
+        width:162px;
+        height:77px;
+        margin: 1em;
+        float:left;
+    }*/
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+
+/* Large devices (desktops, 992px and up)*/
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+
+@media (min-width: 576px){
+
+   /* .modal-dialog {
+        max-width: 70vw !important;
+        max-height: 50vh !important;
+        margin: 25vh auto !important;
+    }*/
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+  .menu1 {
+      width: 125% !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px){
+    .input_text{
+        width:12em;
+    }
+    .input_text2{
+        width:15em;
+    }
+    .bar_menu_row_jp{
+        margin-top: 1em;
+    }
+    .bar_menu_rows_jp{
+        margin-top: 0.4em;
+    }
+    .d_left_tab2{
+      padding-left: 2em;
+    }
+    .menu1 {
+
+        width: 110% !important;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1999px){
+  .input_text{
+      width: 17em;
+      height: 3em;
+      display: block;
+      font-size: 1em;
+      line-height: 1.25;
+      color: #464a4c;
+  }
+  .input_text2{
+      width: 20em;
+      height: 6.8em;
+      font-size: 1em;
+      line-height: 1.25;
+      color: #464a4c;
+  }
+  .bar_menu_row_jp{
+      margin-top: 1em;
+  }
+  .bar_menu_rows_jp{
+      margin-top: 0.4em;
+  }
+  .d_left_tab2{
+    padding-left: 5em;
+  }
+
+}
+@media (min-width: 2000px) and (max-width: 2499px){
+    .input_text{
+      width: 17em;
+      height: 3em;
+      display: block;
+      font-size: 1em;
+      line-height: 1.25;
+      color: #464a4c;
+    }
+    .input_text2{
+      width: 28em;
+      height: 7em;
+      font-size: 1em;
+      line-height: 1.25;
+      color: #464a4c;
+    }
+    .bar_menu_row_jp{
+        margin-top: 1em;
+    }
+    .bar_menu_rows_jp{
+        margin-top: 0.4em;
+    }
+    .d_left_tab2{
+      padding-left: 6em;
+    }
+}
+@media (min-width: 2500px) and (max-width: 3500px){
+    .input_text{
+      width: 17em;
+      height: 3em;
+      display: block;
+      font-size: 1em;
+      line-height: 1.25;
+      color: #464a4c;
+    }
+    .input_text2{
+      width: 28em;
+      height: 7em;
+      font-size: 1em;
+      line-height: 1.25;
+      color: #464a4c;
+    }
+    .bar_menu_row_jp{
+        margin-top: 1em;
+    }
+    .bar_menu_rows_jp{
+        margin-top: 0.4em;
+    }
+    .d_left_tab2{
+      padding-left: 7em;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.3em;
+      line-height: normal !important;
+  }
+  .txt_m_data_c_g2{
+    width: 140%;
+  }
+
+  .txt_m_data_i_r3{
+    width: 160%;
+  }
+  .txt_m_data_d4{
+    width: 140%;
+  }
+  .txt_m_data_i_r4{
+    width: 160%;
+  }
+
+  .txt_m_data_s_i4{
+    width: 140%;
+  }
+  .txt_m_data_c_v1{
+    width: 140%;
+  }
+  .txt_m_data_c_g2{
+    width: 140%;
+  }
+
+  .txt_left_data_2{
+    margin-left: 1em;
+  }
+
+  .h4_th {
+    font-family: "db_helvethaica_x55_regular";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.2em;
+    line-height: 1em !important;
+  }
+
+  .h4_en {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.1em;
+      line-height: 1em !important;
+  }
+
+  .h4_jp {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 0.78em !important;
+      line-height: 2em !important;
+  }
+
+  .txt_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.4em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      line-height: 2rem !important;
+  }
+  .txt_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.4em;
+      padding-left: 0rem;
+      padding-right: 1.4rem;
+      line-height: 2rem !important;
+  }
+
+  .p_a_r_left{
+      padding-left: 4em;
+  }
+
+  .p_c_data_left{
+      padding-left: 1em;
+  }
+
+  .bg_popup {
+      background-image: url(../images/data/popup.png);
+      width: 960px;
+      height: 800px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      max-height: 90vh;
+      /* margin-left: auto; */
+      margin-right: auto;
+  }
+  .new_txt_top{
+    //margin-left: 1em;
+  }
+}
+
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+
+  .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.4em;
+    line-height: normal !important;
+  }
+  .txt_m_data_c_g2{
+      width: 140%;
+  }
+
+  .txt_m_data_i_r3{
+      width: 160%;
+  }
+  .txt_m_data_d4{
+      width: 140%;
+  }
+  .txt_m_data_i_r4{
+      width: 160%;
+  }
+
+  .txt_m_data_s_i4{
+      width: 140%;
+  }
+  .txt_m_data_c_v1{
+      width: 140%;
+  }
+  .txt_m_data_c_g2{
+      width: 140%;
+  }
+
+  .txt_left_data_2{
+      margin-left: 1em;
+  }
+
+  .h4_th {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.2em;
+      line-height: 1em !important;
+  }
+
+  .h4_en {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.1em;
+      line-height: 1em !important;
+  }
+
+  .h4_jp {
+    font-family: "db_helvethaica_x55_regular";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 0.78em !important;
+    line-height: 2em !important;
+  }
+
+  .txt_story_th {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.44em;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+    line-height: 2rem !important;
+  }
+
+  .txt_story_en {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.4em;
+    padding-left: 0rem;
+    padding-right: 1.4rem;
+    line-height: 2rem !important;
+  }
+
+  .p_a_r_left{
+      padding-left: 4em;
+  }
+
+  .p_c_data_left{
+      padding-left: 1em;
+  }
+
+  .bg_popup {
+    background-image: url(../images/data/popup.png);
+    width: 960px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 90vh;
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+  .new_txt_top{
+    //margin-left: 1em;
+  }
+  .{
+     margin-top: 1em;
+  }
+}
+
+
+
+
+
+@media (min-width: 1400px) and (max-width: 1499px){
+  .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.49em;
+    line-height: normal !important;
+  }
+  .txt_m_data_c_g2{
+    width: 140%;
+  }
+
+  .txt_m_data_i_r3{
+    width: 160%;
+  }
+  .txt_m_data_d4{
+    width: 140%;
+  }
+  .txt_m_data_i_r4{
+    width: 160%;
+  }
+
+  .txt_m_data_s_i4{
+    width: 140%;
+  }
+  .txt_m_data_c_v1{
+    width: 140%;
+  }
+  .txt_m_data_c_g2{
+    width: 160%;
+  }
+
+  .txt_left_data_2{
+    margin-left: 1em;
+  }
+
+  .h4_th {
+    font-family: "db_helvethaica_x55_regular";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.2em;
+    line-height: 1em !important;
+  }
+
+  .h4_en {
+    font-family: "db_helvethaica_x55_regular";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.1em;
+    line-height: 1em !important;
+  }
+
+  .h4_jp {
+    font-family: "db_helvethaica_x55_regular";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 0.78em !important;
+    line-height: 2em !important;
+  }
+
+  .txt_story_th {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.49em;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+    line-height: 2rem !important;
+  }
+  .txt_story_en {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.49em;
+    padding-left: 0rem;
+    padding-right: 1.4rem;
+    line-height: 2rem !important;
+  }
+  .p_a_r_left{
+      padding-left: 4em;
+  }
+  .p_c_data_left{
+      padding-left: 3em;
+  }
+  .data_page {
+    margin-top: 2em;
+    padding-left: 3em;
+    list-style-type: none;
+  }
+  .bg_popup {
+    background-image: url(../images/data/popup.png);
+    width: 900px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 90vh;
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+  .new_txt_top{
+    //margin-left: 1em;
+  }
+  .{
+     margin-top: 1em;
+  }
+}
+@media (min-width: 1500px)  and (max-width: 1599px){
+  .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.6em;
+      line-height: normal !important;
+  }
+  .txt_m_data_c_g2{
+    width: 140%;
+  }
+
+  .txt_m_data_i_r3{
+    width: 160%;
+  }
+  .txt_m_data_d4{
+    width: 140%;
+  }
+  .txt_m_data_i_r4{
+    width: 160%;
+  }
+
+  .txt_m_data_s_i4{
+    width: 140%;
+  }
+  .txt_m_data_c_v1{
+    width: 140%;
+  }
+  .txt_m_data_c_g2{
+    width: 140%;
+  }
+
+  .txt_left_data_2{
+    margin-left: 1em;
+  }
+
+  .h4_th {
+    font-family: "db_helvethaica_x55_regular";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.4em;
+    line-height: 1em !important;
+  }
+
+  .h4_en {
+    font-family: "db_helvethaica_x55_regular";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.3em;
+    line-height: 1em !important;
+  }
+
+  .h4_jp {
+    font-family: "db_helvethaica_x55_regular";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 0.82em !important;
+    line-height: 2em !important;
+  }
+
+  .txt_story_th {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.7em;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+    line-height: 2rem !important;
+  }
+  .txt_story_en {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.6em;
+    padding-left: 0rem;
+    padding-right: 1.4rem;
+    line-height: 2rem !important;
+  }
+  .p_a_r_left{
+      padding-left: 4em;
+  }
+  .p_c_data_left{
+      padding-left: 3em;
+  }
+  .data_page {
+    margin-top: 2em;
+    padding-left: 4em;
+    list-style-type: none;
+  }
+  .txt_menu_en_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    font-size: 1.5em;
+    display: inline;
+  }
+  .bg_popup {
+    background-image: url(../images/data/popup.png);
+    width: 960px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 90vh;
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+  .new_txt_top{
+    //margin-left: 3.5em;
+  }
+  .{
+     margin-top: 1em;
+  }
+}
+
+@media (min-width: 1600px)  and (max-width: 1699px){
+  .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.8em;
+      line-height: normal !important;
+  }
+  /*font */
+  .txt_m_data_c_g2{
+    width: 140%;
+  }
+
+  .txt_m_data_i_r3{
+    width: 160%;
+  }
+  .txt_m_data_d4{
+    width: 140%;
+  }
+  .txt_m_data_i_r4{
+    width: 160%;
+  }
+
+  .txt_m_data_s_i4{
+    width: 140%;
+  }
+  .txt_m_data_c_v1{
+    width: 140%;
+  }
+  .txt_m_data_c_g2{
+    width: 140%;
+  }
+
+  .txt_left_data_2{
+    margin-left: 1em;
+  }
+
+  .h4_th {
+    font-family: "db_helvethaica_x55_regular";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.5em;
+    line-height: 1em !important;
+  }
+
+  .h4_en {
+    font-family: "db_helvethaica_x55_regular";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.4em;
+    line-height: 1em !important;
+  }
+
+  .h4_jp {
+    font-family: "db_helvethaica_x55_regular";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 0.9em !important;
+    line-height: 2em !important;
+  }
+
+  .txt_story_th {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.81em;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+    line-height: 2rem !important;
+  }
+  .txt_story_en {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.7em;
+    padding-left: 0rem;
+    padding-right: 1.4rem;
+    line-height: 2rem !important;
+  }
+  .p_a_r_left{
+      padding-left: 4em;
+  }
+  .p_c_data_left{
+      padding-left: 3em;
+  }
+  .data_page {
+    margin-top: 2em;
+    padding-left: 4em;
+    list-style-type: none;
+  }
+  .txt_menu_en_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    font-size: 1.53em;
+    display: inline;
+  }
+  .bg_popup {
+    background-image: url(../images/data/popup.png);
+    width: 960px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 90vh;
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+  .new_txt_top{
+    //margin-left: 3.5em;
+  }
+  .w_100_px {
+    width:7rem;
+  }
+  .{
+     margin-top: 1em;
+  }
+}
+
+@media (min-width: 1700px)  and (max-width: 1799px){
+  .w_100_px {
+    width:7rem;
+  }
+  .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.9em;
+      line-height: normal !important;
+    }
+    /*font */
+    .txt_m_data_c_g2{
+      width: 140%;
+    }
+
+    .txt_m_data_i_r3{
+      width: 160%;
+    }
+    .txt_m_data_d4{
+      width: 140%;
+    }
+    .txt_m_data_i_r4{
+      width: 160%;
+    }
+
+    .txt_m_data_s_i4{
+      width: 140%;
+    }
+    .txt_m_data_c_v1{
+      width: 140%;
+    }
+    .txt_m_data_c_g2{
+      width: 140%;
+    }
+
+    .txt_left_data_2{
+      margin-left: 1em;
+    }
+
+    .h4_th {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.6em;
+      line-height: 1em !important;
+    }
+
+    .h4_en {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.5em;
+      line-height: 1em !important;
+    }
+
+    .h4_jp {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1em !important;
+      line-height: 2em !important;
+    }
+    .txt_menu_en_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      font-size: 1.53em;
+      display: inline;
+    }
+    .txt_head_story_th {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 2em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        line-height: 2rem !important;
+    }
+
+    .txt_head_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 2em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      line-height: 2rem !important;
+    }
+
+    .txt_head_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 1.3em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      line-height: 2rem !important;
+    }
+
+    .txt_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.87em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      line-height: 2rem !important;
+    }
+
+    .txt_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.76em;
+      padding-left: 0rem;
+      padding-right: 1.4rem;
+      line-height: 2rem !important;
+    }
+
+    .txt_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      line-height: 2rem !important;
+    }
+
+    .txt_story_en_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.6em;
+        display: inline;
+        line-height: 1.1em;
+    }
+
+
+    .p_a_r_left{
+        padding-left: 4em;
+    }
+    .p_c_data_left{
+        padding-left: 3em;
+    }
+    .data_page {
+      margin-top: 2em;
+      padding-left: 4.3em;
+      list-style-type: none;
+    }
+    .bg_popup {
+      background-image: url(../images/data/popup.png);
+      width: 960px;
+      height: 800px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      max-height: 90vh;
+      /* margin-left: auto; */
+      margin-right: auto;
+    }
+    .new_txt_top{
+      //margin-left: 4em;
+    }
+
+    .center_height {
+      margin-top: 1em;
+  }
+}
+@media (min-width: 1800px) and (max-width: 1899px){
+  .w_100_px {
+    width:7rem;
+  }
+  .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.9em;
+      line-height: normal !important;
+    }
+    /*font */
+    .txt_m_data_c_g2{
+      width: 140%;
+    }
+
+    .txt_m_data_i_r3{
+      width: 160%;
+    }
+    .txt_m_data_d4{
+      width: 140%;
+    }
+    .txt_m_data_i_r4{
+      width: 160%;
+    }
+
+    .txt_m_data_s_i4{
+      width: 140%;
+    }
+    .txt_m_data_c_v1{
+      width: 140%;
+    }
+    .txt_m_data_c_g2{
+      width: 140%;
+    }
+
+    .txt_left_data_2{
+      margin-left: 1em;
+    }
+
+    .h4_th {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.6em;
+      line-height: 1em !important;
+    }
+
+    .h4_en {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.5em;
+      line-height: 1em !important;
+    }
+
+    .h4_jp {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1em !important;
+      line-height: 2em !important;
+    }
+    .txt_menu_en_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      font-size: 1.53em;
+      display: inline;
+    }
+    .txt_head_story_th {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 2em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        line-height: 2rem !important;
+    }
+
+    .txt_head_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 2em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      line-height: 2rem !important;
+    }
+
+    .txt_head_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 1.3em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      line-height: 2rem !important;
+    }
+
+    .txt_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.87em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      line-height: 2rem !important;
+    }
+
+    .txt_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.76em;
+      padding-left: 0rem;
+      padding-right: 1.4rem;
+      line-height: 2rem !important;
+    }
+
+    .txt_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      line-height: 2rem !important;
+    }
+
+    .txt_story_en_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.6em;
+        display: inline;
+    }
+
+    .p_a_r_left{
+        padding-left: 4em;
+    }
+    .p_c_data_left{
+        padding-left: 3em;
+    }
+    .data_page {
+      margin-top: 2em;
+      padding-left: 4.3em;
+      list-style-type: none;
+    }
+    .bg_popup {
+      background-image: url(../images/data/popup.png);
+      width: 960px;
+      height: 800px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      max-height: 90vh;
+      /* margin-left: auto; */
+      margin-right: auto;
+    }
+    .new_txt_top{
+      //margin-left: 4.5em;
+    }
+    .center_height {
+      margin-top: 1.3em;
+  }
+}
+@media (min-width: 1900px)  and (max-width: 1999px){
+  .w_100_px {
+    width:7rem;
+  }
+  .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.1em;
+      line-height: normal !important;
+  }
+
+    /*font */
+    .txt_m_data_c_g2{
+      width: 140%;
+    }
+
+    .txt_m_data_i_r3{
+      width: 160%;
+    }
+    .txt_m_data_d4{
+      width: 140%;
+    }
+    .txt_m_data_i_r4{
+      width: 160%;
+    }
+
+    .txt_m_data_s_i4{
+      width: 140%;
+    }
+    .txt_m_data_c_v1{
+      width: 140%;
+    }
+    .txt_m_data_c_g2{
+      width: 140%;
+    }
+
+    .txt_left_data_2{
+        margin-left: 1em;
+    }
+
+    .font_title_th {
+        font-family: "db_helvethaica_x";
+        margin-top: 0.6em;
+        font-size: 3.1em;
+        font-weight: bold;
+        color: #FFF !important;
+    }
+
+    .font_title_en {
+        font-family: "db_helvethaica_x";
+        margin-top: 0.6em;
+        font-size: 3em;
+        font-weight: bold;
+        color: #FFF !important;
+    }
+
+    .font_title_jp {
+        font-family: "db_helvethaica_x";
+        font-size: 2.2em;
+        font-weight: bold;
+        color: #FFF !important;
+        margin-bottom: 2em;
+        margin-left: -2em;
+    }
+    .h4_th {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.8em;
+        line-height: 1em !important;
+    }
+
+    .h4_en {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.7em;
+        line-height: 1em !important;
+    }
+
+    .h4_jp {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.1em !important;
+        line-height: 2em !important;
+    }
+
+    .txt_menu_en_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      font-size: 1.53em;
+      display: inline;
+    }
+
+    .txt_head_story_th {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 2.4em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        line-height: 2rem !important;
+        margin-top: 0em;
+    }
+
+    .txt_head_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 2.6em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+    }
+
+    .txt_head_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 1.8em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+    }
+
+    .txt_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.1em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      line-height: 2.4rem !important;
+    }
+
+    .txt_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.1em;
+      padding-left: 0rem;
+      padding-right: 1.4rem;
+      line-height: 2.4rem !important;
+    }
+
+    .txt_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.2em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      line-height: 2.4rem !important;
+    }
+
+    .txt_story_en_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.62em;
+        display: inline;
+    }
+
+
+    .p_a_r_left{
+        padding-left: 4em;
+    }
+    .p_c_data_left{
+        padding-left: 4em;
+    }
+    .data_page {
+      margin-top: 2em;
+      padding-left: 4.5em;
+      list-style-type: none;
+    }
+
+    .bg_popup {
+      background-image: url(../images/data/popup.png);
+      width: 960px;
+      height: 800px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      max-height: 90vh;
+      /* margin-left: auto; */
+      margin-right: auto;
+    }
+    .new_txt_top{
+      //margin-left: 4.8em;
+    }
+
+    .center_height {
+      margin-top: 1em;
+    }
+}
+
+@media (min-width: 2000px)  and (max-width: 2099px){
+
+    .ul_line_height {
+        line-height: 1.2em;
+    }
+
+    .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.2em;
+      line-height: normal !important;
+    }
+
+      /*font */
+      .txt_m_data_c_g2{
+        width: 140%;
+      }
+
+      .txt_m_data_i_r3{
+        width: 160%;
+      }
+      .txt_m_data_d4{
+        width: 140%;
+      }
+      .txt_m_data_i_r4{
+        width: 160%;
+      }
+
+      .txt_m_data_s_i4{
+        width: 140%;
+      }
+      .txt_m_data_c_v1{
+        width: 140%;
+      }
+      .txt_m_data_c_g2{
+        width: 140%;
+      }
+
+      .txt_left_data_2{
+          margin-left: 1em;
+      }
+
+      .font_title_th {
+          font-family: "db_helvethaica_x";
+          margin-top: 0.6em;
+          font-size: 3.1em;
+          font-weight: bold;
+          color: #FFF !important;
+      }
+
+      .font_title_en {
+          font-family: "db_helvethaica_x";
+          margin-top: 0.6em;
+          font-size: 3em;
+          font-weight: bold;
+          color: #FFF !important;
+      }
+
+      .font_title_jp {
+          font-family: "db_helvethaica_x";
+          font-size: 2.2em;
+          font-weight: bold;
+          color: #FFF !important;
+          margin-bottom: 2em;
+          margin-left: -2em;
+      }
+      .h4_th {
+          font-family: "db_helvethaica_x55_regular";
+          font-weight: normal;
+          color: #FFF !important;
+          font-size: 1.9em;
+          line-height: 1em !important;
+      }
+
+      .h4_en {
+          font-family: "db_helvethaica_x55_regular";
+          font-weight: normal;
+          color: #FFF !important;
+          font-size: 1.8em;
+          line-height: 1em !important;
+      }
+
+      .h4_jp {
+          font-family: "db_helvethaica_x55_regular";
+          font-weight: normal;
+          color: #FFF !important;
+          font-size: 1.25em !important;
+          line-height: 2em !important;
+      }
+
+      .txt_menu_en_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        font-size: 1.63em;
+        display: inline;
+      }
+
+      .txt_head_story_th {
+          font-family: "db_helvethaica_x";
+          font-weight: bold;
+          color: #FFF !important;
+          font-size: 2.7em;
+          padding-left: 0rem;
+          padding-right: 1.5rem;
+          margin-top: 0em;
+      }
+
+      .txt_head_story_en {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 2.7em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        margin-top: 0em;
+      }
+
+      .txt_head_story_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 1.9em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        margin-top: 0em;
+      }
+
+      .txt_story_th {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.2em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+
+      }
+
+      .txt_story_en {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.2em;
+        padding-left: 0rem;
+        padding-right: 1.4rem;
+
+      }
+
+      .txt_story_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.3em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+
+      }
+
+      .txt_story_en_jp {
+          font-family: "db_helvethaica_x";
+          font-weight: normal;
+          color: #FFF !important;
+          font-size: 1.7em;
+          display: inline;
+          line-height: 1.1em;
+      }
+
+
+      .p_a_r_left{
+          padding-left: 4em;
+      }
+      .p_c_data_left{
+          padding-left: 4em;
+      }
+      .data_page {
+        margin-top: 2em;
+        padding-left: 4.5em;
+        list-style-type: none;
+      }
+      .w_100_px {
+        width: 7em;
+      }
+
+      .bg_popup {
+        background-image: url(../images/data/popup.png);
+        width: 960px;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-height: 90vh;
+        /* margin-left: auto; */
+        margin-right: auto;
+      }
+      .new_txt_top{
+        //margin-left: 5em;
+      }
+      .center_height {
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 2100px)and (max-width: 2199px){
+    .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.4em;
+      line-height: normal !important;
+    }
+
+    /*font */
+    .txt_m_data_c_g2{
+      width: 140%;
+    }
+
+    .txt_m_data_i_r3{
+      width: 160%;
+    }
+    .txt_m_data_d4{
+      width: 140%;
+    }
+    .txt_m_data_i_r4{
+      width: 160%;
+    }
+
+    .txt_m_data_s_i4{
+      width: 140%;
+    }
+    .txt_m_data_c_v1{
+      width: 140%;
+    }
+    .txt_m_data_c_g2{
+      width: 140%;
+    }
+
+    .txt_left_data_2{
+        margin-left: 1em;
+    }
+
+    .font_title_th {
+        font-family: "db_helvethaica_x";
+        margin-top: 0.6em;
+        font-size: 3.4em;
+        font-weight: bold;
+        color: #FFF !important;
+    }
+
+    .font_title_en {
+        font-family: "db_helvethaica_x";
+        margin-top: 0.6em;
+        font-size: 3.3em;
+        font-weight: bold;
+        color: #FFF !important;
+    }
+
+    .font_title_jp {
+        font-family: "db_helvethaica_x";
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #FFF !important;
+        margin-bottom: 2em;
+        margin-left: -2em;
+    }
+    .h4_th {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.1em;
+        line-height: 1em !important;
+    }
+
+    .h4_en {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2em;
+        line-height: 1em !important;
+    }
+
+    .h4_jp {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.4em !important;
+        line-height: 2em !important;
+    }
+
+    .txt_menu_en_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      font-size: 1.72em;
+      display: inline;
+    }
+
+    .txt_head_story_th {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 2.8em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        margin-top: 0em;
+    }
+
+    .txt_head_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 2.8em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+    }
+
+    .txt_head_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 2em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+    }
+
+    .txt_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.3em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+
+    }
+
+    .txt_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.2em;
+      padding-left: 0rem;
+      padding-right: 1.4rem;
+
+    }
+
+    .txt_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.4em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+
+    }
+
+    .txt_story_en_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.8em;
+        display: inline;
+        line-height: 1.1em;
+    }
+
+
+    .p_a_r_left{
+        padding-left: 4em;
+    }
+    .p_c_data_left{
+        padding-left: 4em;
+    }
+    .data_page {
+      margin-top: 2em;
+      padding-left: 4.5em;
+      list-style-type: none;
+    }
+
+    .w_100_px {
+      width:7rem;
+    }
+    .ul_line_height{
+       line-height: 1.2em;
+    }
+
+    .bg_popup {
+      background-image: url(../images/data/popup.png);
+      width: 960px;
+      height: 800px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      max-height: 90vh;
+      /* margin-left: auto; */
+      margin-right: auto;
+    }
+    .new_txt_top{
+      //margin-left: 5.3em;
+    }
+    .center_height {
+      margin-top: 0em;
+    }
+}
+@media (min-width: 2200px) and (max-width: 2299px){
+
+    .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.5em;
+      line-height: normal !important;
+    }
+
+      /*font */
+      .txt_m_data_c_g2{
+        width: 140%;
+      }
+
+      .txt_m_data_i_r3{
+        width: 160%;
+      }
+      .txt_m_data_d4{
+        width: 140%;
+      }
+      .txt_m_data_i_r4{
+        width: 160%;
+      }
+
+      .txt_m_data_s_i4{
+        width: 140%;
+      }
+      .txt_m_data_c_v1{
+        width: 140%;
+      }
+      .txt_m_data_c_g2{
+        width: 140%;
+      }
+
+      .txt_left_data_2{
+          margin-left: 1em;
+      }
+
+      .font_title_th {
+          font-family: "db_helvethaica_x";
+          margin-top: 0.6em;
+          font-size: 3.5em;
+          font-weight: bold;
+          color: #FFF !important;
+      }
+
+      .font_title_en {
+          font-family: "db_helvethaica_x";
+          margin-top: 0.6em;
+          font-size: 3.4em;
+          font-weight: bold;
+          color: #FFF !important;
+      }
+
+      .font_title_jp {
+          font-family: "db_helvethaica_x";
+          font-size: 2.6em;
+          font-weight: bold;
+          color: #FFF !important;
+          margin-bottom: 2em;
+          margin-left: -2em;
+      }
+      .h4_th {
+          font-family: "db_helvethaica_x55_regular";
+          font-weight: normal;
+          color: #FFF !important;
+          font-size: 2.15em;
+          line-height: 1em !important;
+      }
+
+      .h4_en {
+          font-family: "db_helvethaica_x55_regular";
+          font-weight: normal;
+          color: #FFF !important;
+          font-size: 2.em;
+          line-height: 1em !important;
+      }
+
+      .h4_jp {
+          font-family: "db_helvethaica_x55_regular";
+          font-weight: normal;
+          color: #FFF !important;
+          font-size: 1.5em !important;
+          line-height: 2em !important;
+      }
+
+      .txt_menu_en_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        font-size: 1.72em;
+        display: inline;
+      }
+
+      .txt_head_story_th {
+          font-family: "db_helvethaica_x";
+          font-weight: bold;
+          color: #FFF !important;
+          font-size: 2.9em;
+          padding-left: 0rem;
+          padding-right: 1.5rem;
+          margin-top: 0.4em;
+      }
+
+      .txt_head_story_en {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 2.9em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        margin-top: 0.4em;
+      }
+
+      .txt_head_story_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 2.1em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        margin-top: 0.4em;
+      }
+
+      .txt_story_th {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.4em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+
+      }
+
+      .txt_story_en {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.3em;
+        padding-left: 0rem;
+        padding-right: 1.4rem;
+
+      }
+
+      .txt_story_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.4em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+
+      }
+
+      .txt_story_en_jp {
+          font-family: "db_helvethaica_x";
+          font-weight: normal;
+          color: #FFF !important;
+          font-size: 1.6em;
+          display: inline;
+          line-height: 1.1em;
+      }
+
+
+      .p_a_r_left{
+          padding-left: 4em;
+      }
+
+      .p_c_data_left{
+          padding-left: 5em;
+      }
+
+      .data_page {
+        margin-top: 2em;
+        padding-left: 4.5em;
+        list-style-type: none;
+      }
+
+      .w_100_px {
+        width: 7.5em;
+      }
+
+      .ul_line_height{
+         line-height: 1.45em;
+      }
+
+      .bg_popup {
+        background-image: url(../images/data/popup.png);
+        width: 960px;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-height: 90vh;
+        /* margin-left: auto; */
+        margin-right: auto;
+      }
+
+      .new_txt_top{
+        //margin-left: 5.5em;
+      }
+
+      .center_height {
+        margin-top: 1em;
+      }
+}
+@media (min-width: 2300px) and (max-width: 2399px){
+  .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.5em;
+      line-height: normal !important;
+    }
+
+    /*font */
+    .txt_m_data_c_g2{
+      width: 140%;
+    }
+
+    .txt_m_data_i_r3{
+      width: 160%;
+    }
+    .txt_m_data_d4{
+      width: 140%;
+    }
+    .txt_m_data_i_r4{
+      width: 160%;
+    }
+
+    .txt_m_data_s_i4{
+      width: 140%;
+    }
+    .txt_m_data_c_v1{
+      width: 140%;
+    }
+    .txt_m_data_c_g2{
+      width: 140%;
+    }
+
+    .txt_left_data_2{
+        margin-left: 1em;
+    }
+
+    .font_title_th {
+        font-family: "db_helvethaica_x";
+        margin-top: 0.6em;
+        font-size: 3.5em;
+        font-weight: bold;
+        color: #FFF !important;
+    }
+
+    .font_title_en {
+        font-family: "db_helvethaica_x";
+        margin-top: 0.6em;
+        font-size: 3.4em;
+        font-weight: bold;
+        color: #FFF !important;
+    }
+
+    .font_title_jp {
+        font-family: "db_helvethaica_x";
+        font-size: 2.6em;
+        font-weight: bold;
+        color: #FFF !important;
+        margin-bottom: 2em;
+        margin-left: -2em;
+    }
+    .h4_th {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.15em;
+        line-height: 1em !important;
+    }
+
+    .h4_en {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.em;
+        line-height: 1em !important;
+    }
+
+    .h4_jp {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.5em !important;
+        line-height: 2em !important;
+    }
+
+    .txt_menu_en_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      font-size: 1.72em;
+      display: inline;
+    }
+
+    .txt_head_story_th {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 2.9em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        margin-top: 0em;
+    }
+
+    .txt_head_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 2.9em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+    }
+
+    .txt_head_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 2.1em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+    }
+
+    .txt_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.4em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+
+    }
+
+    .txt_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.4em;
+      padding-left: 0rem;
+      padding-right: 1.4rem;
+
+    }
+
+    .txt_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.4em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+
+    }
+
+    .txt_story_en_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.6em;
+        display: inline;
+        line-height: 1.1em;
+    }
+
+    .p_a_r_left{
+        padding-left: 4em;
+    }
+
+    .p_c_data_left{
+        padding-left: 5em;
+    }
+
+    .data_page {
+      margin-top: 2em;
+      padding-left: 4.5em;
+      list-style-type: none;
+    }
+
+    .w_100_px {
+      width: 7.5em;
+    }
+
+    .ul_line_height{
+       line-height: 1.45em;
+    }
+    .bg_popup {
+        background-image: url(../images/data/popup.png);
+        width: 960px;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-height: 90vh;
+        /* margin-left: auto; */
+        margin-right: auto;
+    }
+    .new_txt_top{
+      //margin-left: 5.9em;
+    }
+
+    .center_height {
+      margin-top: 1em;
+    }
+}
+
+@media (min-width: 2400px)and (max-width: 2499px){
+  .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.6em;
+      line-height: normal !important;
+    }
+
+    /*font */
+    .txt_m_data_c_g2{
+      width: 140%;
+    }
+
+    .txt_m_data_i_r3{
+      width: 160%;
+    }
+    .txt_m_data_d4{
+      width: 140%;
+    }
+    .txt_m_data_i_r4{
+      width: 160%;
+    }
+
+    .txt_m_data_s_i4{
+      width: 140%;
+    }
+    .txt_m_data_c_v1{
+      width: 140%;
+    }
+    .txt_m_data_c_g2{
+      width: 160%;
+    }
+
+    .txt_left_data_2{
+        margin-left: 1em;
+    }
+
+    .font_title_th {
+        font-family: "db_helvethaica_x";
+        margin-top: 0.6em;
+        font-size: 3.5em;
+        font-weight: bold;
+        color: #FFF !important;
+    }
+
+    .font_title_en {
+        font-family: "db_helvethaica_x";
+        margin-top: 0.6em;
+        font-size: 3.4em;
+        font-weight: bold;
+        color: #FFF !important;
+    }
+
+    .font_title_jp {
+        font-family: "db_helvethaica_x";
+        font-size: 2.6em;
+        font-weight: bold;
+        color: #FFF !important;
+        margin-bottom: 2em;
+        margin-left: -2em;
+    }
+    .h4_th {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.2em;
+        line-height: 1em !important;
+    }
+
+    .h4_en {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.1em;
+        line-height: 1em !important;
+    }
+
+    .h4_jp {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.6em !important;
+        line-height: 2em !important;
+    }
+
+    .txt_menu_en_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      font-size: 1.75em;
+      display: inline;
+    }
+
+    .txt_head_story_th {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 3em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        margin-top: 0em;
+    }
+
+    .txt_head_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 3em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+    }
+
+    .txt_head_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 2.2em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+    }
+
+    .txt_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.5em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+
+    }
+
+    .txt_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.5em;
+      padding-left: 0rem;
+      padding-right: 1.4rem;
+
+    }
+
+    .txt_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.43em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+
+    }
+
+    .txt_story_en_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.64em;
+        display: inline;
+        line-height: 1.1em;
+    }
+
+
+    .p_a_r_left{
+        padding-left: 4em;
+    }
+
+    .p_c_data_left{
+        padding-left: 5em;
+    }
+
+    .data_page {
+      margin-top: 2em;
+      padding-left: 5.5em;
+      list-style-type: none;
+    }
+
+    .w_100_px {
+      width: 8em;
+    }
+
+    .ul_line_height{
+       line-height: 1.45em;
+    }
+
+    .bg_popup {
+      background-image: url(../images/data/popup.png);
+      width: 960px;
+      height: 800px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      max-height: 90vh;
+      /* margin-left: auto; */
+      margin-right: auto;
+    }
+
+    .new_txt_top{
+      //margin-left: 6em;
+    }
+    .center_height {
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 2500px)and (max-width: 2599px){
+  .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.7em;
+      line-height: normal !important;
+  }
+
+  /*font */
+  .txt_m_data_c_g2{
+    width: 140%;
+  }
+
+  .txt_m_data_i_r3{
+    width: 160%;
+  }
+  .txt_m_data_d4{
+    width: 140%;
+  }
+  .txt_m_data_i_r4{
+    width: 160%;
+  }
+
+  .txt_m_data_s_i4{
+    width: 140%;
+  }
+  .txt_m_data_c_v1{
+    width: 140%;
+  }
+  .txt_m_data_c_g2{
+    width: 160%;
+  }
+
+  .txt_left_data_2{
+      margin-left: 1em;
+  }
+
+  .font_title_th {
+      font-family: "db_helvethaica_x";
+      margin-top: 0.6em;
+      font-size: 3.5em;
+      font-weight: bold;
+      color: #FFF !important;
+  }
+
+  .font_title_en {
+      font-family: "db_helvethaica_x";
+      margin-top: 0.6em;
+      font-size: 3.4em;
+      font-weight: bold;
+      color: #FFF !important;
+  }
+
+  .font_title_jp {
+      font-family: "db_helvethaica_x";
+      font-size: 2.6em;
+      font-weight: bold;
+      color: #FFF !important;
+      margin-bottom: 2em;
+      margin-left: -2em;
+  }
+  .h4_th {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.2em;
+      line-height: 1em !important;
+  }
+
+  .h4_en {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.1em;
+      line-height: 1em !important;
+  }
+
+  .h4_jp {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.6em !important;
+      line-height: 2em !important;
+  }
+
+  .txt_menu_en_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    font-size: 1.75em;
+    display: inline;
+  }
+
+  .txt_head_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 3em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+  }
+
+  .txt_head_story_en {
+    font-family: "db_helvethaica_x";
+    font-weight: bold;
+    color: #FFF !important;
+    font-size: 3em;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+    margin-top: 0em;
+  }
+
+  .txt_head_story_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: bold;
+    color: #FFF !important;
+    font-size: 2.2em;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+    margin-top: 0em;
+  }
+
+  .txt_story_th {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 2.5em;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+
+  }
+
+  .txt_story_en {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 2.5em;
+    padding-left: 0rem;
+    padding-right: 1.4rem;
+
+  }
+
+  .txt_story_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.43em;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+
+  }
+
+  .txt_story_en_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.64em;
+      display: inline;
+      line-height: 1.1em;
+  }
+
+
+  .p_a_r_left{
+      padding-left: 4em;
+  }
+
+  .p_c_data_left{
+      padding-left: 5em;
+  }
+
+  .data_page {
+    margin-top: 2em;
+    padding-left: 5.5em;
+    list-style-type: none;
+  }
+
+  .w_100_px {
+    width: 8em;
+  }
+
+  .ul_line_height{
+     line-height: 1.45em;
+  }
+
+  .bg_popup {
+    background-image: url(../images/data/popup.png);
+    width: 960px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 90vh;
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+
+  .new_txt_top{
+    //margin-left: 6.4em;
+  }
+
+  .center_height {
+    margin-top: 1em;
+  }
+}
+@media (min-width: 2600px)and (max-width: 2699px){
+    .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.8em;
+      line-height: normal !important;
+    }
+
+    /*font */
+    .txt_m_data_c_g2{
+      width: 140%;
+    }
+
+    .txt_m_data_i_r3{
+      width: 160%;
+    }
+    .txt_m_data_d4{
+      width: 140%;
+    }
+    .txt_m_data_i_r4{
+      width: 160%;
+    }
+
+    .txt_m_data_s_i4{
+      width: 140%;
+    }
+    .txt_m_data_c_v1{
+      width: 140%;
+    }
+    .txt_m_data_c_g2{
+      width: 160%;
+    }
+
+    .txt_left_data_2{
+        margin-left: 1em;
+    }
+
+    .font_title_th {
+        font-family: "db_helvethaica_x";
+        margin-top: 0.6em;
+        font-size: 3.5em;
+        font-weight: bold;
+        color: #FFF !important;
+    }
+
+    .font_title_en {
+        font-family: "db_helvethaica_x";
+        margin-top: 0.6em;
+        font-size: 3.4em;
+        font-weight: bold;
+        color: #FFF !important;
+    }
+
+    .font_title_jp {
+        font-family: "db_helvethaica_x";
+        font-size: 2.6em;
+        font-weight: bold;
+        color: #FFF !important;
+        margin-bottom: 2em;
+        margin-left: -2em;
+    }
+    .h4_th {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.2em;
+        line-height: 1em !important;
+    }
+
+    .h4_en {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.1em;
+        line-height: 1em !important;
+    }
+
+    .h4_jp {
+        font-family: "db_helvethaica_x55_regular";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.6em !important;
+        line-height: 2em !important;
+    }
+
+    .txt_menu_en_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      font-size: 1.75em;
+      display: inline;
+    }
+
+    .txt_head_story_th {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 3.1em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        margin-top: 0em;
+    }
+
+    .txt_head_story_en {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 3.1em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        margin-top: 0em;
+    }
+
+    .txt_head_story_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: bold;
+        color: #FFF !important;
+        font-size: 2.3em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        margin-top: 0em;
+    }
+
+    .txt_story_th {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.6em;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+    }
+
+    .txt_story_en {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 2.6em;
+        padding-left: 0rem;
+        padding-right: 1.4rem;
+    }
+
+    .txt_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.43em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+
+    }
+
+    .txt_story_en_jp {
+        font-family: "db_helvethaica_x";
+        font-weight: normal;
+        color: #FFF !important;
+        font-size: 1.64em;
+        display: inline;
+        line-height: 1.1em;
+    }
+
+
+    .p_a_r_left{
+        padding-left: 4em;
+    }
+
+    .p_c_data_left{
+        padding-left: 5em;
+    }
+
+    .data_page {
+      margin-top: 2em;
+      padding-left: 5.5em;
+      list-style-type: none;
+    }
+
+    .w_100_px {
+      width: 7Fem;
+    }
+
+    .ul_line_height{
+       line-height: 1.45em;
+    }
+
+    .bg_popup {
+      background-image: url(../images/data/popup.png);
+      width: 960px;
+      height: 800px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      max-height: 90vh;
+      /* margin-left: auto; */
+      margin-right: auto;
+    }
+
+    .new_txt_top{
+      //margin-left: 6.8em;
+    }
+    .center_height {
+      margin-top: 1em;
+    }
+}
+@media (min-width: 2700px)and (max-width: 2799px){
+
+  .txt_story_left_la {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 2.8em;
+    line-height: normal !important;
+  }
+
+  /*font */
+  .txt_m_data_c_g2{
+    width: 140%;
+  }
+
+  .txt_m_data_i_r3{
+    width: 160%;
+  }
+  .txt_m_data_d4{
+    width: 140%;
+  }
+  .txt_m_data_i_r4{
+    width: 160%;
+  }
+
+  .txt_m_data_s_i4{
+    width: 140%;
+  }
+  .txt_m_data_c_v1{
+    width: 140%;
+  }
+  .txt_m_data_c_g2{
+    width: 160%;
+  }
+
+  .txt_left_data_2{
+      margin-left: 1em;
+  }
+
+  .font_title_th {
+      font-family: "db_helvethaica_x";
+      margin-top: 0.6em;
+      font-size: 3.5em;
+      font-weight: bold;
+      color: #FFF !important;
+  }
+
+  .font_title_en {
+      font-family: "db_helvethaica_x";
+      margin-top: 0.6em;
+      font-size: 3.4em;
+      font-weight: bold;
+      color: #FFF !important;
+  }
+
+  .font_title_jp {
+      font-family: "db_helvethaica_x";
+      font-size: 2.6em;
+      font-weight: bold;
+      color: #FFF !important;
+      margin-bottom: 2em;
+      margin-left: -2em;
+  }
+  .h4_th {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.2em;
+      line-height: 1em !important;
+  }
+
+  .h4_en {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.1em;
+      line-height: 1em !important;
+  }
+
+  .h4_jp {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.6em !important;
+      line-height: 2em !important;
+  }
+
+  .txt_menu_en_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    font-size: 1.75em;
+    display: inline;
+  }
+
+  .txt_head_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 3.1em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+  }
+
+  .txt_head_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 3.1em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+  }
+
+  .txt_head_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 2.3em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+  }
+
+  .txt_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.6em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+  }
+
+  .txt_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.6em;
+      padding-left: 0rem;
+      padding-right: 1.4rem;
+  }
+
+  .txt_story_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.43em;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+
+  }
+
+  .txt_story_en_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.64em;
+      display: inline;
+      line-height: 1.1em;
+  }
+
+
+  .p_a_r_left{
+      padding-left: 4em;
+  }
+
+  .p_c_data_left{
+      padding-left: 5em;
+  }
+
+  .data_page {
+    margin-top: 2em;
+    padding-left: 5.5em;
+    list-style-type: none;
+  }
+
+  .w_100_px {
+    width: 7.42em;
+  }
+
+  .ul_line_height{
+     line-height: 1.45em;
+  }
+
+  .bg_popup {
+    background-image: url(../images/data/popup.png);
+    width: 960px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 90vh;
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+
+  .new_txt_top{
+    //margin-left: 7em;
+  }
+  .center_height {
+    margin-top: 1em;
+  }
+}
+@media (min-width: 2800px)and (max-width: 2899px){
+  .txt_story_left_la {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 2.9em;
+    line-height: normal !important;
+  }
+  /*font */
+  .txt_m_data_c_g2{
+    width: 140%;
+  }
+
+  .txt_m_data_i_r3{
+    width: 160%;
+  }
+  .txt_m_data_d4{
+    width: 140%;
+  }
+  .txt_m_data_i_r4{
+    width: 160%;
+  }
+
+  .txt_m_data_s_i4{
+    width: 140%;
+  }
+  .txt_m_data_c_v1{
+    width: 140%;
+  }
+  .txt_m_data_c_g2{
+    width: 160%;
+  }
+
+  .txt_left_data_2{
+      margin-left: 1em;
+  }
+
+  .font_title_th {
+      font-family: "db_helvethaica_x";
+      margin-top: 0.6em;
+      font-size: 3.5em;
+      font-weight: bold;
+      color: #FFF !important;
+  }
+
+  .font_title_en {
+      font-family: "db_helvethaica_x";
+      margin-top: 0.6em;
+      font-size: 3.4em;
+      font-weight: bold;
+      color: #FFF !important;
+  }
+
+  .font_title_jp {
+      font-family: "db_helvethaica_x";
+      font-size: 2.6em;
+      font-weight: bold;
+      color: #FFF !important;
+      margin-bottom: 2em;
+      margin-left: -2em;
+  }
+  .h4_th {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.2em;
+      line-height: 1em !important;
+  }
+
+  .h4_en {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.1em;
+      line-height: 1em !important;
+  }
+
+  .h4_jp {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.6em !important;
+      line-height: 2em !important;
+  }
+
+  .txt_menu_en_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    font-size: 1.75em;
+    display: inline;
+  }
+
+  .txt_head_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 3.1em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+  }
+
+  .txt_head_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 3.1em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+  }
+
+  .txt_head_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 2.3em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+  }
+
+  .txt_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.6em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+  }
+
+  .txt_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.6em;
+      padding-left: 0rem;
+      padding-right: 1.4rem;
+  }
+
+  .txt_story_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.43em;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+
+  }
+
+  .txt_story_en_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.64em;
+      display: inline;
+      line-height: 1.1em;
+  }
+
+
+  .p_a_r_left{
+      padding-left: 4em;
+  }
+
+  .p_c_data_left{
+      padding-left: 5em;
+  }
+
+  .data_page {
+    margin-top: 2em;
+    padding-left: 5.5em;
+    list-style-type: none;
+  }
+
+  .w_100_px {
+    width: 7em;
+  }
+
+  .ul_line_height{
+     line-height: 1.45em;
+  }
+
+  .bg_popup {
+    background-image: url(../images/data/popup.png);
+    width: 960px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 90vh;
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+
+  .new_txt_top{
+    //margin-left: 7.4em;
+  }
+  .center_height {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 2900px)and (max-width: 2999px){
+  .txt_story_left_la {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 2.9em;
+    line-height: normal !important;
+  }
+  /*font */
+  .txt_m_data_c_g2{
+    width: 140%;
+  }
+
+  .txt_m_data_i_r3{
+    width: 160%;
+  }
+  .txt_m_data_d4{
+    width: 140%;
+  }
+  .txt_m_data_i_r4{
+    width: 160%;
+  }
+
+  .txt_m_data_s_i4{
+    width: 140%;
+  }
+  .txt_m_data_c_v1{
+    width: 140%;
+  }
+  .txt_m_data_c_g2{
+    width: 160%;
+  }
+
+  .txt_left_data_2{
+      margin-left: 1em;
+  }
+
+  .font_title_th {
+      font-family: "db_helvethaica_x";
+      margin-top: 0.6em;
+      font-size: 3.5em;
+      font-weight: bold;
+      color: #FFF !important;
+  }
+
+  .font_title_en {
+      font-family: "db_helvethaica_x";
+      margin-top: 0.6em;
+      font-size: 3.4em;
+      font-weight: bold;
+      color: #FFF !important;
+  }
+
+  .font_title_jp {
+      font-family: "db_helvethaica_x";
+      font-size: 2.6em;
+      font-weight: bold;
+      color: #FFF !important;
+      margin-bottom: 2em;
+      margin-left: -2em;
+  }
+  .h4_th {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.2em;
+      line-height: 1em !important;
+  }
+
+  .h4_en {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.1em;
+      line-height: 1em !important;
+  }
+
+  .h4_jp {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.6em !important;
+      line-height: 2em !important;
+  }
+
+  .txt_menu_en_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    font-size: 1.75em;
+    display: inline;
+  }
+
+  .txt_head_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 3.1em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+  }
+
+  .txt_head_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 3.1em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+  }
+
+  .txt_head_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 2.3em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0em;
+  }
+
+  .txt_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.6em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+  }
+
+  .txt_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.6em;
+      padding-left: 0rem;
+      padding-right: 1.4rem;
+  }
+
+  .txt_story_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.43em;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+
+  }
+
+  .txt_story_en_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.64em;
+      display: inline;
+      line-height: 1.1em;
+  }
+
+
+  .p_a_r_left{
+      padding-left: 4em;
+  }
+
+  .p_c_data_left{
+      padding-left: 5em;
+  }
+
+  .data_page {
+    margin-top: 2em;
+    padding-left: 5.5em;
+    list-style-type: none;
+  }
+
+  .w_100_px {
+    width: 7.42em;
+  }
+
+  .ul_line_height{
+     line-height: 1.45em;
+  }
+
+  .bg_popup {
+    background-image: url(../images/data/popup.png);
+    width: 960px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 90vh;
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+  .new_txt_top{
+    //margin-left: 7.8em;
+  }
+  .center_height {
+    margin-top: 1em;
+  }
+}
+@media (min-width: 3000px){
+  .center_height {
+    margin-top: 1em;
+  }
+  .bar_menu_row_jp{
+      margin-top: 1em;
+  }
+  .bar_menu_rows_jp{
+      margin-top: 0.4em;
+  }
+  .txt_story_left_la {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 3.2em;
+      line-height: normal !important;
+  }
+  /*font */
+  .txt_m_data_c_g2{
+    width: 140%;
+  }
+
+  .txt_m_data_i_r3{
+    width: 160%;
+  }
+  .txt_m_data_d4{
+    width: 140%;
+  }
+  .txt_m_data_i_r4{
+    width: 160%;
+  }
+
+  .txt_m_data_s_i4{
+    width: 140%;
+  }
+  .txt_m_data_c_v1{
+    width: 140%;
+  }
+  .txt_m_data_c_g2{
+    width: 160%;
+  }
+
+  .txt_left_data_2{
+      margin-left: 1em;
+  }
+
+  .font_title_th {
+      font-family: "db_helvethaica_x";
+      margin-top: 0.6em;
+      font-size: 3.6em;
+      font-weight: bold;
+      color: #FFF !important;
+  }
+
+  .font_title_en {
+      font-family: "db_helvethaica_x";
+      margin-top: 0.6em;
+      font-size: 3.5em;
+      font-weight: bold;
+      color: #FFF !important;
+  }
+
+  .font_title_jp {
+      font-family: "db_helvethaica_x";
+      font-size: 2.8em;
+      font-weight: bold;
+      color: #FFF !important;
+      margin-bottom: 2em;
+      margin-left: -2em;
+  }
+  .h4_th {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.3em;
+      line-height: 1em !important;
+  }
+
+  .h4_en {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 2.3em;
+      line-height: 1em !important;
+  }
+
+  .h4_jp {
+      font-family: "db_helvethaica_x55_regular";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.8em !important;
+      line-height: 2em !important;
+  }
+
+  .txt_menu_en_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    font-size: 1.8em;
+    display: inline;
+  }
+
+  .txt_head_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 3.3em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0.4em;
+  }
+
+  .txt_head_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 3.3em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0.4em;
+  }
+
+  .txt_head_story_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: bold;
+      color: #FFF !important;
+      font-size: 2.5em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+      margin-top: 0.4em;
+  }
+
+  .txt_story_th {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 3em;
+      padding-left: 0rem;
+      padding-right: 1.5rem;
+  }
+
+  .txt_story_en {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 3em;
+      padding-left: 0rem;
+      padding-right: 1.4rem;
+  }
+
+  .txt_story_jp {
+    font-family: "db_helvethaica_x";
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 1.7em;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+
+  }
+
+  .txt_story_en_jp {
+      font-family: "db_helvethaica_x";
+      font-weight: normal;
+      color: #FFF !important;
+      font-size: 1.64em;
+      display: inline;
+      line-height: 1.1em;
+  }
+
+
+  .p_a_r_left{
+      padding-left: 4em;
+  }
+
+  .p_c_data_left{
+      padding-left: 5em;
+  }
+
+  .data_page {
+    margin-top: 2em;
+    padding-left: 5.5em;
+    list-style-type: none;
+  }
+
+  .w_100_px {
+    width: 7.42em;
+  }
+
+  .ul_line_height{
+     line-height: 1.45em;
+  }
+  .bg_popup {
+    background-image: url(../images/data/popup.png);
+    width: 960px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 90vh;
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+  .new_txt_top{
+    //margin-left: 8.2em;
+  }
+}
+.bg-inverse {
+    background-color: #ffffff!important;
+    box-shadow: 0px 5px 5px #333333;
+ }
+
+
+.bg_captions{
+    height: 100vh;
+    width: 100vw;
+}
+
+.carousel {
+    position: initial;
+}
+
+ul .setting li {
+    float: left;
+}
+
+/*data
+.close{
+    margin-top: 5px;
+    margin-right: 5px;
+ }*/
+/*data*/
+.center {
+    margin: auto;
+    width: 99%;
+    border: 3px solid green;
+    padding: 0px;
+}
+
+
+
+.menu_action{
+    color: #DB022B;
+}
+
+a .menu_right{
+    color: #333333 !important;
+}
+
+.menu_data{
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+
+
+
+.menu1 {
+    /*margin-top: 1.5em;
+    height: 1em;*/
+    width: 110%;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em
+}
+.menu_bs {
+    margin-top: 1em;
+    height: 1em;
+}
+#title_page{
+
+}
+
+
+/**select action*/
+.carousel-indicators .active {
+    background-image: url('../images/index/select_b_action.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    max-width: 48px;
+    height: 48px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+      background-image: url('../images/index/select_b.png');
+    background-color: rgba(255,255,255,.0);
+}
+.carousel-indicators .active {
+     background-color: transparent;
+}
+/***/
+
+.modal-content {
+   /* background-color: transparent;
+    border:0 !important;*/
+
+}
+
+.table td, .table th {
+     padding: 0rem;
+    vertical-align: top;
+    border-top: 0px solid #F00;
+   text-indent: 0rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
+.pop_network {
+    cursor:pointer
+}
+
+
+.menu_title_action {
+     font-family:"db_helvethaica_x75_bold";
+     font-weight: bold;
+   /* font-size: 2.1em;
+    margin-top: 10px !important;*/
+    color: #F00 !important;
+    text-decoration: underline !important;
+}
+
+
+
+.a_download{
+    cursor:pointer;
+}
+
+.txt_jp{
+    display: inline;
+}
+.txt_en{
+    display: inline;
+}
+.txt_story_en_jp{
+    display: inline;
+}
+.padding_defual{
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+}
+
+.menu_job_action{
+    color: red !important;
+}
+
+
+
+.title_job:hover{
+
+   color: #F00 !important;
+   text-decoration: underline !important;
+}
+.line_job1 {
+    width: 100%;
+    border-bottom: 1.2px solid #FFF;
+}
+.line_job2 {
+    width: 100%;
+    border-bottom: 1.2px solid #FFF;
+}
+
+.top1_em{
+	margin-top:1em;
+}
+
+.top2_em{
+	margin-top:2.2em;
+}
+
+
+.btn1 {
+
+	-webkit-box-shadow: inset 0px 1px 0px rgba(255,255,255,.2);
+	-moz-box-shadow: inset 0px 1px 0px rgba(255,255,255,.2);
+	box-shadow: inset 0px 1px 0px rgba(255,255,255,.2);
+
+	color: #fff;
+	width: 100px;
+	line-height: 30px;
+}
+
+.btn-blue {
+
+	background-color: #dadada;
+
+/* 	background-image: linear-gradient(bottom, #dadada 0%, #0194DD 56%);
+	background-image: -o-linear-gradient(bottom, #dadada 0%, #0194DD 56%);
+	background-image: -moz-linear-gradient(bottom, #dadada 0%, #0194DD 56%);
+	background-image: -webkit-linear-gradient(bottom, #dadada 0%, #0194DD 56%);
+	background-image: -ms-linear-gradient(bottom, #dadada 0%, #0194DD 56%);
+	background-image: -webkit-gradient(
+		linear,
+		right bottom,
+		right top,
+		color-stop(0, #dadada),
+		color-stop(0.56, #dadada)
+	);
+	 */
+	border: solid #dadada 1px;
+	margin-top:1em;
+	width: 30%;
+}
+
+
+.btn-golden {
+
+	background-color: #DD9201; /* 1774A3, 0192DD : A37417, DD9201 */
+	background-image: linear-gradient(bottom, #A37417 0%, #DD9201 56%);
+	background-image: -o-linear-gradient(bottom, #A37417 0%, #DD9201 56%);
+	background-image: -moz-linear-gradient(bottom, #A37417 0%, #DD9201 56%);
+	background-image: -webkit-linear-gradient(bottom, #A37417 0%, #DD9201 56%);
+	background-image: -ms-linear-gradient(bottom, #A37417 0%, #DD9201 56%);
+	background-image: -webkit-gradient(
+		linear,
+		right bottom,
+		right top,
+		color-stop(0, #A37417),
+		color-stop(0.56, #DD9201)
+	);
+	text-shadow: none;
+	border: solid #bb7200 1px;
+	border-bottom: solid #995200 1px;
+}
+
+.input {
+
+	border: solid #777 1px;
+	height: 35px;
+	line-height: 30px;
+
+	background: #fff;
+	-webkit-box-shadow: inset 0px 2px 0px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0px 2px 0px rgba(0,0,0,.05);
+	box-shadow: inset 0px 2px 0px rgba(0,0,0,.05);
+
+	color: #777;
+	text-shadow: 0px 1px 0px #fff;
+
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	width: 70%;
+}
+/* .input-left {
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-right: none;
+
+}
+.input-right {
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+
+	border-left: none;
+
+} */
+input {
+
+}
+
+.top_1_5{
+  margin-top: 1.5em;
+}
+
+.top_1{
+  margin-top: 1em;
+}
+
+.i_r_m_6{
+  width:150%;
+}
+
+.click_pointer{
+    cursor:pointer;
+}
+
+.click_pointer1{
+    cursor:pointer;
+}
+
+.click_pointer2{
+    cursor:pointer;
+}
+
+#txt_m_data_10{
+  width: 120%;
+}
+
+.new_register{
+   display: block;
+    margin-top: -1.5em !important;
+}
+
+.pad-l2{
+	padding-left: 2em;
+}
+
+pre {
+    color: #fff !important;
+}
+
+input{
+  font-family: "db_helvethaica_x";
+}
+
+textarea {
+	font-family: "db_helvethaica_x";
+  padding-left: 0px !important;
+   padding-right: 0px !important;
+}
+
+.bar-top{
+  top: 1.01em;
+}
+
+.img_download{
+  cursor: pointer;
+}
+
+.img_download_jpg{
+  cursor: pointer;
+  margin-right: auto;
+    margin-left: auto;
+}
+
+
+#download_pop_up{
+   position: absolute;
+   bottom: 1.5em;
+   text-align: center;
+   width:90%;
+}
+
+#bu_close{
+    color: #ffffff;
+    position: absolute;
+    top: 0.2em;
+    right: 0.4em;
+    font-size: 3em;
+
+
+}
+
+ .img_download_jpg {
+  
+      background-image: url("../images/download_new1.png");
+      /* background-size: 80% 80%; */
+      background-repeat: round;
+      height: 20px;
+      width: 24px;
+      bottom: 1em;
+    }
