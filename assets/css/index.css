@@ -1,6 +1,15 @@
 
 @media only screen and (max-width: 575.99px){ 
 	/*menu_bar*/
+	.text-center_2{
+		text-align: center!important;
+	}
+
+	.w-50-2{
+		width: 50%;
+	}
+
+
 	.overlay {
         height: 100%;
         width: 0;
@@ -2156,6 +2165,24 @@
 	.products_button{
 		font-size: 0.6em;
 	}
+
+	.product_menu_filter{
+		width: 50%;
+	}
+
+
+	
+	.justify-content-end-2 {
+	    -webkit-box-pack: end!important;
+	    -ms-flex-pack: end!important;
+	    justify-content: flex-end!important;
+	}	
+
+	.d-flex-2{
+	    display: -webkit-box!important;
+	    display: -ms-flexbox!important;
+	    display: flex!important;
+	}
 	/* products */
 	/* product details*/
  	.bg_products_white{
@@ -2775,7 +2802,9 @@
 	}
 
 	/*register*/
+	
 
+	
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -3654,6 +3683,26 @@
 
 	.products_button{
 		font-size: 0.6em;
+	}
+
+	.product_menu_filter{
+		width: 50%;
+	}
+
+	.w-50-2{
+		width: 35%;
+	}
+
+	.justify-content-end-2 {
+	    -webkit-box-pack: end!important;
+	    -ms-flex-pack: end!important;
+	    justify-content: flex-end!important;
+	}	
+
+	.d-flex-2{
+	    display: -webkit-box!important;
+	    display: -ms-flexbox!important;
+	    display: flex!important;
 	}
 	/* products */
 	/* product details*/
@@ -4950,6 +4999,24 @@
 		max-width: 40%;
 		height: auto;
 	}
+
+	.product_menu_filter{
+		width: 50%;
+	}
+	.w-50-2{
+		width: 35%;
+	}
+	.justify-content-end-2 {
+	    -webkit-box-pack: end!important;
+	    -ms-flex-pack: end!important;
+	    justify-content: flex-end!important;
+	}	
+
+	.d-flex-2{
+	    display: -webkit-box!important;
+	    display: -ms-flexbox!important;
+	    display: flex!important;
+	}
 	/* products */
 	/* product details*/
  	.bg_products_white{
@@ -6022,6 +6089,26 @@
 	.product_icon_head{
 		max-width: 40%;
 		height: auto;
+	}
+
+	.product_menu_filter{
+		width: 50%;
+	}
+
+	.w-50-2{
+		width: 35%;
+	}
+
+	.justify-content-end-2 {
+	    -webkit-box-pack: end!important;
+	    -ms-flex-pack: end!important;
+	    justify-content: flex-end!important;
+	}	
+
+	.d-flex-2{
+	    display: -webkit-box!important;
+	    display: -ms-flexbox!important;
+	    display: flex!important;
 	}
 
 	/* products */
