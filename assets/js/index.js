@@ -1,7 +1,18 @@
 
 $(document).ready(function(){
+	/* update 11/03/2018 */
+	AOS.init({
+          offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+      });
+	/* update 11/03/2018 */
+	
  	close_sub_menu();
  	$('.element').hide();
+
+
 });
 
 

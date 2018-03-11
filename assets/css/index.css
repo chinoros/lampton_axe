@@ -324,6 +324,11 @@
 		font-size: 0.9em;
 		padding-bottom: 0.1em;
 	}
+	/*update 11/03/2018*/
+	.i_footer_title4 {
+	    font-size: 0.65em;
+	}
+	 /*update 11/03/2018*/
 
 	.i_footer_inline {
 		display: inline;
@@ -8358,7 +8363,7 @@ ul .no_style {
 	overflow: hidden;
 
 }
-
+/*update 11/03/2018*/
 .item_img .zoom{
 	max-width: 100%;
 	-moz-transition: all 0.3s;
@@ -8376,7 +8381,7 @@ ul .no_style {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
-
+/*update 11/03/2018*/
 
 .bg_white1{
 	background-color: #ffffff;
