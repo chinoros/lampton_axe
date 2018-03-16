@@ -1474,6 +1474,28 @@
 	    font-weight: bold;
 	}
 		/*payment*/
+
+		/*text*/
+	.text_title{
+		font-size: 1em;
+	}
+
+	.text_big{
+		font-size: 0.9em;
+	}
+
+	.text_body{
+		font-size: 0.8em;
+	}
+	
+	.text_small{
+		font-size: 0.6em;
+	}
+
+	.text_small_1{
+		font-size: 0.6em;
+	}
+	/*text*/
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -2970,6 +2992,28 @@
 	    font-weight: bold;
 	}
 	/*register*/
+
+	/*text*/
+	.text_title{
+		font-size: 1em;
+	}
+
+	.text_big{
+		font-size: 0.9em;
+	}
+
+	.text_body{
+		font-size: 0.8em;
+	}
+	
+	.text_small{
+		font-size: 0.6em;
+	}
+
+	.text_small_1{
+		font-size: 0.6em;
+	}
+	/*text*/
 	
 }
 
@@ -4651,7 +4695,28 @@
 	    font-weight: bold;
 	}
 	/*payment*/
+
+	/*text*/
+	.text_title{
+		font-size: 1.1em;
+	}
+
+	.text_big{
+		font-size: 1em;
+	}
+
+	.text_body{
+		font-size: 0.9em;
+	}
 	
+	.text_small{
+		font-size: 0.7em;
+	}
+
+	.text_small_1{
+		font-size: 0.6em;
+	}
+	/*text*/
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -6315,6 +6380,28 @@
 	    font-weight: bold;
 	}
 	/*payment*/
+
+	/*text*/
+	.text_title{
+		font-size: 1.2em;
+	}
+
+	.text_big{
+		font-size: 1.1em;
+	}
+
+	.text_body{
+		font-size: 1em;
+	}
+	
+	.text_small{
+		font-size: 0.8em;
+	}
+
+	.text_small_1{
+		font-size: 0.7em;
+	}
+	/*text*/
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -7940,8 +8027,31 @@
 		font-size: 1.1em;
 	}
 	/*register*/
+
+	/*text*/
+	.text_title{
+		font-size: 1.2em;
+	}
+
+	.text_big{
+		font-size: 1.1em;
+	}
+
+	.text_body{
+		font-size: 1em;
+	}
+	
+	.text_small{
+		font-size: 0.8em;
+	}
+
+	.text_small_1{
+		font-size: 0.75em;
+	}
+	/*text*/
 }
-/*1200*/
+
+	 /*1200*/
 .text-underline {
  	text-decoration: underline;
 }
@@ -8443,3 +8553,29 @@ a , a:hover{
  .close_product {
 	cursor: pointer;
  }
+
+.line_dashed_1{
+	border: 1px dashed #dee2e6!important;
+}
+
+.line_dashed_top{
+	border-top: 1px dashed #dee2e6!important;
+}
+
+.line_solid_top{
+	border-top: 1px solid #dee2e6!important;
+}
+
+.line_solid{
+	border: 1px solid #dee2e6!important;
+}
+
+.table-solid-bordered td, .table-solid-bordered th{
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+ }
+	
+
+.line_dashed_left{
+	border-right: 1px dashed #dee2e6!important;
+}
