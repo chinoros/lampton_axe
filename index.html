@@ -16,6 +16,85 @@
  <!--update 11/03/2018-->
   </head>
   <body>
+
+    <!-- modalLogin  -->
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content ">
+          <div class="w-100 text-right pr-3 pt-3">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="pl-sm-3 pr-sm-3  pl-md-3 pr-md-3 pl-lg-5 pr-lg-5">
+            <div class="modal-header pl-0 pr-0" style="display:block;">
+              <div class="text-right w-100 d-block"> 
+                
+            </div><br>
+              <div class="w-100 d-inline-block">
+                <div class="w-49 d-inline-block text-left align-bottom text_title text_bold " >LOGIN</div>
+                <div class="w-49 d-inline-block text-right">
+                  <button class="btn  btn-lg i_button  w-50 i_button text_bold   border_orange bg_transparent orange_text">
+                  <div class="ml-lg-3 mr-lg-3 ml-md-0 mr-md-0">
+                    
+                    <div class="align-middle d-inline  text_body">REGISTER
+                    </div>
+                  </div>
+                </button>
+                </div>  
+              </div>
+            </div>
+            <div class="modal-body  d-flex justify-content-center">
+                <div class="w-75 mt-4 mb-4">
+                  <div class="text_body text_bold mb-3">Email</div>
+              <input type="text" name="email" class="form-control mb-3" placeholder="Email">
+            
+                  <div class="text_body text_bold mb-2">Password</div>
+              <input type="text" name="password" class="form-control mb-3" placeholder="Password">
+              <div class="w-100 text-right text_small orange_text  mb-4">Forgot your password?</div>
+
+              <div class="text-center"> 
+                  <button class="btn  btn-lg i_button  w-50 i_button text_bold orange_bg ">
+                  <div class="ml-lg-3 mr-lg-3 ml-md-0 mr-md-0">
+                    
+                    <div class="align-middle d-inline  text_body">LOGIN
+                    </div>
+                  </div>
+                </button>
+                 </div>
+            </div>
+            </div>
+            <div class="modal-footer pl-0 pr-0 ">
+              <div class="w-100 d-lg-flex mt-xs-2">
+              <div class="text-lg-left text-sm-center text-xs-center w-100 mt-lg-3 mb-lg-5 mb-xs-1 mb-sm-2"> 
+                <button class="btn btn-primary btn-lg i_button   i_button text_bold bg_facebook  ">
+                  <div class="ml-lg-3 mr-lg-3 ml-md-0 mr-md-0">
+                    <img src="assets/images/f.png" class="img-fluid d-inline">
+                    <div class="align-middle d-inline  text_body">LOGIN WITH FACEBOOK</div>
+                  </div>
+                </button>
+            </div>
+
+            <div class="text-lg-right text-sm-center text-xs-center w-100 mt-lg-3 mb-lg-5 mb-xs-1"> 
+              <button class="btn btn-primary btn-lg i_button i_button  text_bold bg_google">
+                  <div class="ml-lg-3 mr-lg-3 ml-md-0 mr-md-0">
+                    <img src="assets/images/g.png" class="img-fluid d-inline">
+                    <div class="align-middle d-inline  text_body">LOGIN WITH GOOGLE</div>
+                  </div>
+              </button>
+              
+                
+            </div>
+            
+          </div>
+          
+            </div>
+            <div id="login_or" class="text_body text-center">Or</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- modalLogin  -->
     <!--header.html-->
 <!-- mobile-->
 <div id="myNav" class="overlay d-lg-none">
@@ -80,7 +159,9 @@
         </div>
       </div>
       <div class="pop_menu_txt p-3">
-        Login  |  Register
+        <a class="" data-toggle="modal" data-target="#modalLogin">
+  LOGIN
+</a> |  Register
         <div class="line_popup"></div>
       </div>
     </div>
