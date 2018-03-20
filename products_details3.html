@@ -190,23 +190,26 @@
 												
 										      <ul class="products-img-small h-100 " id="img_small">
 										      	 <li class="product_arrow"><div class="arrow_top mouse_click" id="arrow_top">&#708;</div></li>
-												<li id="img_small_1" ><img class="product_de_img_small" src="assets/images/products/LED Smart Emergency_10w_MT.jpg" class="mouse_img_small" ></li>
+												<li id="img_small_1" >
+													<img class="product_de_img_small " src="assets/images/products/LED Smart Emergency_10w_MT.jpg" class="mouse_img_small" id="img_1">
+												</li>
 												<li id="img_small_2" >
-													<img class="product_de_img_small" src="assets/images/products/LED A60.jpg"></li>
+													<img class="product_de_img_small" src="assets/images/products/LED A60.jpg" id="img_2">
+												</li>
 												<li id="img_small_3">
-													<img class="product_de_img_small " src="assets/images/products/LED Dewy_ora.jpg" >
+													<img class="product_de_img_small " src="assets/images/products/LED Dewy_ora.jpg" id="img_3">
 												</li>
 												<li id="img_small_4">
-													<img class="product_de_img_small" src="assets/images/products/LED Mercury.jpg" >
+													<img class="product_de_img_small" src="assets/images/products/LED Mercury.jpg" id="img_4">
 												</li>
 												<li id="img_small_5">
-													<img class="product_de_img_small" src="assets/images/products/LED Smart Emergency_10w_MT.jpg" >
+													<img class="product_de_img_small" src="assets/images/products/LED Smart Emergency_10w_MT.jpg" id="img_5">
 												</li>
 												<li id="img_small_6">
-													<img class="product_de_img_small" src="assets/images/products/LED A60.jpg">
+													<img class="product_de_img_small" src="assets/images/products/LED A60.jpg" id="img_6">
 												</li>
 												<li id="img_small_7">
-													<img class="product_de_img_small" src="assets/images/products/LED Dewy_ora.jpg">
+													<img class="product_de_img_small" src="assets/images/products/LED Dewy_ora.jpg" id="img_7">
 												</li>
 												<li class="product_arrow">
 													<div class="arrow_top mouse_click" id="arrow_bottom">&#709;</div>
@@ -250,18 +253,21 @@
 														
 													</div>	
 												</li>
+
+												<!-- 13/3/2018--> 
 												<li class="test3">
+													<input type="hidden" name="count" id="count" value="1">
 													<div class="d-inline mb-2 ">
 													  <ul class="pagination pagination-md mobile_details_top">
-													    <li class="page-item ">
-													      <a class="page-link product_count_add" href="#" tabindex="-1">+</a>
+													    <li class="page-item page-link product_count_add plus" >+
 													    </li>
-													    <li class="page-item product_count">1</li>
-													    <li class="page-item">
-													    	<a class="page-link product_count_add" href="#">-</a></li>
+													    <li class="page-item product_count" id="count_show_mobile">
+													    1</li>
+													    <li class="page-item page-link product_count_add minus">-</li>
 													  </ul>
 													</div>
 												</li>
+												<!-- 13/3/2018-->
 											</ul>
 										</div>
 										<!--mobile-->
@@ -272,12 +278,12 @@
 										<div class="line_full"></div>
 										<div class="d-none d-md-block"><div class="d-inline mb-2 ">
 										  <ul class="pagination pagination-md ">
-										    <li class="page-item ">
-										      <a class="page-link product_count_add" href="#" tabindex="-1">+</a>
+										  	<!-- 13/3/2018-->
+										    <li class="page-item page-link product_count_add plus" >+
 										    </li>
-										    <li class="page-item product_count">1</li>
-										    <li class="page-item">
-										    	<a class="page-link product_count_add" href="#">-</a></li>
+										    <li class="page-item product_count" id="count_show">1</li>
+										    <li class="page-item page-link product_count_add minus" >-</li>
+										    <!-- 13/3/2018-->
 										  </ul>
 										</div>
 										<div class="d-inline product_details_right"><button type="button" class="btn btn-white products_button btn-lg  products_bu_details orange_bg " data-toggle="modal" data-target="#modalCart">ADD TO CART</button></div>
@@ -493,23 +499,85 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
 		<script type="text/javascript">
+			
 			var c_img_small ;
 			var icount=0;
 			var count_img=5;
+            var countImg=0;
+
 
 			$(document).ready(function(){
+				start();
+				var next_img = function(){
+					/* add class and remove */
+					$('#img_'+countImg).removeClass("img_border");
+				 	countImg =+countImg+1;
+				  	$('#img_'+countImg).addClass("img_border");
+				  	/* add class and remove */
 
-				if ($(window).width() < 767.99) {
-    				$("#body_detail").removeClass("container");
-    				$("#body_detail").addClass( "container-fluid" );
-    				$("#body_detail").addClass( "no_padding" );
+				  	/*show img big*/
+				  	var img1= $('#img_small_'+countImg).find("img");
+				  	var url = $(img1).attr('src');
+				  	$('#product_img_big').attr("src", url);
+				  	/*show img big*/
+
+				  	if(countImg > 5){
+				  	    //5+1 -5
+				  	   	var c = countImg - count_img;
+				  	   	//alert(countImg);
+				  	   	//$('#img_small_1').hide();
+				  	   	$('#img_small_'+(countImg)).show();
+				  		$('#img_small_'+c).hide();
+				  		/*$('#img_small_'+(countImg+1)).show();*/
+				  	}
+				  	//alert(countImg+" < "+c_img_small);
+					if(countImg > c_img_small-1){
+						$('#arrow_bottom').hide();
+					}
+                   
+					if(countImg < c_img_small+1){
+					  	setTimeout(next_img, 3000);
+					}else{
+					  	start();
+					}
+				  
+
 				};
 
-				c_img_small = $('#img_small li').length-2;
-				$('#arrow_top').hide();
-			 	for(var i=6 ;i <= c_img_small ; i++){
-			 		$('#img_small_'+i).hide();
-			 	}
+                setTimeout(next_img, 3000);
+
+			 	function start(){
+
+			 		/* screen mobile*/
+					if ($(window).width() < 767.99) {
+	    				$("#body_detail").removeClass("container");
+	    				$("#body_detail").addClass( "container-fluid" );
+	    				$("#body_detail").addClass( "no_padding" );
+					};
+
+					c_img_small = $('#img_small li').length-2;
+					$('#arrow_top').hide();
+
+					/* set defual img small */
+				 	for(var i=1 ;i <= c_img_small ; i++){
+				 		if(i>5){
+				 			$('#img_small_'+i).hide();
+				 		}else{
+				 			$('#img_small_'+i).show();
+				 		}
+				 		
+				 	}
+
+					countImg = 1;
+
+				  	var url = $('#img_1').attr('src');
+				  	$('#product_img_big').attr("src", url);
+				    $('#img_1').addClass("img_border");
+				 	
+				 	$('#arrow_bottom').show();
+				 	setTimeout(next_img, 3000);
+				}
+
 			});
 
 			/*click Arrow*/
@@ -521,7 +589,17 @@
 				}
 			});
 
+
+			/*click img small */
 			$('.product_de_img_small').click(function() {
+				$('#img_'+countImg).removeClass("img_border");
+				var id1= $(this).attr("id");
+	
+				$("#"+id1).addClass("img_border");
+
+				var sname= id1.split("_");
+				countImg = sname[1];
+
 				var url = $(this).attr('src');
 				$('#product_img_big').attr("src", url);
 			});
@@ -546,6 +624,28 @@
 				//$("#"+this.id).css("color", "#f7941d");
 			});
 
+
+
+			/* plus  13/3/2018 */
+			$('.plus').click(function(e) {
+				var c1 =+$('#count').val()+1;
+				$('#count').val(c1);
+				$('#count_show').text(c1);
+				$('#count_show_mobile').text(c1);
+			});
+			/* plus  */
+
+			/* minus  13/3/2018 */
+			$('.minus').click(function(e) {
+				if($('#count').val() >"1"){
+					var c1 =+$('#count').val()-1;
+					$('#count').val(c1);
+					$('#count_show').text(c1);
+					$('#count_show_mobile').text(c1);
+				}				
+			});
+			/* minus */
+
 			function up_img(){
 				$('#img_small_'+(count_img+icount)).hide();
 				$('#img_small_'+(icount)).show();
@@ -554,8 +654,8 @@
 				if(icount == 0){
 					$('#arrow_top').hide();
 				}
-				
 			}
+
 
 			function down_img(){
 				icount +=1;
