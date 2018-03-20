@@ -1,6 +1,9 @@
 
 @media only screen and (max-width: 575.99px){ 
 	/*menu_bar*/
+	.text_orange_small {
+	    font-size: 0.7em;
+	}
 
 	.text-center_2{
 		text-align: center!important;
@@ -1315,7 +1318,7 @@
 	/*payment*/
 	.bg_white1{
 		background-color: #ffffff;
-		padding: 2.8em; 
+		padding: 1em; 
 	}
 
 	.payment_body_choose{
@@ -1468,6 +1471,65 @@
     .payment_paypal_text{
 		font-size: 1.1em;
     }
+
+    /*20/03/2018*/
+	 .ul_check_out {
+	    border: 1px solid #dee2e6;
+	    padding: 1.5em 1.5em;
+	    list-style: none;
+	    width: 100%;
+	    max-width: 100%;
+	    display: inline-block;
+	    font-size: 0.9em;
+	}
+
+	.ul_check_out1 {
+	    display: inline-block;
+	    border: 1px solid #dee2e6;
+	    padding: 1em 1em;
+	    list-style: none;
+	    max-width: 97%;
+	    color: #ffffff;
+	}
+
+	.img-close2 {
+    	width: 20px;
+    	height: 20px;
+	}
+
+	.check_out_exit {
+	    position: absolute;
+	    top: 0.3em;
+	    right: 1.5em;
+	}
+
+	.check_text_edit {
+	    position: absolute;
+	    top: 2.2em;
+	    right: 2em;
+	    font-size: 0.8em;
+	}
+
+	.check_out_add {
+	    position: absolute;
+	    top: 6.6em;
+	    right: 6.7em;
+	}
+
+	.check_text_add {
+	    position: absolute;
+	    top: 8.5em;
+	    right: 4.5em;
+	}
+
+	.body_choose {
+	    padding: 0.5em;
+	}
+
+	.input_address{
+		width: 100%;
+	}
+	/*20/03/2018*/
 
     .check_text_title {
 	    font-size: 0.8em;
@@ -1669,6 +1731,9 @@
 /* Small devices (landscape phones, 576px and up)*/
 @media only screen and (min-width: 576px) and (max-width: 767.99px) { 
 	/*menu_bar*/
+	.text_orange_small {
+	    font-size: 0.7em;
+	}
 	.overlay {
       	height: 100%;
       	width: 0;
@@ -3334,11 +3399,87 @@
 	.cart_m_t{
 		margin-top: 1em;
 	}
+
+	/*20/03/2018*/
+	.bg_white1{
+		background-color: #ffffff;
+		padding: 1.9em; 
+	}
+
+	 .ul_check_out {
+	    border: 1px solid #dee2e6;
+	    padding: 1.5em 1.5em;
+	    list-style: none;
+	    width: 100%;
+	    max-width: 100%;
+	    display: inline-block;
+	    font-size: 0.9em;
+	}
+
+	.ul_check_out1 {
+	    display: inline-block;
+	    border: 1px solid #dee2e6;
+	    padding: 1em 1em;
+	    list-style: none;
+	    max-width: 97%;
+	    color: #ffffff;
+	}
+
+	.img-close2 {
+    	width: 20px;
+    	height: 20px;
+	}
+
+	.check_out_exit {
+	    position: absolute;
+	    top: 0.3em;
+	    right: 1.5em;
+	}
+
+	.check_text_edit {
+	    position: absolute;
+	    top: 2.2em;
+	    right: 2em;
+	    font-size: 0.8em;
+	}
+
+	.check_out_add {
+	    position: absolute;
+	    top: 5.6em;
+	    right: 11.2em;
+	}
+
+	.check_text_add {
+	    position: absolute;
+	    top: 8.5em;
+	    right: 8.5em;
+	}
+
+	.body_choose {
+	    padding: 1.7em;
+	}
+
+	.input_address{
+		width: 100%;
+	}
+
+	.payment_ul_credit{
+	    display: inline-flex;
+	    list-style: none;
+	    padding-left: 0em;
+	    width: 100%;
+	    margin-top: 0em;
+	    margin-bottom: 0em;
+	}
+	/*20/03/2018*/
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media only screen and  (min-width: 768px) and (max-width: 991.99px) { 
 	/*menu_bar*/
+	.text_orange_small {
+	    font-size: 0.7em;
+	}
 	.overlay {
 		height: 100%;
 		width: 0;
@@ -5009,7 +5150,70 @@
     .payment_paypal_text {
 		font-size: 0.8em;
     }
+	
+	/*20/03/2018*/
+	
 
+	.bg_white1{
+		background-color: #ffffff;
+		padding: 2em; 
+	}
+
+	 .ul_check_out {
+	    border: 1px solid #dee2e6;
+	    padding: 1.5em 1.5em;
+	    list-style: none;
+	    width: 100%;
+	    max-width: 100%;
+	    display: inline-block;
+	    font-size: 0.9em;
+	}
+
+	.ul_check_out1 {
+	    display: inline-block;
+	    border: 1px solid #dee2e6;
+	    padding: 1em 1em;
+	    list-style: none;
+	    max-width: 97%;
+	    color: #ffffff;
+	}
+
+	.img-close2 {
+    	width: 20px;
+    	height: 20px;
+	}
+
+	.check_out_exit {
+	    position: absolute;
+	    top: 1em;
+	    right: 2em;
+	}
+
+	.check_text_edit {
+	    position: absolute;
+	    top: 3.5em;
+	    right: 2.4em;
+	    font-size: 0.8em;
+	}
+
+	.check_out_add {
+	    position: absolute;
+	    top: 6em;
+	    right: 7.2em;
+	}
+
+	.check_text_add {
+	    position: absolute;
+	    top: 8.5em;
+	    right: 4.8em;
+	}
+
+	.body_choose {
+	    padding: 1.7em;
+	}
+
+
+	/*20/03/2018*/
     .check_text_title {
 	    font-size: 0.9em;
 	    font-weight: bold;
@@ -5051,6 +5255,10 @@
 /* Large devices (desktops, 992px and up)*/
 @media only screen and  (min-width: 992px) and (max-width: 1199.99px) { 
 	/*menu_bar*/
+
+	.text_orange_small {
+	    font-size: 0.7em;
+	}
 	.menu_bar {
 		padding-top: 0.5em;
    		padding-bottom: 0.5em;
@@ -6509,6 +6717,60 @@
     .payment_paypal_text{
 		font-size: 1.1em;
     }
+
+    .ul_check_out {
+	    border: 1px solid #dee2e6;
+	    padding: 1.5em 1.5em;
+	    list-style: none;
+	    width: 100%;
+	    max-width: 100%;
+	    display: inline-block;
+	    font-size: 0.9em;
+	}
+
+	.ul_check_out1 {
+	    display: inline-block;
+	    border: 1px solid #dee2e6;
+	    padding: 1em 1em;
+	    list-style: none;
+	    max-width: 97%;
+	    color: #ffffff;
+	}
+
+	.img-close2 {
+    	width: 20px;
+    	height: 20px;
+	}
+
+	.check_out_exit {
+	    position: absolute;
+	    top: 1em;
+	    right: 2em;
+	}
+
+	.check_text_edit {
+	    position: absolute;
+	    top: 3.5em;
+	    right: 2.4em;
+	    font-size: 0.8em;
+	}
+
+	.check_out_add {
+	    position: absolute;
+	    top: 6em;
+	    right: 6.4em;
+	}
+
+	.check_text_add {
+	    position: absolute;
+	    top: 9em;
+	    right: 4.2em;
+	}
+
+	.body_choose {
+	    padding: 1.7em;
+	}
+
 		/*payment*/
     .payment_option {
 	    display: inline-flex;
@@ -8853,10 +9115,6 @@ ul .menu_sub3 li{
 }
 /*update 11/03/2018*/
 
-.bg_white1{
-	background-color: #ffffff;
-	padding: 2.8em; 
-}
 
 .form-control {
 	display: inline;
@@ -9030,4 +9288,14 @@ a , a:hover{
 .btn-outline-orange{
     background-color: transparent;
 	border-color: #000000!important;
+}
+
+.ul_2{
+    
+    padding: 1.5em 1.5em;
+    list-style: none;
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+    font-size: 0.9em;
 }
