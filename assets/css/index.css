@@ -598,12 +598,14 @@
 	.smart_home_top_left {
 		margin-top: 1.4em;
 	}
-
+		
+	/*23/03/2018*/
 	.smart_home_bu2 {
-		margin-top: 40% !important;
-	  	margin-left: 50% !important;
+		width: 100%;
+		margin-top: 30% !important;
+	  	
 	}
-
+	/*23/03/2018*/
 	.smart_home_button {
 		font-size: 0.7em;
 		color: #FFFFFF;
@@ -1745,6 +1747,20 @@
 		width: 50%!important;
 	}
 	/* 21/03/2018*/
+	/*update 22/03/2018*/
+	.w_register{
+		width: 100%!important;
+	}
+	/*update 22/03/2018*/
+
+	/*update 23/03/2018*/
+	.product_ul_model {
+	    width: 90%;
+	    display: inline-flex;
+	    list-style: none;
+	    padding-left: 0em;
+	}
+	/*update 23/03/2018*/
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -2291,10 +2307,12 @@
 		margin-top: 1.4em;
 	}
 
+	/*23/03/2018*/
 	.smart_home_bu2 {
-		margin-top: 40% !important;
-	  	margin-left: 50% !important;
+		width: 100%;
+		margin-top: 30% !important;
 	}
+	/*23/03/2018*/
 
 	.smart_home_button {
 		font-size: 0.7em;
@@ -3507,6 +3525,11 @@
 		width: 50%!important;
 	}
 	/* 21/03/2018*/
+	/*update 22/03/2018*/
+	.w_register{
+		width: 100%!important;
+	}
+	/*update 22/03/2018*/
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -4084,10 +4107,13 @@
 		margin-top: 1.4em;
 	}
 
+	/*23/03/2018*/
 	.smart_home_bu2 {
+		width: 100%;
 		margin-top: 40% !important;
-	  	margin-left: 50% !important;
+	  	margin-left: 10% !important;
 	}
+	/*23/03/2018*/
 
 	.smart_home_button {
 		font-size: 0.7em;
@@ -5301,6 +5327,11 @@
 		width: 25%!important;
 	}
 	/* 21/03/2018*/
+	/*update 22/03/2018*/
+	.w_register{
+		width: 100%!important;
+	}
+	/*update 22/03/2018*/
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -5726,11 +5757,13 @@
 		margin-top: 1.4em;
 	}
 
+	/*23/03/2018*/
 	.smart_home_bu2 {
+		width: 100%;
 		margin-top: 40% !important;
-	  	margin-left: 50% !important;
+	  	margin-left: 10% !important;
 	}
-
+	/*23/03/2018*/
 	.smart_home_button {
 		font-size: 0.7em;
 		color: #FFFFFF;
@@ -7069,6 +7102,13 @@
 		width: 25%!important;
 	}
 	/* 21/03/2018*/
+	/*update 22/03/2018*/
+	.vl {
+	    border-right: 1px solid #000000;
+	    height: 100%;
+	    left: 5em;
+	}
+	/*update 22/03/2018*/
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -7881,12 +7921,13 @@
 	.smart_home_top_left {
 		margin-top: 1.4em;
 	}
-
+	/*23/03/2018*/
 	.smart_home_bu2 {
+		width: 100%;
 		margin-top: 40% !important;
-	  	margin-left: 50% !important;
+	  	margin-left: 60% !important;
 	}
-
+	/*23/03/2018*/
 	.smart_home_button {
 		font-size: 0.7em;
 		color: #FFFFFF;
@@ -8731,6 +8772,18 @@
 		width: 25%!important;
 	}
 	/* 21/03/2018*/
+
+	/*update 22/03/2018*/
+	.vl {
+	    border-right: 1px solid #000000;
+	    height: 100%;
+	    left: 5em;
+	}
+
+	.w_register{
+		width: 85%!important;
+	}
+	/*update 22/03/2018*/
 }
 
 	 /*1200*/
@@ -8738,11 +8791,12 @@
  	text-decoration: underline;
 }
 
-.vl {
+/*update 22/03/2018*/
+/*.vl {
     border-right: 1px solid #000000;
     height: 100%;
     left: 5em;
-}
+}*/
 
 .w-85 {
 	width: 85%;
@@ -9326,12 +9380,15 @@ a , a:hover{
 	width: 90%;
     border-bottom: 1px solid rgb(222, 226, 230);
 }
+
+/*update 23/03/2018*/
 .orange_bg , .orange_bg:hover{
 	color: #ffffff !important;
-	background-color: #f7941d!important;
-	border-color: #f7941d!important;
+	background-color: #ff6600!important;
+	border-color: #ff6600!important;
 
 }
+/*update 23/03/2018*/
 
 .btn-primary:hover{
 	border:0em; 
@@ -9352,7 +9409,7 @@ a , a:hover{
 }
 
 .btn-outline-orange:hover{
-	color: #ffffff!important;;
+	color: #ffffff!important;
 	background-color: #f7941d!important;
 	border-color: transparent!important;
 }
@@ -9418,3 +9475,13 @@ a , a:hover{
 	padding: 10px 10px;
 }
 /*21/03/2018*/
+
+
+/*23/03/2018*/
+
+
+.btn-outline-white{
+	background-color: #ffffff!important;
+	border-color: transparent!important;
+}
+/*23/03/2018*/
