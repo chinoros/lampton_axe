@@ -3217,7 +3217,7 @@
 	.text_orange{
 		color: #f7941d;
 	}
-
+	
 	.text_orange:hover{
 		color: #f7941d;
 	}
@@ -7074,10 +7074,11 @@
 	.text_big{
 		font-size: 1.1em;
 	}
-
+	/*23/03/2018*/
 	.text_body{
-		font-size: 1em;
+		font-size: 0.95em;
 	}
+	/*23/03/2018*/
 	
 	.text_small{
 		font-size: 0.8em;
@@ -9408,6 +9409,7 @@ a , a:hover{
     border-bottom: 1px solid rgb(222, 226, 230);
 }
 
+
 .btn-outline-orange:hover{
 	color: #ffffff!important;
 	background-color: #f7941d!important;
@@ -9484,4 +9486,20 @@ a , a:hover{
 	background-color: #ffffff!important;
 	border-color: transparent!important;
 }
+
+
+
+.border_top_100{
+	width: 100%;
+    border-top: 1px solid rgb(222, 226, 230);
+}
+
+.agent_li li{
+	width: 20%;
+}
+
+.border_orange{
+	color: #f7941d;
+}
 /*23/03/2018*/
+
