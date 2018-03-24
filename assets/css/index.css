@@ -9502,4 +9502,47 @@ a , a:hover{
 	color: #f7941d;
 }
 /*23/03/2018*/
+/*25/03/2018*/
+.ul_faq li{
+ 	list-style-type: none;
+	border-top: 1px solid #f7941d;
+	padding: 2rem 2rem;
+}
 
+.li_faq_bottom{
+	border-bottom: 1px solid #f7941d;
+}
+
+.ul_faq{
+	padding-left :0rem;
+}
+
+.line-orange{
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #f7941d;
+    width: 30px;
+    padding: 0;
+    display: block;
+}
+
+.head_faq .chevron:after {
+	content: "-";   
+	float: right;
+	color: #f7941d;		
+}
+
+.head_faq:after {
+	color: #f7941d;
+}
+
+.head_faq.collapsed .chevron:after {
+	content: "+";
+	float: right; 
+	color: #f7941d;
+}  
+
+.pointer{
+	cursor: pointer;
+}
+/*25/03/2018*/
