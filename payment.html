@@ -3,7 +3,7 @@
 <head>
 	<title></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <style type="text/css">
     	
@@ -18,10 +18,12 @@
 				<div class="bg_white1">
 					<div class="row">
 						<!--left CHOOSE PAYMENT OPTION  --> 
-						<div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+						<!--04/04/2018-->
+						<div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 m_payment">
+							<!--04/04/2018-->
 							<div class="check_text_title">CHOOSE PAYMENT OPTION</div>
 							<div class="line_full"></div>
-							<div class="payment_body_choose">
+							<div class="payment_body_choose m_payment">
 								<!--select payment-->
 								<div > 
 									<ul class="payment_option">
@@ -32,7 +34,7 @@
 										</li>
 										
 										<li><img src="assets/images/direct bank_1.png" class="img-fluid payment_option_img" id="ch_bank" ></li>
-										<li><div class="payment_text_option text_bold">Direct Bank <br>Transfer</div></li>
+										<li class="d-none d-md-block"><div class="text_title text_bold">Direct Bank <br>Transfer</div></li>
 
 										<li class="payment_input_option register no-margin"> 
 											<input type="radio" id="r2" name="payment"  value="2" />
@@ -40,7 +42,7 @@
 										</li>
 
 										<li><img src="assets/images/credit_1.png" class="img-fluid payment_option_img" id="ch_credit"></li>
-										<li><div class="payment_text_option text_bold">Credit or <br>Debit Card</div></li>
+										<li class="d-none d-md-block"><div class="text_title text_bold">Credit or <br>Debit Card</div></li>
  
 										<li class="payment_input_option register no-margin">  
 											<input type="radio" id="r3" name="payment"  value="3"  />
@@ -48,7 +50,7 @@
 										</li>
 
 										<li><img src="assets/images/paypal_1.png" class="img-fluid payment_option_img" id="ch_paypal"></li> 
-										<li><div class="payment_text_option text_bold">PayPal</div></li>
+										<li class="d-none d-md-block"><div class="text_title text_bold">PayPal</div></li>
 									</ul>
 								</div>
 								<!--select payment-->
@@ -57,31 +59,33 @@
 								<div class="payment_body_text" >
 									<!-- direct_bank -->
 									<div id="direct_bank">
-										<div class="w-75 payment_paypal_text">
+										<div class="w-75 text_body w_100">
 											Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
 										</div>
 										<div class="mt-4">
+											<!--04/04/2018-->
 											<table class="table table-bordered">
 											  <thead>
 											    <tr>
 											      <th scope="col text-center payment_text_option text_bold" class="line_top"></th>
-											      <th scope="col " class="line_top text-center  payment_text_option text_bold">Bank Name</th>
-											       <th scope="col " class="line_top text-center payment_text_option text_bold">Acount Number</th>
-											      <th scope="col" class="line_top text-center  payment_text_option text_bold">Acount Name</th>
-											       <th scope="col text-center" class="line_top"></th>
+											      <th scope="col " class="line_top text_body text_bold">Bank Name</th>
+											       <th scope="col " class="line_top text-center text_body text_bold">Acount Number</th>
+											      <th scope="col" class="line_top text-center  text_body text_bold">Acount Name</th>
+											       <th scope="col text-center" class="line_top d-none d-md-block"></th>
 											    </tr>
 											  </thead>
 											  <tbody>
 											    <tr>
 											      <th scope="row" class="payment_va_m"><img src="assets/images/payment/logo.png" class="img-fluid"></th>
-											      <td class="text-center payment_va_m payment_paypal_text">บ. ABC จำกัด</td>
-											      <td class="text-center payment_va_m payment_paypal_text">010-2-8880-9</td>
-											      <td class="text-center payment_va_m payment_paypal_text">บัญชีออมทรัพย์</td>
-											      <td class="text-center payment_va_m"><img src="assets/images/payment/QR_code_for_mobile_English_Wikipedia.jpg" class="img-fluid"></td>
+											      <td class="text-center payment_va_m text_body">บ. ABC จำกัด</td>
+											      <td class="text-center payment_va_m text_body">010-2-8880-9</td>
+											      <td class="text-center payment_va_m text_body">บัญชีออมทรัพย์</td>
+											      <td class="text-center payment_va_m d-none d-md-block"><img src="assets/images/payment/QR_code_for_mobile_English_Wikipedia.jpg" class="img-fluid"></td>
 											      
 											    </tr>
 											  </tbody>
 											</table>
+											<!--04/04/2018-->
 										</div>
 										<div class="mt-4"> 
 											<ul class="payment_ul_bank">
@@ -107,7 +111,7 @@
 											<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
 												<ul class="nav w-100">
 													<li class="w-75">
-														<div class="payment_credit_text_b">Code Number</div>
+														<div class="text_body text_bold">Code Number</div>
 													</li>
 													<li class="w-25 text-right">
 												     <img class="img-fluid" src="assets/images/card.png">
@@ -117,11 +121,11 @@
 												<input type="text" class="form-control mt-2 mb-4">
 											</div>
 											<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
-												<div class="payment_credit_text_b">Name on card</div>
+												<div class="text_body text_bold">Name on card</div>
 												<input type="text" class="form-control mt-2 mb-4">
 											</div>
 											<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
-												<div class="payment_credit_text_b">Expiry Date</div>
+												<div class="text_body text_bold">Expiry Date</div>
 												<ul class="payment_ul_credit">
 													<li><input type="text" class="form-control mt-2 mb-4 d-inline-block inputclass" placeholder="MM"></li>
 													<li><input type="text" class="form-control mt-2 mb-4 d-inline-block inputclass" placeholder="YY"></li>
@@ -141,7 +145,9 @@
 												 
 											</div>
 											<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-												<button type="button" class="btn btn-white products_button btn-lg  products_bu_details orange_bg">PLACE YOUR ORDER</button>
+												<div class="mt-5 text-center">
+											<button type="button" class="btn btn-white products_button btn-lg  products_bu_details orange_bg">PLACE YOUR ORDER</button>
+										</div>
 											</div>
 										</div>
 									</div>
@@ -151,17 +157,17 @@
 									<div id="paypal">
 										<div class="row">
 											<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-												<div class="payment_paypal_text d-inline text_bold">Please choose a way to pay with PayPal</div>
+												<div class="text_body d-inline text_bold">Please choose a way to pay with PayPal</div>
 												<div class="payment_paypal_border mt-5">
 													<div class="mt-lg-4 mb-lg-4 ml-4">
 														<div class="ml-4"> 
 															<input type="radio" id="i3" name="paypal"  value="1" />
 															<label for="i3">
-																<span></span><div class="payment_paypal_text d-inline text_bold">Using your PayPal account (You need to log into your PayPal)</div>
+																<span></span><div class="text_body d-inline text_bold">Using your PayPal account (You need to log into your PayPal)</div>
 															</label>
 
-															<div class="ml-4 payment_paypal_text payment_text_middle mb-3">You will need to login to your PayPal account</div>
-															 <div class="payment_paypal_text ml-3">
+															<div class="ml-4 payment_paypal_text text_body mb-3">You will need to login to your PayPal account</div>
+															 <div class="text_body ml-3">
 															 	<input type="checkbox" id="d1" name="cc">
 															<label for="d1"><span></span>I authorize auto change my Paypal account fot fiture payments</div>
 															
@@ -171,7 +177,7 @@
 												<div class="mt-5 text-underline">
 													<a href=""><img class="img-fluid mr-3 payment_option_img" src="assets/images/paypal-icon.png">What is PayPal?</a>
 												</div>
-												<div class="payment_paypal_text orange_text mt-3">
+												<div class="text_body orange_text mt-3">
 													Billing information cannot be changed once  the order is placed
 												</div>
 											</div>
