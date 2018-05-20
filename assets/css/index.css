@@ -1815,7 +1815,19 @@
 		padding-left: 0.3em;
 		padding-right: 0.3em;
 	}
-	/*update 4/04/2018*/
+	/*update 04/04/2018*/
+	/*update 05/04/2018*/
+
+	#profile_my_account{
+		margin-left: 0em!important;
+		margin-right: 0em!important;
+		padding-left: 0em!important;
+	}
+
+	.ml_0{
+		margin-left: 0em!important;
+	}
+	/*update 05/04/2018*/
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -3636,11 +3648,50 @@
 	.bar_menu_2{
 		padding-top: 0.5em;
 		padding-bottom: 0.5em;
-		margin-bottom: 1.4em!important ;
+		margin-bottom: 1.4em!important;
 		background-color: #eae6e6;
 	}
+
+	.payment_option {
+	    display: inline-flex;
+	    list-style: none;
+	    padding-left: 0em;
+	    width: 100%;
+	    margin-top: 1.5em;
+	}
+
+	.payment_option_img {
+	    width: 40px;
+	}
+
+	.payment_ul_bank {
+	    display: inline-flex;
+	    list-style: none;
+	    padding-left: 0em;
+	    width: 100%;
+	    margin-top: 1.5em;
+	}
+	.w_100{
+		width: 100%!important;
+	}
 	/*update 4/04/2018*/
-	/*update 4/04/2018*/
+	/*update 05/04/2018*/
+
+	#profile_my_account{
+		margin-left: 0em!important;
+		margin-right: 0em!important;
+		padding-left: 0em!important;
+	}
+
+	.ml_0{
+		margin-left: 0em!important;
+	}
+	
+	.mx-sm-3{
+		margin-left: 0rem!important; 
+	}
+	 
+	/*update 05/04/2018*/
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -7539,7 +7590,7 @@
 	}	
 
 	.about_txt {
-
+		te
 	}	
 	
 	.about_text_mt_mb {
@@ -9759,3 +9810,20 @@ a , a:hover{
 	text-indent: 15%;
 }
 /*31/03/2018*/
+/*20/05/2018*/
+.bu_read_more_white{
+	border-color: #feffff;
+    background-color: #32313100;
+    color: #fbfbfb;
+}
+
+.bu_transparent{
+    background-color: transparent;
+    border-color: #8c8787;
+}
+
+.dashed1
+{
+	border-color: #f7941d;		
+	border-style: dashed;
+}/*20/05/2018*/
