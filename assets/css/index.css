@@ -1282,6 +1282,7 @@
 	.text_orange:hover{
 		color: #f7941d;
 	}
+	
 
 	.input-tag{
 		margin-bottom:  1em;
@@ -9827,3 +9828,13 @@ a , a:hover{
 	border-color: #f7941d;		
 	border-style: dashed;
 }/*20/05/2018*/
+/*24/05/2018*/
+
+.text_orange_add{
+	color: #f7941d;
+}
+
+.text_orange_add:hover{
+	color: #ffffff;
+}
+/*24/05/2018*/
